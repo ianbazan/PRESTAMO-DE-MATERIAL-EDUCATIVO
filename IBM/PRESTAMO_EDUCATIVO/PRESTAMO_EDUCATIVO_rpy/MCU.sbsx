@@ -11,7 +11,7 @@
 			<_id type="a">GUID 636113a8-c27d-4e7a-a22e-dd9d7ca4b74c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MCU</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:55:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.22.2020::19:9:21</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -19,9 +19,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2020::6:10:17</_modifiedTime>
-			<_lastID type="a">13</_lastID>
-			<weakCGTime type="a">1.1.2020::5:55:10</weakCGTime>
+			<_modifiedTime type="a">2.22.2020::20:37:53</_modifiedTime>
+			<_lastID type="a">16</_lastID>
+			<weakCGTime type="a">2.22.2020::19:9:21</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:26:26</strongCGTime>
 			<_defaultComposite type="s">GUID 5ce58cc9-5dc3-4b81-8a96-de02686cda57</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -38,6 +38,9 @@
 				<value>GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</value>
 				<value>GUID 066114ef-b8cb-430e-b872-f28fbed3c51a</value>
 				<value>GUID ec4c99a4-7db9-4eb3-9050-617545e58098</value>
+				<value>GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</value>
+				<value>GUID 0da034e0-92e8-41d2-91e2-b8f524888dff</value>
+				<value>GUID 7af3f365-6b78-498b-bb76-b50ec5018c2b</value>
 				<value>GUID 2b011fad-7612-44e7-b44d-d331b94fb14e</value>
 				<value>GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</value>
 				<value>GUID db7c8a9f-864d-461d-8707-47cacff5e37e</value>
@@ -269,8 +272,8 @@
 			</_properties>
 			<_name type="a">Diagrama General de Caso de Uso</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:58:57</_modifiedTime>
-			<_lastModifiedTime type="a">1.1.2020::5:58:57</_lastModifiedTime>
+			<_modifiedTime type="a">2.22.2020::19:10:10</_modifiedTime>
+			<_lastModifiedTime type="a">2.22.2020::19:10:10</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -313,7 +316,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">25</elementList>
+			<elementList type="a">29</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -351,6 +354,10 @@
 				<value>GUID 8db47550-eae5-45d5-be6c-7b0becfb85cd</value>
 				<value>GUID 1447a213-de26-4e89-a7a2-685c66263916</value>
 				<value>GUID f5d96151-e780-49d5-92f9-274cd83ededd</value>
+				<value>GUID ef648711-c4cf-4924-b7ea-7fcbcd84de7c</value>
+				<value>GUID a9106081-79e2-4e7e-bc7a-6eb52cb7642c</value>
+				<value>GUID 64f1eab1-51b6-400f-bd7a-08bd31369c39</value>
+				<value>GUID 7355cb53-80f2-467c-8727-db488fc0392c</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -606,7 +613,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Iniciar sesion</m_str>
+					<m_str type="a">CU_09_Iniciar sesion</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1169,7 +1176,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Solicitar Prestamo de Material</m_str>
+					<m_str type="a">CU_01_Solicitar Prestamo de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1219,7 +1226,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Buscar Material</m_str>
+					<m_str type="a">CU_03_Buscar Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1301,7 +1308,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Registrar Prestamo de Material</m_str>
+					<m_str type="a">CU_02_Registrar Prestamo de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1317,7 +1324,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.141718 0 0 0.0606909 547.283 340.061 </m_transform>
+			<m_transform type="a">0.141718 0 0 0.0606909 546.283 396.061 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1351,7 +1358,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Buscar Solicitud de Prestamo</m_str>
+					<m_str type="a">CU_04_Buscar Solicitud de Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1367,7 +1374,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.124004 0 0 0.0606909 769.248 303.061 </m_transform>
+			<m_transform type="a">0.124004 0 0 0.0606909 793.248 406.061 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1433,7 +1440,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Registrar Penalizaci%F3n por Da%F1os del Material</m_str>
+					<m_str type="a">CU_06_Registrar Penalizaci%F3n por Da%F1os del Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1449,7 +1456,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.170948 0 0 0.0606909 531.342 449.061 </m_transform>
+			<m_transform type="a">0.170948 0 0 0.0606909 530.342 505.061 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1483,7 +1490,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Buscar Registro de Pr%E9stamo</m_str>
+					<m_str type="a">CU_07_Buscar Registro de Pr%E9stamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1499,7 +1506,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.124004 0 0 0.0606909 794.248 490.061 </m_transform>
+			<m_transform type="a">0.124004 0 0 0.0606909 793.248 546.061 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1533,7 +1540,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Registrar Devoluci%F3n de Material</m_str>
+					<m_str type="a">CU_08_Registrar Devoluci%F3n de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1549,7 +1556,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.124004 0 0 0.0606909 567.248 555.061 </m_transform>
+			<m_transform type="a">0.124004 0 0 0.0606909 566.248 611.061 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1623,8 +1630,8 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1259 879 </m_SourcePort>
-			<m_TargetPort type="a">6 625 </m_TargetPort>
+			<m_SourcePort type="a">1259 871 </m_SourcePort>
+			<m_TargetPort type="a">-2 625 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
@@ -1794,7 +1801,7 @@
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
-			<m_SourcePort type="a">1259 807 </m_SourcePort>
+			<m_SourcePort type="a">1259 791 </m_SourcePort>
 			<m_TargetPort type="a">69 790 </m_TargetPort>
 			<m_pInverseModelObject type="r">
 				<IAssociationEndHandle type="e">
@@ -2310,7 +2317,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">1086 740 </m_SourcePort>
-			<m_TargetPort type="a">6 427 </m_TargetPort>
+			<m_TargetPort type="a">-2 411 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -2369,7 +2376,7 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">1127 510 </m_SourcePort>
-			<m_TargetPort type="a">38 740 </m_TargetPort>
+			<m_TargetPort type="a">30 740 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -2503,7 +2510,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Verificar Stock de Material</m_str>
+					<m_str type="a">CU_05_Verificar Stock de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2519,7 +2526,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">2056</m_drawBehavior>
-			<m_transform type="a">0.124004 0 0 0.0606909 769.248 389.061 </m_transform>
+			<m_transform type="a">0.124004 0 0 0.0606909 781.248 481.061 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2596,7 +2603,337 @@
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">0</m_line_style>
 			<m_SourcePort type="a">1120 609 </m_SourcePort>
-			<m_TargetPort type="a">54 312 </m_TargetPort>
+			<m_TargetPort type="a">46 296 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">1</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIBasicClass type="e">
+			<_id type="a">GUID ef648711-c4cf-4924-b7ea-7fcbcd84de7c</_id>
+			<m_type type="a">125</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">CU_10_Actualizar Prestamo</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_transform type="a">0.124004 0 0 0.0606909 556.248 281.061 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 -2 -1  -2 1070  1127 1070  1127 -1  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIBasicClass>
+		<CGIAssociationEnd type="e">
+			<_id type="a">GUID a9106081-79e2-4e7e-bc7a-6eb52cb7642c</_id>
+			<m_type type="a">94</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 51c390cc-44eb-43b5-a6dc-fbc838c1230a</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 24d2063b-9bd8-4c90-9ed9-bf5f84dc20a2</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID ef648711-c4cf-4924-b7ea-7fcbcd84de7c</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">1198 501 </m_SourcePort>
+			<m_TargetPort type="a">30 740 </m_TargetPort>
+			<m_pInverseModelObject type="r">
+				<IAssociationEndHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID b21db1da-e764-45e1-a732-9d5d76870781</_hid>
+				</IAssociationEndHandle>
+			</m_pInverseModelObject>
+			<m_pInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInstance>
+			<m_pInverseInstance type="r">
+				<IObjectLinkHandle type="e">
+				</IObjectLinkHandle>
+			</m_pInverseInstance>
+			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
+			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
+			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
+			<m_bShowTargetRole type="a">0</m_bShowTargetRole>
+			<m_bShowLinkName type="a">1</m_bShowLinkName>
+			<m_bShowSpecificType type="a">0</m_bShowSpecificType>
+			<m_bInstance type="a">0</m_bInstance>
+			<m_bShowQualifier1 type="a">0</m_bShowQualifier1>
+			<m_bShowQualifier2 type="a">0</m_bShowQualifier2>
+			<m_sourceRole type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">2</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+				</CGIText>
+			</m_sourceRole>
+			<m_targetRole type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">3</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+				</CGIText>
+			</m_targetRole>
+			<m_sourceMultiplicity type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">4</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+				</CGIText>
+			</m_sourceMultiplicity>
+			<m_targetMultiplicity type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">5</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+				</CGIText>
+			</m_targetMultiplicity>
+			<m_sourceQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">6</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_sourceQualifier>
+			<m_targetQualifier type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">7</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_targetQualifier>
+			<m_specificType type="a">symmetric_type</m_specificType>
+		</CGIAssociationEnd>
+		<CGIBasicClass type="e">
+			<_id type="a">GUID 64f1eab1-51b6-400f-bd7a-08bd31369c39</_id>
+			<m_type type="a">125</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 0da034e0-92e8-41d2-91e2-b8f524888dff</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">CU_11_Buscar Prestamo</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">2056</m_drawBehavior>
+			<m_transform type="a">0.124004 0 0 0.0606909 768.248 240.061 </m_transform>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 -2 -1  -2 1070  1127 1070  1127 -1  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+		</CGIBasicClass>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 7355cb53-80f2-467c-8727-db488fc0392c</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hid type="a">GUID abf41935-21bb-4397-ad80-1c00c5d9b751</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">CU_11_Buscar Prestamo</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4104</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID ef648711-c4cf-4924-b7ea-7fcbcd84de7c</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 64f1eab1-51b6-400f-bd7a-08bd31369c39</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">include</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">0</m_line_style>
+			<m_SourcePort type="a">1111 394 </m_SourcePort>
+			<m_TargetPort type="a">-2 609 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">1</m_ShowStereotype>
 		</CGIInheritance>
@@ -2617,9 +2954,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID ff946a94-8a2d-4d3b-996f-cf34b6b8416a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Iniciar sesion</_name>
+			<_name type="a">CU_09_Iniciar sesion</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:58:47</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2627,16 +2964,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -2651,7 +2978,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsUsuario</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:4:6</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2671,9 +2998,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 7fbb4d36-e7f4-45ba-bd59-6bd47af0ba0d</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Solicitar Prestamo de Material</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:58:57</_modifiedTime>
+			<_name type="a">CU_01_Solicitar Prestamo de Material</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.1.2020::5:17:26</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2682,16 +3009,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -2705,7 +3022,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 4106974b-bab9-4ad6-9ffc-647e0b3bea15</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Buscar Material</_name>
+			<_name type="a">CU_03_Buscar Material</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2720,7 +3037,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:26</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:42</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2739,7 +3056,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsAlumno</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:30</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2759,9 +3076,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 92473a3a-3a8e-47da-a2b4-43af3164a4c4</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Buscar Material</_name>
+			<_name type="a">CU_03_Buscar Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:14:21</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:42</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2769,11 +3086,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -2783,9 +3095,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 9952da7e-d489-481c-a469-c5244c7f666b</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Registrar Prestamo de Material</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:55:30</_modifiedTime>
+			<_name type="a">CU_02_Registrar Prestamo de Material</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:55:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::17:36:26</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.1.2020::5:55:30</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2794,16 +3106,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Diagrams>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -2818,7 +3120,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 697c9861-deef-4668-82ff-2870f6f58ee5</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Buscar Solicitud de Prestamo</_name>
+			<_name type="a">CU_04_Buscar Solicitud de Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2833,7 +3135,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:31</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:52</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2850,7 +3152,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 57fb7a26-b6bd-4e9e-b16b-7e4d47ba80b0</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Verificar Stock de Material</_name>
+			<_name type="a">CU_05_Verificar Stock de Material</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2865,7 +3167,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:55:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:55:30</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:37:3</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2884,7 +3186,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:53</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:26</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2904,9 +3206,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 848154b3-774d-4893-ab1c-dece52ea8cd5</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Buscar Solicitud de Prestamo</_name>
+			<_name type="a">CU_04_Buscar Solicitud de Prestamo</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:8:29</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:52</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2914,11 +3216,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -2928,9 +3225,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 80fd89d0-7b90-44db-bf10-e8cfe6bddb90</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Registrar Penalizaci%F3n por Da%F1os del Material</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:18</_modifiedTime>
+			<_name type="a">CU_06_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::17:39:1</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.1.2020::5:17:18</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2939,11 +3236,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -2957,7 +3249,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 5e4d7ce1-c33e-4ad8-ae72-89f73bdcb2f1</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Buscar Registro de Pr%E9stamo</_name>
+			<_name type="a">CU_07_Buscar Registro de Pr%E9stamo</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -2976,7 +3268,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:18</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:11</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2995,7 +3287,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:57</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:1</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3015,13 +3307,13 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Buscar Registro de Pr%E9stamo</_name>
+			<_name type="a">CU_07_Buscar Registro de Pr%E9stamo</_name>
 			<_displayName type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 MS Shell Dlg;}}%0D
 \viewkind4\uc1\pard\f0\fs17 Buscar registro de pr\'e9s\par%0D
 }%0D
 </_displayName>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:14:44</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:11</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -3029,11 +3321,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -3043,9 +3330,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 066114ef-b8cb-430e-b872-f28fbed3c51a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Registrar Devoluci%F3n de Material</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:22</_modifiedTime>
+			<_name type="a">CU_08_Registrar Devoluci%F3n de Material</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::17:39:22</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.1.2020::5:17:22</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -3054,11 +3341,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -3072,7 +3354,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 020888c8-4adb-4651-acfa-25ab8711c288</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">Buscar Registro de Pr%E9stamo</_name>
+			<_name type="a">CU_07_Buscar Registro de Pr%E9stamo</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -3091,7 +3373,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:22</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:11</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -3110,7 +3392,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:1</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:22</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3130,9 +3412,135 @@
 		<IUseCase type="e">
 			<_id type="a">GUID ec4c99a4-7db9-4eb3-9050-617545e58098</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">Verificar Stock de Material</_name>
+			<_name type="a">CU_05_Verificar Stock de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:55:21</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:37:3</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_10_Actualizar Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::19:10:10</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">2.22.2020::19:9:5</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<UseCaseStereoTypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</UseCaseStereoTypes>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID abf41935-21bb-4397-ad80-1c00c5d9b751</value>
+				<value>GUID b21db1da-e764-45e1-a732-9d5d76870781</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID abf41935-21bb-4397-ad80-1c00c5d9b751</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">CU_11_Buscar Prestamo</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.22.2020::19:9:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::19:9:5</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 0da034e0-92e8-41d2-91e2-b8f524888dff</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID b21db1da-e764-45e1-a732-9d5d76870781</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsEncargado de almac%E9n</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::19:10:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hid type="a">GUID db7c8a9f-864d-461d-8707-47cacff5e37e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 51c390cc-44eb-43b5-a6dc-fbc838c1230a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 0da034e0-92e8-41d2-91e2-b8f524888dff</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_11_Buscar Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::19:8:59</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<UseCaseStereoTypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</UseCaseStereoTypes>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		<IUseCase type="e">
+			<_id type="a">GUID 7af3f365-6b78-498b-bb76-b50ec5018c2b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_12_Actualizar Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::19:9:37</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -3155,9 +3563,9 @@
 			<_id type="a">GUID 2b011fad-7612-44e7-b44d-d331b94fb14e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usuario</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:4:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:4:6</_modifiedTime>
-			<weakCGTime type="a">1.1.2020::5:4:6</weakCGTime>
+			<_modifiedTimeWeak type="a">2.22.2020::17:39:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
+			<weakCGTime type="a">2.22.2020::17:39:47</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:2</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3221,9 +3629,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID d94835d5-951b-477d-ae7a-746b4c2cf02d</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsIniciar sesion</_name>
+			<_name type="a">itsCU_09_Iniciar sesion</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:4:6</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3244,9 +3652,9 @@
 			<_id type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Alumno</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:59:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:30</_modifiedTime>
-			<weakCGTime type="a">1.1.2020::5:59:37</weakCGTime>
+			<_modifiedTimeWeak type="a">2.22.2020::17:36:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
+			<weakCGTime type="a">2.22.2020::17:36:16</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:7</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3283,9 +3691,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID d32fefff-aecd-4241-8d60-0a9076b8b91d</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsSolicitar Prestamo de Material</_name>
+			<_name type="a">itsCU_01_Solicitar Prestamo de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:30</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3306,9 +3714,9 @@
 			<_id type="a">GUID db7c8a9f-864d-461d-8707-47cacff5e37e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Encargado de almac%E9n</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:17:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:1</_modifiedTime>
-			<weakCGTime type="a">1.1.2020::5:17:1</weakCGTime>
+			<_modifiedTimeWeak type="a">2.22.2020::18:13:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::18:13:9</_modifiedTime>
+			<weakCGTime type="a">2.22.2020::18:13:9</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3320,6 +3728,7 @@
 				<value>GUID 011a269f-a204-421c-a6dc-727e242ddf34</value>
 				<value>GUID f078562a-0da7-4013-985b-7d7673b83c63</value>
 				<value>GUID db8f7428-c62b-4d87-8123-49a32d02a9de</value>
+				<value>GUID 51c390cc-44eb-43b5-a6dc-fbc838c1230a</value>
 			</AggregatesList>
 		</IActor>
 		<IAssociationEnd type="e">
@@ -3347,9 +3756,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 011a269f-a204-421c-a6dc-727e242ddf34</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsRegistrar Prestamo de Material</_name>
+			<_name type="a">itsCU_02_Registrar Prestamo de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:53</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:36:26</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3369,9 +3778,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID f078562a-0da7-4013-985b-7d7673b83c63</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsRegistrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_name type="a">itsCU_06_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:16:57</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:1</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3391,9 +3800,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID db8f7428-c62b-4d87-8123-49a32d02a9de</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsRegistrar Devoluci%F3n de Material</_name>
+			<_name type="a">itsCU_08_Registrar Devoluci%F3n de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::5:17:1</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::17:39:22</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3405,6 +3814,28 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hid type="a">GUID db9a3449-b580-43e9-ba37-78a1336d56cb</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 51c390cc-44eb-43b5-a6dc-fbc838c1230a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCU_10_Actualizar Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::19:10:10</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID b21db1da-e764-45e1-a732-9d5d76870781</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
