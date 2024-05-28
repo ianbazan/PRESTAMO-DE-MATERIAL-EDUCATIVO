@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Inventario y Préstamos</title>
+    <!-- Incluyendo Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Gestión de Inventario y Préstamos de Útiles</h1>
+    <div class="mb-3">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addUtilModal">Agregar Útil</button>
+        <button class="btn btn-success" onclick="updateInventory()">Actualizar Inventario</button>
+        <button class="btn btn-danger" onclick="deleteSelected()">Eliminar Seleccionados</button>
+    </div>
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre del Útil</th>
+                <th scope="col">Stock</th>
+                <th scope="col">Categoría</th>
+                <th scope="col">Fecha de Salida</th>
+                <th scope="col">Fecha de Entrada</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Lápiz</td>
+                <td>150</td>
+                <td>Escritura</td>
+                <td>2024-05-01</td>
+                <td>2024-06-01</td>
+                <td>
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#editUtilModal1">Editar</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Cuaderno</td>
+                <td>200</td>
+                <td>Escritura</td>
+                <td>2024-05-03</td>
+                <td>2024-06-03</td>
+                <td>
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#editUtilModal2">Editar</button>
+                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                </td>
+            </tr>
+            <!-- Más filas según sea necesario -->
+        </tbody>
+    </table>
+    
+    <!-- Paginación -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">Anterior</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Siguiente</a>
+        </li>
+      </ul>
+    </nav>
+</div>
+
+<!-- Modal Agregar Útil -->
+<div class="modal fade" id="addUtilModal" tabindex="-1" role="dialog" aria-labelledby="addUtilModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addUtilModalLabel">Agregar Útil</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="utilName">Nombre del Útil</label>
+            <input type="text" class="form-control" id="utilName">
+          </div>
+          <div class="form-group">
+            <label for="utilStock">Stock</label>
+            <input type="number" class="form-control" id="utilStock">
+          </div>
+          <div class="form-group">
+            <label for="utilCategory">Categoría</label>
+            <input type="text" class="form-control" id="utilCategory">
+          </div>
+          <div class="form-group">
+            <label for="utilSalida">Fecha de Salida</label>
+            <input type="date" class="form-control" id="utilSalida">
+          </div>
+          <div class="form-group">
+            <label for="utilEntrada">Fecha de Entrada</label>
+            <input type="date" class="form-control" id="utilEntrada">
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Editar Útil (ejemplo para el primer ítem) -->
+<div class="modal fade" id="editUtilModal1" tabindex="-1" role="dialog" aria-labelledby="editUtilModalLabel1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="editUtilModalLabel1">Editar Útil</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="editUtilName1">Nombre del Útil</label>
+            <input type="text" class="form-control" id="editUtilName1" value="Lápiz">
+          </div>
+          <div class="form-group">
+            <label for="editUtilStock1">Stock</label>
+            <input type="number" class="form-control" id="editUtilStock1" value="150">
+          </div>
+          <div class="form-group">
+            <label for="editUtilCategory1">Categoría</label>
+            <input type="text" class="form-control" id="editUtilCategory1" value="Escritura">
+          </div>
+          <div class="form-group">
+            <label for="editUtilSalida1">Fecha de Salida</label>
+            <input type="date" class="form-control" id="editUtilSalida1" value="2024-05-01">
+          </div>
+          <div class="form-group">
+            <label for="editUtilEntrada1">Fecha de Entrada</label>
+            <input type="date" class="form-control" id="editUtilEntrada1" value="2024-06-01">
+          </div>
+          <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Incluyendo Bootstrap JS y dependencias -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+function updateInventory() {
+    alert("Actualizar Inventario - Esta funcionalidad está en desarrollo.");
+}
+
+function deleteSelected() {
+    alert("Eliminar Seleccionados - Esta funcionalidad está en desarrollo.");
+}
+</script>
+</body>
+</html>
