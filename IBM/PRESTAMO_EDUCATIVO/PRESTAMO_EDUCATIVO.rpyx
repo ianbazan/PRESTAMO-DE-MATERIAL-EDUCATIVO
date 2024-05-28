@@ -44,8 +44,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">PRESTAMO_EDUCATIVO</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:0:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:10:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">2.22.2020::5:0:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:0:54</_modifiedTime>
 			<_lastID type="a">5</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -143,7 +143,7 @@
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">BusinessModeling</fileName>
-			<_persistAs type="a">C:\Proyecto ADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile</_persistAs>
+			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile</_persistAs>
 			<_id type="a">GUID 018fd50e-cdfb-4d1c-8d00-c6e75ba697d6</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
