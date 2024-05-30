@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 7632a4e6-484c-433c-af03-98f0f9187c7e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SOLICITUD</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::7:11:29</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Diagrama Arquitectura de Analisis</_hname>
+					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.22.2020::7:11:29</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">2.22.2020::7:11:29</weakCGTime>
+			<strongCGTime type="a">2.22.2020::6:37:43</strongCGTime>
+			<_defaultComposite type="s">GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID c6dcdaf1-2a6e-4367-a582-cbedbec39101</value>
+				<value>GUID 8a891e69-322a-439d-b039-b0d5e3dd7de4</value>
+				<value>GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</value>
+				<value>GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</value>
+				<value>GUID 6bf16f2a-4f6a-406a-a395-442e7a974e33</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID c6dcdaf1-2a6e-4367-a582-cbedbec39101</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">USUARIO</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::6:37:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:37:43</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\USUARIO.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">USUARIO</_hname>
+					<_hid type="a">GUID 50045201-57d5-4637-a16e-c015315e5d86</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 7632a4e6-484c-433c-af03-98f0f9187c7e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 8a891e69-322a-439d-b039-b0d5e3dd7de4</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">MATERIAL</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::6:17:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:17:31</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\MATERIAL.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">MATERIAL</_hname>
+					<_hid type="a">GUID 832a1861-236e-4abc-b837-e89eac5f07e6</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 7632a4e6-484c-433c-af03-98f0f9187c7e</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_03_Generar Solicitud de Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:11:29</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">1.1.2020::5:17:26</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID fb0b63de-dfae-4ed6-a554-0a9b023b13b9</value>
+				<value>GUID 46d4f897-a778-44cb-848b-5970ad2ca96a</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID fb0b63de-dfae-4ed6-a554-0a9b023b13b9</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">CU_04_Buscar Material</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:11:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">CU_04_Buscar Material</_hname>
+					<_hid type="a">GUID 92473a3a-3a8e-47da-a2b4-43af3164a4c4</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 46d4f897-a778-44cb-848b-5970ad2ca96a</_id>
+			<_myState type="a">10240</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">itsAlumno</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:32:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Alumno</_hname>
+					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 6bf16f2a-4f6a-406a-a395-442e7a974e33</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_10_Buscar Solicitud de Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:11:29</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+		</IUseCase>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

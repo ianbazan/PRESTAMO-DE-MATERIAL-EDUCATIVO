@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>1252</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C++</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 23f3daab-8994-4503-98cc-0acff15cf8d2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PENALIZACION</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::7:12:51</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\MA.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">Diagrama Arquitectura de Analisis</_hname>
+					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.22.2020::7:12:51</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">2.22.2020::7:12:51</weakCGTime>
+			<strongCGTime type="a">2.22.2020::6:59:20</strongCGTime>
+			<_defaultComposite type="s">GUID 21393f7c-2b86-4965-8d59-b8b5bf7f659b</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 6bf89b10-e286-4843-8269-ecc423d4c0ec</value>
+				<value>GUID f7e198be-16e2-4df8-bc25-f8a4af37bcb6</value>
+				<value>GUID 21393f7c-2b86-4965-8d59-b8b5bf7f659b</value>
+				<value>GUID eb0973f9-f935-475d-bd82-c3eb56e978ec</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IDependency type="e">
+			<_id type="a">GUID 6bf89b10-e286-4843-8269-ecc423d4c0ec</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">USUARIO</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::6:37:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:37:43</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\USUARIO.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">USUARIO</_hname>
+					<_hid type="a">GUID 50045201-57d5-4637-a16e-c015315e5d86</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 23f3daab-8994-4503-98cc-0acff15cf8d2</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID f7e198be-16e2-4df8-bc25-f8a4af37bcb6</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">PRESTAMO</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::6:59:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:59:20</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
+					<_hsubsystem type="a">MA</_hsubsystem>
+					<_hname type="a">PRESTAMO</_hname>
+					<_hid type="a">GUID fb7babc2-de27-4a0b-8cb8-6e97514584fd</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 23f3daab-8994-4503-98cc-0acff15cf8d2</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IClass type="e">
+			<_id type="a">GUID 21393f7c-2b86-4965-8d59-b8b5bf7f659b</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IUseCase type="e">
+			<_id type="a">GUID eb0973f9-f935-475d-bd82-c3eb56e978ec</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_08_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::5:2:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:12:51</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">2.22.2020::5:2:11</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID a1374191-442a-4349-9364-effce4f26927</value>
+				<value>GUID 710825e7-b5e1-4fee-b101-db6432d0fb74</value>
+				<value>GUID 800758c7-4c26-49d3-8577-f6ce6f03aa30</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID a1374191-442a-4349-9364-effce4f26927</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">CU_06_Buscar Pr%E9stamo</_name>
+			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
+}%0D
+</_displayName>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:12:51</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">CU_06_Buscar Pr%E9stamo</_hname>
+					<_hid type="a">GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID eb0973f9-f935-475d-bd82-c3eb56e978ec</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IDependency type="e">
+			<_id type="a">GUID 710825e7-b5e1-4fee-b101-db6432d0fb74</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">extend</_hname>
+							<_hid type="a">GUID 17ef9a30-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.22.2020::5:2:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:12:51</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_hname>
+					<_hid type="a">GUID 066114ef-b8cb-430e-b872-f28fbed3c51a</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID eb0973f9-f935-475d-bd82-c3eb56e978ec</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 800758c7-4c26-49d3-8577-f6ce6f03aa30</_id>
+			<_myState type="a">10240</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">itsEncargado de almac%E9n</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::6:33:30</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Encargado de almac%E9n</_hname>
+					<_hid type="a">GUID db7c8a9f-864d-461d-8707-47cacff5e37e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+
