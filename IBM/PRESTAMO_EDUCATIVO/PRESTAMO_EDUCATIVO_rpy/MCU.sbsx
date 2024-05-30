@@ -11,7 +11,7 @@
 			<_id type="a">GUID 636113a8-c27d-4e7a-a22e-dd9d7ca4b74c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MCU</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:1:50</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.22.2020::5:5:35</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -19,9 +19,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::6:0:54</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:14</_modifiedTime>
 			<_lastID type="a">16</_lastID>
-			<weakCGTime type="a">2.22.2020::5:1:50</weakCGTime>
+			<weakCGTime type="a">2.22.2020::5:5:35</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:26:26</strongCGTime>
 			<_defaultComposite type="s">GUID 5ce58cc9-5dc3-4b81-8a96-de02686cda57</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -305,8 +305,8 @@
 			</_properties>
 			<_name type="a">Diagrama General de Caso de Uso</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:45</_modifiedTime>
-			<_lastModifiedTime type="a">2.22.2020::5:5:45</_lastModifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:49</_modifiedTime>
+			<_lastModifiedTime type="a">2.22.2020::5:11:49</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -642,7 +642,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_09_Iniciar sesion</m_str>
+					<m_str type="a">CU_01_Iniciar sesion</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -863,7 +863,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_01_Solicitar Prestamo de Material</m_str>
+					<m_str type="a">CU_02_Solicitar Prestamo de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -995,7 +995,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_02_Registrar Prestamo de Material</m_str>
+					<m_str type="a">CU_08_Registrar Prestamo de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1045,7 +1045,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_04_Buscar Solicitud de Prestamo</m_str>
+					<m_str type="a">CU_09_Buscar Solicitud de Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1127,7 +1127,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_05_Registrar Penalizaci%F3n por Da%F1os del Material</m_str>
+					<m_str type="a">CU_07_Registrar Penalizaci%F3n por Da%F1os del Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1177,7 +1177,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_07_Buscar Pr%E9stamo de Material</m_str>
+					<m_str type="a">CU_05_Buscar Pr%E9stamo de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1227,7 +1227,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_08_Registrar Devoluci%F3n de Material</m_str>
+					<m_str type="a">CU_06_Registrar Devoluci%F3n de Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1967,7 +1967,7 @@
 			<m_pParent type="s">GUID 76c8b933-a806-425f-97ef-cb76f4422ed7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">CU_06_Actualizar Prestamo</m_str>
+					<m_str type="a">CU_04_Actualizar Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2491,9 +2491,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID ff946a94-8a2d-4d3b-996f-cf34b6b8416a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_09_Iniciar sesion</_name>
+			<_name type="a">CU_01_Iniciar sesion</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:5:35</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2515,7 +2515,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsUsuario</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:5:35</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2535,9 +2535,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 7fbb4d36-e7f4-45ba-bd59-6bd47af0ba0d</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_01_Solicitar Prestamo de Material</_name>
+			<_name type="a">CU_02_Solicitar Prestamo de Material</_name>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:10:41</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.1.2020::5:17:26</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2593,7 +2593,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsAlumno</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:10:41</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2632,9 +2632,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 9952da7e-d489-481c-a469-c5244c7f666b</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_02_Registrar Prestamo de Material</_name>
+			<_name type="a">CU_08_Registrar Prestamo de Material</_name>
 			<_modifiedTimeWeak type="a">1.1.2020::5:55:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:3:25</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:40</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.1.2020::5:55:30</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2657,7 +2657,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 697c9861-deef-4668-82ff-2870f6f58ee5</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">CU_04_Buscar Solicitud de Prestamo</_name>
+			<_name type="a">CU_09_Buscar Solicitud de Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2672,7 +2672,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:52</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:49</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2723,7 +2723,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:26</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:40</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2743,9 +2743,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 848154b3-774d-4893-ab1c-dece52ea8cd5</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_04_Buscar Solicitud de Prestamo</_name>
+			<_name type="a">CU_09_Buscar Solicitud de Prestamo</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:52</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:49</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2762,9 +2762,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 80fd89d0-7b90-44db-bf10-e8cfe6bddb90</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_05_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:17:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:36</_modifiedTime>
+			<_name type="a">CU_07_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::5:2:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::5:11:34</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">2.22.2020::5:2:11</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2787,7 +2787,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 5e4d7ce1-c33e-4ad8-ae72-89f73bdcb2f1</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">CU_07_Buscar Pr%E9stamo de Material</_name>
+			<_name type="a">CU_05_Buscar Pr%E9stamo de Material</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -2806,7 +2806,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:4</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:19</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2823,7 +2823,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 0130e02d-5e6f-4c05-9f53-0f30d9772acf</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">CU_08_Registrar Devoluci%F3n de Material</_name>
+			<_name type="a">CU_06_Registrar Devoluci%F3n de Material</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -2838,7 +2838,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">2.22.2020::5:2:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:2:11</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:27</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2857,7 +2857,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:36</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:34</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -2877,13 +2877,13 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_07_Buscar Pr%E9stamo de Material</_name>
+			<_name type="a">CU_05_Buscar Pr%E9stamo de Material</_name>
 			<_displayName type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 MS Shell Dlg;}}%0D
 \viewkind4\uc1\pard\f0\fs17 Buscar registro de pr\'e9s\par%0D
 }%0D
 </_displayName>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:4</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:19</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -2900,9 +2900,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 066114ef-b8cb-430e-b872-f28fbed3c51a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_08_Registrar Devoluci%F3n de Material</_name>
+			<_name type="a">CU_06_Registrar Devoluci%F3n de Material</_name>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:4</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:27</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.1.2020::5:17:22</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -2924,7 +2924,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 020888c8-4adb-4651-acfa-25ab8711c288</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">CU_07_Buscar Pr%E9stamo de Material</_name>
+			<_name type="a">CU_05_Buscar Pr%E9stamo de Material</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -2943,7 +2943,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:4</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:19</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -2962,7 +2962,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:39:22</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:27</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3001,9 +3001,9 @@
 		<IUseCase type="e">
 			<_id type="a">GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_06_Actualizar Prestamo</_name>
+			<_name type="a">CU_04_Actualizar Prestamo</_name>
 			<_modifiedTimeWeak type="a">2.22.2020::19:9:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:45</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:4</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">2.22.2020::19:9:5</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -3058,7 +3058,7 @@
 		<IDependency type="e">
 			<_id type="a">GUID 2b1d1329-3a82-43d4-9e01-ed2dd12c1e2d</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">CU_07_Buscar Pr%E9stamo de Material</_name>
+			<_name type="a">CU_05_Buscar Pr%E9stamo de Material</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -3077,7 +3077,7 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">2.22.2020::5:3:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:3:52</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:19</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
@@ -3096,7 +3096,7 @@
 			<_myState type="a">10240</_myState>
 			<_name type="a">itsEncargado de almac%E9n</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:45</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3155,9 +3155,9 @@
 			<_id type="a">GUID 2b011fad-7612-44e7-b44d-d331b94fb14e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usuario</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::17:39:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
-			<weakCGTime type="a">2.22.2020::17:39:47</weakCGTime>
+			<_modifiedTimeWeak type="a">2.22.2020::5:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::5:5:35</_modifiedTime>
+			<weakCGTime type="a">2.22.2020::5:5:35</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:2</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3221,9 +3221,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID d94835d5-951b-477d-ae7a-746b4c2cf02d</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCU_09_Iniciar sesion</_name>
+			<_name type="a">itsCU_01_Iniciar sesion</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:39:47</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:5:35</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3244,9 +3244,9 @@
 			<_id type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Alumno</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:4:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:4:20</_modifiedTime>
-			<weakCGTime type="a">2.22.2020::5:4:20</weakCGTime>
+			<_modifiedTimeWeak type="a">2.22.2020::5:10:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::5:10:41</_modifiedTime>
+			<weakCGTime type="a">2.22.2020::5:10:41</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:7</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3262,7 +3262,7 @@
 		<IGeneralization type="e">
 			<_id type="a">GUID af74cc21-1597-4bbe-a0aa-e23f3b318a20</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
@@ -3297,9 +3297,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID d32fefff-aecd-4241-8d60-0a9076b8b91d</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCU_01_Solicitar Prestamo de Material</_name>
+			<_name type="a">itsCU_02_Solicitar Prestamo de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:16</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:10:41</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3320,9 +3320,9 @@
 			<_id type="a">GUID db7c8a9f-864d-461d-8707-47cacff5e37e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Encargado de almac%E9n</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:4:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:4:26</_modifiedTime>
-			<weakCGTime type="a">2.22.2020::5:4:26</weakCGTime>
+			<_modifiedTimeWeak type="a">2.22.2020::5:11:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::5:11:4</_modifiedTime>
+			<weakCGTime type="a">2.22.2020::5:11:4</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:17</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3341,7 +3341,7 @@
 		<IGeneralization type="e">
 			<_id type="a">GUID 64c74925-1259-464c-a987-2d0aa1cb9970</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IActor</_hm2Class>
@@ -3376,9 +3376,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 011a269f-a204-421c-a6dc-727e242ddf34</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCU_02_Registrar Prestamo de Material</_name>
+			<_name type="a">itsCU_08_Registrar Prestamo de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:36:26</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:40</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3398,9 +3398,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID f078562a-0da7-4013-985b-7d7673b83c63</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCU_05_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_name type="a">itsCU_07_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:36</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:34</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3420,9 +3420,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID db8f7428-c62b-4d87-8123-49a32d02a9de</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCU_08_Registrar Devoluci%F3n de Material</_name>
+			<_name type="a">itsCU_06_Registrar Devoluci%F3n de Material</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::17:39:22</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:27</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -3442,9 +3442,9 @@
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 51c390cc-44eb-43b5-a6dc-fbc838c1230a</_id>
 			<_myState type="a">10240</_myState>
-			<_name type="a">itsCU_06_Actualizar Prestamo</_name>
+			<_name type="a">itsCU_04_Actualizar Prestamo</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:5:45</_modifiedTime>
+			<_modifiedTime type="a">2.22.2020::5:11:4</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
