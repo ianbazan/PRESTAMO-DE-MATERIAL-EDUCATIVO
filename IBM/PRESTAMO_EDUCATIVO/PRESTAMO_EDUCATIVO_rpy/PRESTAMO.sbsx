@@ -11,7 +11,7 @@
 			<_id type="a">GUID fb7babc2-de27-4a0b-8cb8-6e97514584fd</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PRESTAMO</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::7:12:10</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2021::5:29:22</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,13 +21,13 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:22</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.22.2020::7:12:10</weakCGTime>
+			<weakCGTime type="a">1.1.2021::5:29:22</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:59:55</strongCGTime>
 			<_defaultComposite type="s">GUID bc1c0199-d1ca-49ea-8331-6bee3e0d6dfd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 3b80b84c-ff5f-46de-aa41-b1670a8e5b60</value>
 				<value>GUID 3dff831c-db47-47f2-b9b7-933485932184</value>
@@ -109,7 +109,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -123,7 +123,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">CU_05_Actualizar Prestamo</_name>
 			<_modifiedTimeWeak type="a">2.22.2020::19:9:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:48</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">2.22.2020::19:9:5</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -146,7 +146,7 @@
 			<_id type="a">GUID 0e6bf17f-bc0f-46f5-9a6c-78e46a65006c</_id>
 			<_myState type="a">2048</_myState>
 			<_rmmServerID type="a">-1</_rmmServerID>
-			<_name type="a">CU_06_Buscar Pr%E9stamo</_name>
+			<_name type="a">CU_08_Buscar Pr%E9stamo</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -165,13 +165,13 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">2.22.2020::5:3:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:48</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_06_Buscar Pr%E9stamo</_hname>
+					<_hname type="a">CU_08_Buscar Pr%E9stamo</_hname>
 					<_hid type="a">GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -211,7 +211,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_name>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:48</_modifiedTime>
 			<_lastID type="a">1</_lastID>
 			<weakCGTime type="a">1.1.2020::5:17:22</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -234,7 +234,7 @@
 			<_id type="a">GUID 24ee2c26-c360-4f99-af6a-6814411a232b</_id>
 			<_myState type="a">2048</_myState>
 			<_rmmServerID type="a">-1</_rmmServerID>
-			<_name type="a">CU_06_Buscar Pr%E9stamo</_name>
+			<_name type="a">CU_08_Buscar Pr%E9stamo</_name>
 			<_displayName type="a">{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 Arial;}}%0D
 \viewkind4\uc1\pard\ltrpar\fs20 Buscar registro de pr\'e9s\par%0D
 }%0D
@@ -253,13 +253,13 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:48</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_06_Buscar Pr%E9stamo</_hname>
+					<_hname type="a">CU_08_Buscar Pr%E9stamo</_hname>
 					<_hid type="a">GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</_hid>
 				</INObjectHandle>
 			</_dependsOn>
@@ -299,7 +299,7 @@
 			<_myState type="a">8192</_myState>
 			<_name type="a">CU_09_Registrar Prestamo</_name>
 			<_modifiedTimeWeak type="a">1.1.2020::5:55:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:22</_modifiedTime>
 			<_lastID type="a">2</_lastID>
 			<weakCGTime type="a">1.1.2020::5:55:30</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -322,7 +322,7 @@
 			<_id type="a">GUID 691b8248-1675-4503-97f4-e110e8ddf5ce</_id>
 			<_myState type="a">2048</_myState>
 			<_rmmServerID type="a">-1</_rmmServerID>
-			<_name type="a">CU_10_Buscar Solicitud de Prestamo</_name>
+			<_name type="a">CU_06_Buscar Solicitud de Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -337,13 +337,13 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.1.2020::5:17:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:12:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:29:22</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_10_Buscar Solicitud de Prestamo</_hname>
+					<_hname type="a">CU_06_Buscar Solicitud de Prestamo</_hname>
 					<_hid type="a">GUID 848154b3-774d-4893-ab1c-dece52ea8cd5</_hid>
 				</INObjectHandle>
 			</_dependsOn>

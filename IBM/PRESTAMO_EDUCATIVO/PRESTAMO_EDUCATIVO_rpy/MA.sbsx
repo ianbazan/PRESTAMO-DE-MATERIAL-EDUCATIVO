@@ -17,7 +17,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">AnalysisModel</_hname>
 							<_hid type="a">GUID 7dc8503b-290a-43d7-a3ac-09c8b832eb06</_hid>
@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::7:8:41</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2021::5:28:51</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -33,13 +33,13 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:8:41</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:28:51</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.22.2020::7:8:41</weakCGTime>
+			<weakCGTime type="a">1.1.2021::5:28:51</weakCGTime>
 			<strongCGTime type="a">2.22.2020::5:10:12</strongCGTime>
 			<_defaultComposite type="s">GUID 63ff598e-02ed-495e-9acc-9529b6a75aa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</value>
 				<value>GUID 50045201-57d5-4637-a16e-c015315e5d86</value>
@@ -1460,8 +1460,8 @@
 			</_properties>
 			<_name type="a">Diagrama General de Caso de Uso segun analisis</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:9:31</_modifiedTime>
-			<_lastModifiedTime type="a">2.22.2020::7:9:31</_lastModifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:30:11</_modifiedTime>
+			<_lastModifiedTime type="a">1.1.2021::5:30:11</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2320,14 +2320,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_09_Registrar Prestamo</_hname>
+					<_hname type="a">CU_05_Registrar Prestamo</_hname>
 					<_hid type="a">GUID 9952da7e-d489-481c-a469-c5244c7f666b</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 8be024b4-beca-4544-ac60-1745aa59ddad</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::CU_09_Registrar Prestamo</m_str>
+					<m_str type="a">MCU::CU_05_Registrar Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2412,14 +2412,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_10_Buscar Solicitud de Prestamo</_hname>
+					<_hname type="a">CU_06_Buscar Solicitud de Prestamo</_hname>
 					<_hid type="a">GUID 848154b3-774d-4893-ab1c-dece52ea8cd5</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 8be024b4-beca-4544-ac60-1745aa59ddad</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::CU_10_Buscar Solicitud de Prestamo</m_str>
+					<m_str type="a">MCU::CU_06_Buscar Solicitud de Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2528,14 +2528,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_08_Registrar Penalizaci%F3n por Da%F1os del Material</_hname>
+					<_hname type="a">CU_10_Registrar Penalizaci%F3n por Da%F1os del Material</_hname>
 					<_hid type="a">GUID 80fd89d0-7b90-44db-bf10-e8cfe6bddb90</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 8be024b4-beca-4544-ac60-1745aa59ddad</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::CU_08_Registrar Penalizaci%F3n por Da%F1os del Material</m_str>
+					<m_str type="a">MCU::CU_10_Registrar Penalizaci%F3n por Da%F1os del Material</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2620,14 +2620,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_06_Buscar Pr%E9stamo</_hname>
+					<_hname type="a">CU_08_Buscar Pr%E9stamo</_hname>
 					<_hid type="a">GUID 3b8f54cb-9b67-42f3-bc03-110eb10375b3</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 8be024b4-beca-4544-ac60-1745aa59ddad</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::CU_06_Buscar Pr%E9stamo</m_str>
+					<m_str type="a">MCU::CU_08_Buscar Pr%E9stamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2712,14 +2712,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_hname>
+					<_hname type="a">CU_09_Registrar Devoluci%F3n del Prestamo</_hname>
 					<_hid type="a">GUID 066114ef-b8cb-430e-b872-f28fbed3c51a</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 8be024b4-beca-4544-ac60-1745aa59ddad</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::CU_07_Registrar Devoluci%F3n del Prestamo</m_str>
+					<m_str type="a">MCU::CU_09_Registrar Devoluci%F3n del Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2947,7 +2947,7 @@
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
 					<_hclass type="a">Encargado de almac%E9n</_hclass>
-					<_hname type="a">itsCU_09_Registrar Prestamo</_hname>
+					<_hname type="a">itsCU_05_Registrar Prestamo</_hname>
 					<_hid type="a">GUID 011a269f-a204-421c-a6dc-727e242ddf34</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -3001,7 +3001,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_09_Registrar Prestamo</_hclass>
+					<_hclass type="a">CU_05_Registrar Prestamo</_hclass>
 					<_hname type="a">itsEncargado de almac%E9n</_hname>
 					<_hid type="a">GUID 5354f328-71b9-4a3e-8f0d-3083ae8ae9f8</_hid>
 				</IAssociationEndHandle>
@@ -3127,7 +3127,7 @@
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
 					<_hclass type="a">Encargado de almac%E9n</_hclass>
-					<_hname type="a">itsCU_07_Registrar Devoluci%F3n del Prestamo</_hname>
+					<_hname type="a">itsCU_09_Registrar Devoluci%F3n del Prestamo</_hname>
 					<_hid type="a">GUID db8f7428-c62b-4d87-8123-49a32d02a9de</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -3181,7 +3181,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_hclass>
+					<_hclass type="a">CU_09_Registrar Devoluci%F3n del Prestamo</_hclass>
 					<_hname type="a">itsEncargado de almac%E9n</_hname>
 					<_hid type="a">GUID db9a3449-b580-43e9-ba37-78a1336d56cb</_hid>
 				</IAssociationEndHandle>
@@ -3306,8 +3306,8 @@
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_hclass>
-					<_hname type="a">CU_06_Buscar Pr%E9stamo</_hname>
+					<_hclass type="a">CU_09_Registrar Devoluci%F3n del Prestamo</_hclass>
+					<_hname type="a">CU_08_Buscar Pr%E9stamo</_hname>
 					<_hid type="a">GUID 020888c8-4adb-4651-acfa-25ab8711c288</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -3434,8 +3434,8 @@
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_09_Registrar Prestamo</_hclass>
-					<_hname type="a">CU_10_Buscar Solicitud de Prestamo</_hname>
+					<_hclass type="a">CU_05_Registrar Prestamo</_hclass>
+					<_hname type="a">CU_06_Buscar Solicitud de Prestamo</_hname>
 					<_hid type="a">GUID 697c9861-deef-4668-82ff-2870f6f58ee5</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -3536,14 +3536,14 @@
 					<_hm2Class type="a">IUseCase</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_05_Actualizar Prestamo</_hname>
+					<_hname type="a">CU_07_Actualizar Prestamo</_hname>
 					<_hid type="a">GUID 7f2dd490-e5d1-4744-921b-bc68052744fa</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s">GUID 8be024b4-beca-4544-ac60-1745aa59ddad</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">MCU::CU_05_Actualizar Prestamo</m_str>
+					<m_str type="a">MCU::CU_07_Actualizar Prestamo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -3591,7 +3591,7 @@
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
 					<_hclass type="a">Encargado de almac%E9n</_hclass>
-					<_hname type="a">itsCU_05_Actualizar Prestamo</_hname>
+					<_hname type="a">itsCU_07_Actualizar Prestamo</_hname>
 					<_hid type="a">GUID 51c390cc-44eb-43b5-a6dc-fbc838c1230a</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -3645,7 +3645,7 @@
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_05_Actualizar Prestamo</_hclass>
+					<_hclass type="a">CU_07_Actualizar Prestamo</_hclass>
 					<_hname type="a">itsEncargado de almac%E9n</_hname>
 					<_hid type="a">GUID b21db1da-e764-45e1-a732-9d5d76870781</_hid>
 				</IAssociationEndHandle>
@@ -3770,8 +3770,8 @@
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_08_Registrar Penalizaci%F3n por Da%F1os del Material</_hclass>
-					<_hname type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_hname>
+					<_hclass type="a">CU_10_Registrar Penalizaci%F3n por Da%F1os del Material</_hclass>
+					<_hname type="a">CU_09_Registrar Devoluci%F3n del Prestamo</_hname>
 					<_hid type="a">GUID 0130e02d-5e6f-4c05-9f53-0f30d9772acf</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -3834,8 +3834,8 @@
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\MCU.sbsx</_hfilename>
 					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">CU_05_Actualizar Prestamo</_hclass>
-					<_hname type="a">CU_06_Buscar Pr%E9stamo</_hname>
+					<_hclass type="a">CU_07_Actualizar Prestamo</_hclass>
+					<_hname type="a">CU_08_Buscar Pr%E9stamo</_hname>
 					<_hid type="a">GUID 2b1d1329-3a82-43d4-9e01-ed2dd12c1e2d</_hid>
 				</IHandle>
 			</m_pModelObject>
@@ -4240,7 +4240,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -4262,11 +4262,6 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<UseCaseStereoTypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</UseCaseStereoTypes>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>

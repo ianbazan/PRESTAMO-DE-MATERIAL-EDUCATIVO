@@ -17,7 +17,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
 							<_hsubsystem type="a">BusinessModeling</_hsubsystem>
 							<_hname type="a">BusinessAnalysisModel</_hname>
 							<_hid type="a">GUID 05eb2d57-970a-4a6d-af77-2bab148f8e57</_hid>
@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::5:23:29</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2021::5:26:44</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -33,9 +33,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::6:0:54</_modifiedTime>
+			<_modifiedTime type="a">1.1.2021::5:26:44</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.1.2021::5:59:47</weakCGTime>
+			<weakCGTime type="a">1.1.2021::6:11:40</weakCGTime>
 			<strongCGTime type="a">1.1.2021::5:12:0</strongCGTime>
 			<_defaultComposite type="s">GUID daad4a62-63e9-44bf-b4b6-a82d839d80b5</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -1640,10 +1640,10 @@
 			<_id type="a">GUID daad4a62-63e9-44bf-b4b6-a82d839d80b5</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:37:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2021::5:55:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.1.2021::5:26:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2021::5:26:44</_modifiedTime>
 			<_lastID type="a">2</_lastID>
-			<weakCGTime type="a">1.1.2021::5:59:47</weakCGTime>
+			<weakCGTime type="a">1.1.2021::6:11:40</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:14:21</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -1661,9 +1661,9 @@
 			<_id type="a">GUID 2a0362ba-29d5-4c97-b4af-e7261fb79b81</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SIT ACTUAL CUN_01_Prestamo de material educativo</_name>
-			<_modifiedTimeWeak type="a">1.1.2021::5:59:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2021::5:59:47</_modifiedTime>
-			<_lastID type="a">83</_lastID>
+			<_modifiedTimeWeak type="a">1.1.2021::5:26:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2021::5:26:49</_modifiedTime>
+			<_lastID type="a">85</_lastID>
 			<weakCGTime type="a">1.1.2021::5:59:47</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:17:13</strongCGTime>
 			<_itsStateChart type="r">
@@ -1672,7 +1672,7 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_defNumber type="a">25</_defNumber>
-			<_version type="a">1.1.2021::0:59:26</_version>
+			<_version type="a">1.1.2021::0:26:49</_version>
 			<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 			<_diagram type="s">GUID 92b90cca-f7b0-4f48-9702-5f045b2c358f</_diagram>
 			<AggregatesList type="e">
@@ -3080,8 +3080,8 @@
 		</IConnector>
 		<IState type="e">
 			<_id type="a">GUID 5268641c-cfdb-4521-991a-ae3ab1b57cc4</_id>
-			<_modifiedTimeWeak type="a">1.1.2021::5:16:36</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2021::5:16:36</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.1.2021::5:26:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2021::5:26:49</_modifiedTime>
 			<_parent type="s"></_parent>
 			<_defaultTrans type="s">GUID b50a616b-0909-4c54-bf8a-53be53ae4d88</_defaultTrans>
 		</IState>
@@ -3930,9 +3930,9 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">activitydiagram_0</_name>
-			<_modifiedTimeWeak type="a">1.1.2021::5:57:47</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2021::5:59:26</_modifiedTime>
-			<_lastModifiedTime type="a">1.1.2021::5:59:26</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.1.2021::5:26:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2021::5:26:49</_modifiedTime>
+			<_lastModifiedTime type="a">1.1.2021::5:26:49</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -7965,7 +7965,7 @@
 			<_id type="a">GUID f712cf04-d0a9-4f2e-8c0a-589d0aabdae1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SIT PROP CUN_01_Prestamo de material educativo</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:37:47</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2021::6:11:40</_modifiedTimeWeak>
 			<_modifiedTime type="a">2.22.2020::5:37:47</_modifiedTime>
 			<_lastID type="a">73</_lastID>
 			<weakCGTime type="a">1.1.2021::6:11:40</weakCGTime>
@@ -8939,7 +8939,7 @@
 		<IGuard type="e">
 			<_id type="a">GUID 2b385d50-bd9b-42b8-8e0a-8ca0efede4a1</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_body type="a">NO</_body>
 		</IGuard>
 		<ITransition type="e">
@@ -8971,7 +8971,7 @@
 		<ILabel type="e">
 			<_id type="a">GUID c49d4fd8-ee99-44f0-a6ff-a3d3fdaafe32</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_itsTrigger>NULL</_itsTrigger>
 			<_itsGuard>NULL</_itsGuard>
 			<_itsAction>NULL</_itsAction>
@@ -11958,7 +11958,7 @@ Prestamo%0D
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
 			<m_SourcePort type="a">39 9 </m_SourcePort>
-			<m_TargetPort type="a">208 0 </m_TargetPort>
+			<m_TargetPort type="a">208 5 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12569,7 +12569,7 @@ Prestamo%0D
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
 			<m_SourcePort type="a">2 478 </m_SourcePort>
-			<m_TargetPort type="a">322 272 </m_TargetPort>
+			<m_TargetPort type="a">313 272 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12631,7 +12631,7 @@ Prestamo%0D
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
 			<m_SourcePort type="a">1096 611 </m_SourcePort>
-			<m_TargetPort type="a">-3 524 </m_TargetPort>
+			<m_TargetPort type="a">4 524 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -12696,7 +12696,7 @@ Prestamo%0D
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">533 0 </m_SourcePort>
+			<m_SourcePort type="a">533 17 </m_SourcePort>
 			<m_TargetPort type="a">749 1045 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -12914,8 +12914,8 @@ Prestamo%0D
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">1076 524 </m_SourcePort>
-			<m_TargetPort type="a">-3 525 </m_TargetPort>
+			<m_SourcePort type="a">1062 524 </m_SourcePort>
+			<m_TargetPort type="a">4 525 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -13455,7 +13455,7 @@ Prestamo%0D
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">1</m_line_style>
-			<m_SourcePort type="a">536 1049 </m_SourcePort>
+			<m_SourcePort type="a">536 1027 </m_SourcePort>
 			<m_TargetPort type="a">495 -17 </m_TargetPort>
 			<m_pInheritsFrom type="r">
 				<IHandle type="e">
@@ -13576,7 +13576,7 @@ Prestamo%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
 							<_hsubsystem type="a">BusinessModeling</_hsubsystem>
 							<_hname type="a">BusinessWorker</_hname>
 							<_hid type="a">GUID f55bd752-788b-42e5-8e71-527d9316703c</_hid>
@@ -13717,7 +13717,7 @@ Prestamo%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
 							<_hsubsystem type="a">BusinessModeling</_hsubsystem>
 							<_hname type="a">BusinessEntity</_hname>
 							<_hid type="a">GUID 12977c95-fd63-4e7d-9f28-3fc5c434eef2</_hid>
@@ -14654,7 +14654,7 @@ Prestamo%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
 							<_hsubsystem type="a">BusinessModeling</_hsubsystem>
 							<_hname type="a">BusinessEntity</_hname>
 							<_hid type="a">GUID 12977c95-fd63-4e7d-9f28-3fc5c434eef2</_hid>
@@ -15401,7 +15401,7 @@ Prestamo%0D
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile\BusinessModeling.sbsx</_hfilename>
 							<_hsubsystem type="a">BusinessModeling</_hsubsystem>
 							<_hname type="a">BusinessWorker</_hname>
 							<_hid type="a">GUID f55bd752-788b-42e5-8e71-527d9316703c</_hid>
