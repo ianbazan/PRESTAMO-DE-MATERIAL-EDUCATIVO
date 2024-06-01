@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\views\\encargado\\listadoprestamos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\encargado\\listadoprestamos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\cibertec\\4to ciclo\\ads2\\sistemaprestamos\\sistemaprestamos\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{747E3284-70F4-4763-97A5-68B223C4655F}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T03:32:02.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListadoPrestamos.cshtml",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Views\\Encargado\\ListadoPrestamos.cshtml",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Encargado\\ListadoPrestamos.cshtml",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Views\\Encargado\\ListadoPrestamos.cshtml",
+              "RelativeToolTip": "SistemaPrestamos\\Views\\Encargado\\ListadoPrestamos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T03:02:00.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T03:01:04.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Program.cs",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Program.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T00:23:05.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T02:23:38.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "SistemaPrestamos\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-01T02:37:23.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T00:27:56.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

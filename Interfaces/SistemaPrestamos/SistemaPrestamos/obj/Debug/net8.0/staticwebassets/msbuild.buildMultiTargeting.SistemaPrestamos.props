@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SistemaPrestamos.props" />
+</Project>
