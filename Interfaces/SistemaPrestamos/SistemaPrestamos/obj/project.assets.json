@@ -8250,19 +8250,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ian\\.nuget\\packages\\": {}
+    "C:\\Users\\jhon-\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+      "projectUniqueName": "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
       "projectName": "SistemaPrestamos",
-      "projectPath": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
-      "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
-      "outputPath": "D:\\CIBERTEC\\4TO CICLO\\ADS2\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
+      "projectPath": "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+      "packagesPath": "C:\\Users\\jhon-\\.nuget\\packages\\",
+      "outputPath": "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jhon-\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -17,7 +17,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\CarpetaADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">AnalysisModel</_hname>
 							<_hid type="a">GUID 7dc8503b-290a-43d7-a3ac-09c8b832eb06</_hid>
@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.1.2020::5:5:57</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:15:16</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -33,9 +33,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2020::5:10:31</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:21:11</_modifiedTime>
 			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">1.1.2020::5:5:57</weakCGTime>
+			<weakCGTime type="a">1.1.2020::5:15:16</weakCGTime>
 			<strongCGTime type="a">2.22.2020::5:10:12</strongCGTime>
 			<_defaultComposite type="s">GUID 63ff598e-02ed-495e-9acc-9529b6a75aa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -230,8 +230,8 @@
 			</_properties>
 			<_name type="a">Diagrama Arquitectura de Analisis</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::6:59:58</_modifiedTime>
-			<_lastModifiedTime type="a">2.22.2020::6:59:58</_lastModifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:15:16</_modifiedTime>
+			<_lastModifiedTime type="a">1.1.2020::5:15:16</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -718,7 +718,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_transform type="a">1 0 0 1 -89 -4 </m_transform>
+			<m_transform type="a">1 0 0 1 -79 -3 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_points type="a">4 89 287  127 287  127 305  89 305  </m_points>
 			<m_text type="a">CAPA ESPECIFICA%0D
