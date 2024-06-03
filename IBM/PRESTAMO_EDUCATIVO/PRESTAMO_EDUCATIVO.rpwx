@@ -191,7 +191,11 @@
 								<m_showCmd type="a">2</m_showCmd>
 								<m_ptMinPositionX type="a">0</m_ptMinPositionX>
 <<<<<<< HEAD
+<<<<<<< HEAD
 								<m_ptMinPositionY type="a">834</m_ptMinPositionY>
+=======
+								<m_ptMinPositionY type="a">604</m_ptMinPositionY>
+>>>>>>> 9d090eb557f63dc6c3f5596eecf9a5ba64fa885c
 =======
 								<m_ptMinPositionY type="a">604</m_ptMinPositionY>
 >>>>>>> 9d090eb557f63dc6c3f5596eecf9a5ba64fa885c
@@ -216,9 +220,12 @@
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<_DownRight type="a">1151 678 </_DownRight>
 						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 =======
+=======
+>>>>>>> 9d090eb557f63dc6c3f5596eecf9a5ba64fa885c
 						<_DownRight type="a">1197 672 </_DownRight>
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 >>>>>>> 9d090eb557f63dc6c3f5596eecf9a5ba64fa885c
