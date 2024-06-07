@@ -11,7 +11,7 @@
 			<_id type="a">GUID fb7babc2-de27-4a0b-8cb8-6e97514584fd</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PRESTAMO</_name>
-			<_modifiedTimeWeak type="a">1.1.2021::5:29:22</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::6:38:17</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2021::5:29:22</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::6:41:2</_modifiedTime>
 			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">1.1.2021::5:29:22</weakCGTime>
+			<weakCGTime type="a">2.22.2020::6:59:55</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:59:55</strongCGTime>
 			<_defaultComposite type="s">GUID bc1c0199-d1ca-49ea-8331-6bee3e0d6dfd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -41,15 +41,15 @@
 		<IDependency type="e">
 			<_id type="a">GUID 3b80b84c-ff5f-46de-aa41-b1670a8e5b60</_id>
 			<_myState type="a">2048</_myState>
-			<_name type="a">USUARIO</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::6:37:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::6:37:43</_modifiedTime>
+			<_name type="a">ALUMNO</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::6:38:17</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::6:38:17</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hfilename type="a">.\USUARIO.sbsx</_hfilename>
+					<_hfilename type="a">.\ALUMNO.sbsx</_hfilename>
 					<_hsubsystem type="a">MA</_hsubsystem>
-					<_hname type="a">USUARIO</_hname>
+					<_hname type="a">ALUMNO</_hname>
 					<_hid type="a">GUID 50045201-57d5-4637-a16e-c015315e5d86</_hid>
 				</INObjectHandle>
 			</_dependsOn>
