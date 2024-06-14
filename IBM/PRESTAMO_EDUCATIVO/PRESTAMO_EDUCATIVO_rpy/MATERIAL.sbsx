@@ -11,7 +11,7 @@
 			<_id type="a">GUID 832a1861-236e-4abc-b837-e89eac5f07e6</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MATERIAL</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::7:11:46</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.23.2020::18:6:28</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,12 +21,13 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:11:46</_modifiedTime>
-			<weakCGTime type="a">2.22.2020::7:11:46</weakCGTime>
+			<_modifiedTime type="a">2.23.2020::20:9:8</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">2.23.2020::18:6:28</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:14:2</strongCGTime>
 			<_defaultComposite type="s">GUID 67a4e15f-89ce-4aef-9476-3a891e6b1db4</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">12.31.1969::19:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">2.23.2020::18:6:28</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 67a4e15f-89ce-4aef-9476-3a891e6b1db4</value>
 				<value>GUID 60b9abdb-fd7e-43f3-9b8e-2d3ea818cc41</value>
@@ -37,7 +38,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
