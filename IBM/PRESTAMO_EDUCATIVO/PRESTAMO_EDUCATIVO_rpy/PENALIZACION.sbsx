@@ -11,7 +11,7 @@
 			<_id type="a">GUID 23f3daab-8994-4503-98cc-0acff15cf8d2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PENALIZACION</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:5:41</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:31:34</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -23,7 +23,7 @@
 			</_theMainDiagram>
 			<_modifiedTime type="a">2.23.2020::22:5:41</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">2.23.2020::22:5:41</weakCGTime>
+			<weakCGTime type="a">2.22.2020::6:59:20</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:59:20</strongCGTime>
 			<_defaultComposite type="s">GUID 21393f7c-2b86-4965-8d59-b8b5bf7f659b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -358,7 +358,7 @@
 			<_id type="a">GUID 8a48fc07-96e9-4543-9019-c4aa9e1f8a15</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_declaration type="a">INT</_declaration>
 			<_kind type="a">Language</_kind>
 		</IType>
@@ -404,7 +404,7 @@
 			<_id type="a">GUID 90545a12-ce7b-45d0-84e1-12cca391bdc5</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_declaration type="a">DATETIME</_declaration>
 			<_kind type="a">Language</_kind>
 		</IType>
@@ -427,7 +427,7 @@
 			<_id type="a">GUID 7e78f2db-a056-4cf8-b9ab-00ffcd842368</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_declaration type="a">INT</_declaration>
 			<_kind type="a">Language</_kind>
 		</IType>
@@ -456,9 +456,13 @@
 		<IUseCase type="e">
 			<_id type="a">GUID eb0973f9-f935-475d-bd82-c3eb56e978ec</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">CU_08_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_name type="a">CU_10_Registrar Penalizaci%F3n por Da%F1os del Material</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg1252\deff0\deflang10250{\fonttbl{\f0\fnil\fcharset0 MS Shell Dlg;}}%0D
+\viewkind4\uc1\pard\f0\fs17 CU_08_Registrar Penalizaci\'f3n por Da\'f1os del Material\par%0D
+}%0D
+</_displayName>
 			<_modifiedTimeWeak type="a">2.22.2020::5:2:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:5:41</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:31:34</_modifiedTime>
 			<_lastID type="a">3</_lastID>
 			<weakCGTime type="a">2.22.2020::5:2:11</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
@@ -1503,8 +1507,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=20%25,59%25,21%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -1534,24 +1538,36 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PENALIZACION</_hsubsystem>
+							<_hclass type="a">CE_Penalizacion</_hclass>
+							<_hname type="a">Prestamo_idPrestamo</_hname>
 							<_hid type="a">GUID 798647a2-edcc-4353-9856-03dfed2004d6</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PENALIZACION</_hsubsystem>
+							<_hclass type="a">CE_Penalizacion</_hclass>
+							<_hname type="a">descripcion</_hname>
 							<_hid type="a">GUID 757b638d-a9c7-4c49-9758-559518203542</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PENALIZACION</_hsubsystem>
+							<_hclass type="a">CE_Penalizacion</_hclass>
+							<_hname type="a">fechaPenalizacion</_hname>
 							<_hid type="a">GUID 986542f6-7b98-4ff6-8c25-830449db7821</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PENALIZACION</_hsubsystem>
+							<_hclass type="a">CE_Penalizacion</_hclass>
+							<_hname type="a">idPenalizacion</_hname>
 							<_hid type="a">GUID eb649bc7-64b5-4249-9203-c050533c613d</_hid>
 						</IHandle>
 					
@@ -2421,8 +2437,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=20%25,62%25,18%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
