@@ -2,16 +2,17 @@
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
 	<CODE-PAGE>1252</CODE-PAGE>
-	<version>100.840.0</version>
+	<version>109.0.2</version>
 	<lang>C++</lang>
-	<BuildNo>9841247</BuildNo>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
 			<_id type="a">GUID fb7babc2-de27-4a0b-8cb8-6e97514584fd</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">PRESTAMO</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::6:55:38</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:28:29</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,7 +22,7 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2020::7:15:25</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::6:0:51</_modifiedTime>
 			<_lastID type="a">17</_lastID>
 			<weakCGTime type="a">2.22.2020::6:59:55</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:59:55</strongCGTime>
@@ -122,17 +123,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">3</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">AssociationRole</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.FillColor</_Name>
 													<_Value type="a">255,255,255</_Value>
@@ -177,7 +175,6 @@
 										<_Name type="a">Classifier_Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -228,7 +225,6 @@
 										<_Name type="a">Classifier_Role</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,108,72</_Value>
@@ -3643,17 +3639,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">3</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">AssociationRole</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.FillColor</_Name>
 													<_Value type="a">255,255,255</_Value>
@@ -3698,7 +3691,6 @@
 										<_Name type="a">Classifier_Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -3749,7 +3741,6 @@
 										<_Name type="a">Classifier_Role</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,108,72</_Value>
@@ -6050,126 +6041,126 @@
 		<CollEvent type="e">
 			<_id type="a">GUID 86de4591-c31d-4e68-af12-d8400a39a764</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 67583722-4327-4493-a46c-2e930f063b94</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID cf3e1242-e0ee-4f52-81c6-179f96ce5176</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID cb38d0c2-8a22-4e14-825e-b07a5c81c84f</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 2b83ff08-2946-4d27-bcd1-d95402f8c293</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 4619a6ee-63c0-4b93-8fda-0943b53d76eb</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID cf474e47-1234-4694-ac4e-b32b3e0a2e62</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 94d4f2a5-e950-44ae-a723-493a9fa4ac7b</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 1fb0dff2-3b6d-46ff-9bc4-ccc103872e5f</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID e2f257df-33cd-485b-ae0e-268ec2dea9e6</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID c67bdbfa-df94-4d38-a63e-7b0dd7d8364b</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 6a512037-59c7-4a4d-92a5-2c4683627329</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 23700521-a80b-46d0-937b-24bc4ff7363e</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 41430533-0901-4b4f-b33e-b645cec3283f</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID aa2a278e-b70c-4d8c-82d0-89b6727fd0ea</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 8d6eea3f-850f-4aec-a4d4-804697230c9f</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID f2825f0d-0b98-4ed5-97ec-a1455bedc638</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID d894b934-61aa-4575-ae70-8be751d566ba</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 9beacd5e-6926-4f7e-ad43-768f698ab24d</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID eb5fe6c9-261e-4fd8-94d5-b65a07733b21</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID f9474c3b-32d3-4fb0-88db-d026efbbb0b2</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 941e2dbf-e6df-490a-8235-45b684619db7</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 01a152cd-82de-4e8f-931f-1c98dc44d84c</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 0ff1ffac-6787-4194-a0a1-e57bd82e539c</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 398dadac-8557-4a2d-906d-177706efbc25</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 8cbce97e-3f61-4a72-92d6-b2fc42c4494f</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 7651ea41-a812-4f73-8e1b-bb093c288408</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 22238b9d-95c2-4268-a60f-66f5604012b6</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID c61acb98-03b0-4a50-89e3-dc543b795b4d</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 669d13e8-70c1-478f-8f9a-4d79c06f9dcf</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 6c214e06-c459-43d6-9f7c-e00e67a656c5</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID c618d322-9540-4785-9b71-94c57cee8598</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 57263eaa-4231-4aed-8ab3-2f92365a8cb3</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID e3e0beb2-3004-4265-857d-677bf005d866</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 69158297-70b1-4700-a95b-49f25c42d502</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID ce8cd494-36c3-4e3b-a38f-30def733a1c8</second>
 		</CollEvent>
@@ -6179,17 +6170,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">3</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">AssociationRole</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.FillColor</_Name>
 													<_Value type="a">255,255,255</_Value>
@@ -6234,7 +6222,6 @@
 										<_Name type="a">Classifier_Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -6285,7 +6272,6 @@
 										<_Name type="a">Classifier_Role</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,108,72</_Value>
@@ -6342,8 +6328,8 @@
 			</_properties>
 			<_name type="a">DCO REGISTRAR DEVOLUCION DE PRESTAMO</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::7:22:26</_modifiedTime>
-			<_lastModifiedTime type="a">1.1.2020::7:22:26</_lastModifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:28:29</_modifiedTime>
+			<_lastModifiedTime type="a">1.1.2020::5:28:29</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -7132,7 +7118,7 @@
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">5. Muestra_datos_formulario()</m_str>
+					<m_str type="a">5. Muestra_datos_prestamo()</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -7869,7 +7855,7 @@
 		<ICollaboration type="e">
 			<_id type="a">GUID 17af8b89-618b-4c7b-bc53-afd7d64365ff</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::7:22:13</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:28:29</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 48838c46-468c-477e-9bfe-eab3fc28bf82</value>
 				<value>GUID 1f35b980-e540-4ff1-bd1c-53951d9e9c43</value>
@@ -8352,9 +8338,9 @@
 		</IMessage>
 		<IMessage type="e">
 			<_id type="a">GUID b6385a7d-062f-4dd1-99b5-d4bb55800930</_id>
-			<_name type="a">Muestra_datos_formulario</_name>
+			<_name type="a">Muestra_datos_prestamo</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::7:4:59</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:28:29</_modifiedTime>
 			<m_szSequence type="a">5.</m_szSequence>
 			<m_pCommunicationConnection type="r">
 				<IHandle type="e">
@@ -9189,182 +9175,182 @@
 		<CollEvent type="e">
 			<_id type="a">GUID aaf9c424-bbe9-4847-9add-534255e023bf</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID a60dabdb-12b9-4e14-bd38-02d86ef0c616</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID d1f5ad18-517f-4969-a31a-b452b38f333e</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 716515be-63e4-43ad-83bf-a7e36918e04b</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 6dfdd515-d077-434c-932f-5faf28795c2a</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 66695247-5ef0-4f20-91cb-bac3c868deaf</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 849edad4-b9b8-4d8b-ab2c-0227c59b8100</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 4f9873e5-6615-4ef4-bb7c-3fd03fb8b501</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 01444a20-b3ac-45e2-9766-9554e9c4a699</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID b6385a7d-062f-4dd1-99b5-d4bb55800930</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 427f5ad9-8554-42d6-a2d2-baf6320a7d3c</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 96e863d1-f5df-4c46-bb7f-ad9a28d2bb8b</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 1b962165-a25b-4508-9db4-2bbc539500e7</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID b20c44ea-387b-4338-b112-6f57ae556037</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 558bfd65-3b6c-4a01-a77c-f62704451765</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 9e1a7285-9a57-49af-86a9-35c98c4d87e3</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 9ea7c23e-9c0d-4ce0-be0d-fce9c2b9fc8b</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID a7320d3c-ae4c-4af4-be08-ee0e5da3caa5</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 68020582-8b6c-41fa-9d0d-e4c1d398a173</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID bf6455b3-1b36-46d4-ae47-a720da022f91</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID a787b0e7-6a71-4602-9e33-3d7b37a13bee</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 0c77a9af-1de7-454f-8f3a-1521928fc79c</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 1df5e6f8-fcac-4bb6-b4bc-7ee5ab59727e</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 26ba40e3-a757-4fde-a693-005a70ea3981</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID eb3a677b-6fae-4fb7-9469-495d5bcf454a</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID f03f3fcf-7e81-4c2b-921f-260ca8e693b7</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 1aef1bbc-1e1d-4fdd-9c8e-4cacd0f94f12</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 5231dd9f-4bb2-44d9-8c6c-bb132d63bcf3</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID de240c7d-4b84-4775-92f9-5604539e1731</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 8d1cfac3-c07b-4990-bcde-3ec73ae841fc</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 862d1beb-28c3-4f2c-b525-2ea98f2c2c4f</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 785d9810-6168-4a78-a975-3912dcdee68f</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 1fd1fe52-7101-44f9-bd24-272ca39092ff</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID ce65e242-e1b7-4117-a27a-a8c70b1227d3</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 9ac8c191-e9de-45df-9b53-4d19e75ceef8</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID d5c7f695-c435-4006-9918-5d9fe29f5f02</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 22d9b908-4ef2-4373-a08e-9236e1a15865</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 650e3ca1-1924-488f-b9e6-7cbe6b4a0146</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID d54cb797-53b3-4d3e-8467-e0bb2878fbcc</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID eab40998-b14a-43c3-ac5a-7726aa8068f6</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 926cee9a-1854-4eba-8962-4b177ce0e9a7</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 50362e4e-f70a-4a12-972a-3126b664cc19</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 525439f8-d7f7-48f7-afba-4ea0e88a7a7c</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 27da9ca9-6963-49f6-b289-580b064f2df9</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 5b949f44-92d1-4918-9316-cb88d75e64b7</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 04c249a1-aad2-4b75-a709-869b28d6bde4</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 2d918f88-ce22-4354-9398-de02f0363bb3</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 15231b2a-25c2-4036-8c59-95fb3574a659</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID f50184da-062a-4a5b-acd2-52a3e8796f3a</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 341d6ea2-a9ec-40cd-9ed7-2ee08d97c3e8</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID a7be48b1-e688-42bd-a32d-13d7f30e49f4</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 5cc04bfa-27d7-42a7-8e4e-c0865f1fa723</second>
 		</CollEvent>
@@ -9388,11 +9374,10 @@
 			<_name type="a">CI_Registrar_Devolucion</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Boundary</_hname>
 							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
@@ -9477,11 +9462,10 @@
 			<_name type="a">CC_Devolucion</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Control</_hname>
 							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
@@ -9559,11 +9543,10 @@
 			<_name type="a">CC_Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Control</_hname>
 							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
@@ -9671,11 +9654,10 @@
 			<_name type="a">CE_Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Entity</_hname>
 							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
@@ -9927,11 +9909,10 @@
 			<_name type="a">CI_Registrar_Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Boundary</_hname>
 							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
@@ -10016,11 +9997,10 @@
 			<_name type="a">CI_Menu_Encargado</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Boundary</_hname>
 							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
@@ -10082,11 +10062,10 @@
 			<_name type="a">CC_Actualizar_Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Control</_hname>
 							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
@@ -10164,11 +10143,10 @@
 			<_name type="a">CI_Actualizar_Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
 							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
 							<_hname type="a">Boundary</_hname>
 							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
@@ -10263,7 +10241,6 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
@@ -10283,7 +10260,6 @@
 </_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -10318,17 +10294,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">6</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -10379,7 +10352,6 @@
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -10412,7 +10384,6 @@
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,34,84,148</_Value>
@@ -10469,7 +10440,6 @@
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.Transparent_Fill</_Name>
 													<_Value type="a">1</_Value>
@@ -10514,7 +10484,6 @@
 										<_Name type="a">Inheritance</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -10547,7 +10516,6 @@
 										<_Name type="a">Polyline</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">0,0,0</_Value>
@@ -10572,12 +10540,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">ShowRedefinesLabel</_Name>
 													<_Value type="a">False</_Value>
@@ -10642,7 +10608,6 @@
 			<_name type="a">DC Actualizar Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -10778,12 +10743,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -10792,17 +10755,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Size</_Name>
 													<_Value type="a">18</_Value>
@@ -10972,12 +10932,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -10993,7 +10951,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -11005,7 +10962,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -11151,12 +11107,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -11172,7 +11126,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -11184,7 +11137,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -11276,12 +11228,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -11297,7 +11247,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -11309,7 +11258,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -11495,17 +11443,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -11536,12 +11481,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
 												<IProperty type="e">
 													<_Name type="a">Compartments</_Name>
 													<_Value type="a">Attribute,Operation</_Value>
@@ -11615,17 +11558,15 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -11641,7 +11582,6 @@
 			<m_bOrdered type="a">1</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
@@ -11704,7 +11644,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -12269,7 +12208,6 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
@@ -12289,7 +12227,6 @@
 </_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -12324,17 +12261,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">6</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -12385,7 +12319,6 @@
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -12418,7 +12351,6 @@
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,34,84,148</_Value>
@@ -12475,7 +12407,6 @@
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.Transparent_Fill</_Name>
 													<_Value type="a">1</_Value>
@@ -12520,7 +12451,6 @@
 										<_Name type="a">Inheritance</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -12553,7 +12483,6 @@
 										<_Name type="a">Polyline</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">0,0,0</_Value>
@@ -12578,12 +12507,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">ShowRedefinesLabel</_Name>
 													<_Value type="a">False</_Value>
@@ -12648,7 +12575,6 @@
 			<_name type="a">DC Registrar Devolucion del Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -12784,12 +12710,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -12798,17 +12722,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Size</_Name>
 													<_Value type="a">18</_Value>
@@ -13031,12 +12952,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -13052,7 +12971,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -13064,7 +12982,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -13126,12 +13043,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -13147,7 +13062,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -13159,7 +13073,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -13220,12 +13133,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -13241,7 +13152,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -13253,7 +13163,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -13501,17 +13410,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -13542,12 +13448,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
 												<IProperty type="e">
 													<_Name type="a">Compartments</_Name>
 													<_Value type="a">Attribute,Operation</_Value>
@@ -13621,17 +13525,15 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -13647,7 +13549,6 @@
 			<m_bOrdered type="a">1</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
@@ -13710,7 +13611,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -14269,14 +14169,8 @@
 				</IHandle>
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
-			<Diagrams type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Diagrams>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</_EntryPoints>
 			<AggregatesList type="e">
@@ -14292,7 +14186,6 @@
 			<_name type="a">CU_06_Buscar Solicitud de Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -14327,17 +14220,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">6</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -14388,7 +14278,6 @@
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -14421,7 +14310,6 @@
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,34,84,148</_Value>
@@ -14478,7 +14366,6 @@
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.Transparent_Fill</_Name>
 													<_Value type="a">1</_Value>
@@ -14523,7 +14410,6 @@
 										<_Name type="a">Inheritance</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -14556,7 +14442,6 @@
 										<_Name type="a">Polyline</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">0,0,0</_Value>
@@ -14581,12 +14466,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">ShowRedefinesLabel</_Name>
 													<_Value type="a">False</_Value>
@@ -14651,7 +14534,6 @@
 			<_name type="a">DC Registrar Prestamo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -14790,12 +14672,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -14804,17 +14684,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Size</_Name>
 													<_Value type="a">18</_Value>
@@ -15037,12 +14914,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -15058,7 +14933,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15070,7 +14944,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15079,17 +14952,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -15120,12 +14990,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
 												<IProperty type="e">
 													<_Name type="a">Compartments</_Name>
 													<_Value type="a">Attribute,Operation</_Value>
@@ -15202,17 +15070,15 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -15228,7 +15094,6 @@
 			<m_bOrdered type="a">1</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
@@ -15296,7 +15161,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15336,17 +15200,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -15377,12 +15238,10 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
 												<IProperty type="e">
 													<_Name type="a">Compartments</_Name>
 													<_Value type="a">Attribute,Operation</_Value>
@@ -15456,17 +15315,15 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -15482,34 +15339,48 @@
 			<m_bOrdered type="a">1</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">5</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PRESTAMO</_hsubsystem>
+							<_hclass type="a">CE_Prestamo</_hclass>
+							<_hname type="a">idPrestamo</_hname>
 							<_hid type="a">GUID d95f2ac7-ee5c-462f-af54-484e95347edf</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PRESTAMO</_hsubsystem>
+							<_hclass type="a">CE_Prestamo</_hclass>
+							<_hname type="a">estado</_hname>
 							<_hid type="a">GUID e373baca-19fb-442e-ac90-c74b765ed3d1</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PRESTAMO</_hsubsystem>
+							<_hclass type="a">CE_Prestamo</_hclass>
+							<_hname type="a">FechaDevReal</_hname>
 							<_hid type="a">GUID 64f87cc6-e51b-4757-8a83-0ac50bb77ed1</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PRESTAMO</_hsubsystem>
+							<_hclass type="a">CE_Prestamo</_hclass>
+							<_hname type="a">fechaPrestamo</_hname>
 							<_hid type="a">GUID 26f32998-4fa7-42d2-8b2b-c6b1ed7f5ea3</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
+							<_hsubsystem type="a">PRESTAMO</_hsubsystem>
+							<_hclass type="a">CE_Prestamo</_hclass>
+							<_hname type="a">Solicitud_idSolicitud</_hname>
 							<_hid type="a">GUID ce0ca6bf-19c3-45de-a453-edfeb1ebfb9b</_hid>
 						</IHandle>
 					
@@ -15530,7 +15401,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15592,12 +15462,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -15613,7 +15481,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15625,7 +15492,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15749,12 +15615,10 @@
 			<frameset type="a">&lt;frameset rows=&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -15770,7 +15634,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -15782,7 +15645,6 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -16696,7 +16558,6 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</_EntryPoints>
 		</IUseCase>
@@ -16704,7 +16565,6 @@
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
 		<IRPYRawContainer type="e">
-			<size type="a">0</size>
 		</IRPYRawContainer>
 	</OslcLinks>
 
