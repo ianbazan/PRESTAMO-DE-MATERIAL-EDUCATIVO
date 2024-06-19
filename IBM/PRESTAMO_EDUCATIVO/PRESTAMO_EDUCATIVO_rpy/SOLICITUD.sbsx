@@ -11,7 +11,7 @@
 			<_id type="a">GUID 7632a4e6-484c-433c-af03-98f0f9187c7e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SOLICITUD</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::7:30:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.22.2020::7:19:57</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:49:0</_modifiedTime>
+			<_modifiedTime type="a">2.23.2020::7:5:7</_modifiedTime>
 			<_lastID type="a">14</_lastID>
-			<weakCGTime type="a">2.22.2020::7:30:19</weakCGTime>
+			<weakCGTime type="a">2.22.2020::7:19:57</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:37:43</strongCGTime>
 			<_defaultComposite type="s">GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -33,6 +33,7 @@
 				<value>GUID 8a891e69-322a-439d-b039-b0d5e3dd7de4</value>
 				<value>GUID 70c97bd8-93ba-491b-b97e-cf98b3439fea</value>
 				<value>GUID 0b181e54-7526-479f-9fec-f97d9ac21739</value>
+				<value>GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</value>
 				<value>GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</value>
 				<value>GUID 91250b8b-f91d-4ceb-8c54-4e170c88851b</value>
 				<value>GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</value>
@@ -2800,1071 +2801,6 @@
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID d033851b-cdcb-4295-abb3-55182205d78e</second>
 		</CollEvent>
-		<IClass type="e">
-			<_id type="a">GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</_id>
-			<_myState type="a">40960</_myState>
-			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-		</IClass>
-		<IClass type="e">
-			<_id type="a">GUID 91250b8b-f91d-4ceb-8c54-4e170c88851b</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CI_Solicitud_de_Prestamo</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Boundary</_hname>
-							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::17:37:53</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::17:37:53</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::17:37:53</weakCGTime>
-			<strongCGTime type="a">2.23.2020::3:27:48</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 7c3d3cc1-b391-4cc6-b529-37a739a1e7a3</value>
-				<value>GUID 135bdbb0-7f76-4ce0-8e6e-7fc8757c32bd</value>
-			</AggregatesList>
-		</IClass>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 7c3d3cc1-b391-4cc6-b529-37a739a1e7a3</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:27:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:27:48</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID d1f0672f-50c5-474b-860d-639e6bbf824b</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 135bdbb0-7f76-4ce0-8e6e-7fc8757c32bd</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsAlumno</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::17:37:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::17:37:53</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">Alumno</_hname>
-					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">Alumno</_hclass>
-					<_hname type="a">itsCI_Solicitud_de_Prestamo</_hname>
-					<_hid type="a">GUID a1772bae-e88a-46e8-a013-14a00f6ec139</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CI_Menu_Principal</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Boundary</_hname>
-							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::7:30:55</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::17:37:57</weakCGTime>
-			<strongCGTime type="a">1.1.2020::6:31:56</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 52180815-377c-43a0-b39e-ee3f7939a895</value>
-				<value>GUID 57eb2002-31e3-4861-bc7a-ecc9644778b9</value>
-				<value>GUID 39ed499a-798c-49f6-95d2-c221d7a6fabc</value>
-			</AggregatesList>
-		</IClass>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 52180815-377c-43a0-b39e-ee3f7939a895</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::6:41:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:41:49</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 5e93f1ed-f1d3-4530-8528-ad01b276995c</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 57eb2002-31e3-4861-bc7a-ecc9644778b9</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsAlumno</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::17:37:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::17:37:57</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">Alumno</_hname>
-					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">Alumno</_hclass>
-					<_hname type="a">itsCI_Menu_Principal</_hname>
-					<_hid type="a">GUID e9a637eb-5e10-444c-ae9b-cb7c5b274acb</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 39ed499a-798c-49f6-95d2-c221d7a6fabc</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud_1</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::7:30:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 3ff3e6d0-7ee0-4335-a7ee-00c46880b763</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CC_Solicitud</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Control</_hname>
-							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::7:30:55</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::21:23:19</weakCGTime>
-			<strongCGTime type="a">1.1.2020::6:32:19</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID d1f0672f-50c5-474b-860d-639e6bbf824b</value>
-				<value>GUID 5e93f1ed-f1d3-4530-8528-ad01b276995c</value>
-				<value>GUID 6bdb9e9d-eb64-44c9-888e-7dc4a66bfe5d</value>
-				<value>GUID 246823d9-7c2f-42b7-9aa5-e340315aac87</value>
-				<value>GUID 09bc5543-1c1b-499c-a4d4-3b6ef8609ee4</value>
-				<value>GUID bad49d42-83f5-4a00-9ccf-982c505e437d</value>
-				<value>GUID 3ff3e6d0-7ee0-4335-a7ee-00c46880b763</value>
-			</AggregatesList>
-		</IClass>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID d1f0672f-50c5-474b-860d-639e6bbf824b</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCI_Solicitud_de_Prestamo</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:27:48</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:27:48</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 91250b8b-f91d-4ceb-8c54-4e170c88851b</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 7c3d3cc1-b391-4cc6-b529-37a739a1e7a3</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 5e93f1ed-f1d3-4530-8528-ad01b276995c</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCI_Menu_Principal</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::6:41:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:41:49</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 52180815-377c-43a0-b39e-ee3f7939a895</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 6bdb9e9d-eb64-44c9-888e-7dc4a66bfe5d</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCE_Solicitud</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::6:57:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:57:53</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 9a74c358-df7b-46db-9fe4-504887e6aa17</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID a393fe8f-2e74-4a03-acf8-e3aed595b3f1</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 246823d9-7c2f-42b7-9aa5-e340315aac87</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCE_Alumno</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::18:58:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::18:58:31</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID c1777e8d-1259-4093-ba22-40e86b834a52</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 702c6085-3493-4d83-9b4f-153d3346d799</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 09bc5543-1c1b-499c-a4d4-3b6ef8609ee4</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCE_Material</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::19:36:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::19:36:18</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 06d1a6a3-28f8-404a-9d18-37a741f698c4</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 9e8dd60d-ddd1-4b62-b266-57400568ed5f</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID bad49d42-83f5-4a00-9ccf-982c505e437d</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCI_Lista_Materiales</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::21:23:19</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 2343e8ab-b577-4c88-97be-0712c7e0cd44</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID f0faad47-1f70-4fde-a72f-5b646ff3aa0b</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 3ff3e6d0-7ee0-4335-a7ee-00c46880b763</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCI_Menu_Principal_1</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::7:30:55</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 39ed499a-798c-49f6-95d2-c221d7a6fabc</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID 9a74c358-df7b-46db-9fe4-504887e6aa17</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CE_Solicitud</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Entity</_hname>
-							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::22:4:4</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2020::6:42:37</_modifiedTime>
-			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">2.23.2020::22:4:4</weakCGTime>
-			<strongCGTime type="a">2.22.2020::18:54:51</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 7d3e7fca-63f4-4769-91d6-5c6660610730</value>
-				<value>GUID e3cdad13-847d-4e52-b2fe-83485c92cc2d</value>
-				<value>GUID 43677dac-8faf-4b0b-86ea-f83879f476a3</value>
-				<value>GUID 1eca63f0-f4dd-47d0-a583-9b95b83d8f0f</value>
-				<value>GUID 28bf8878-68c5-48b0-82b1-b33a8b4162f2</value>
-				<value>GUID a393fe8f-2e74-4a03-acf8-e3aed595b3f1</value>
-				<value>GUID 27fe0269-a99b-46ec-80ec-475083554e3a</value>
-			</AggregatesList>
-		</IClass>
-		<IAttribute type="e">
-			<_id type="a">GUID 7d3e7fca-63f4-4769-91d6-5c6660610730</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Alumno_Usuario_CodUsuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:20</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:3:20</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 68a106c9-d10b-4cd9-a6af-d8a1b9eddc0b</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID 68a106c9-d10b-4cd9-a6af-d8a1b9eddc0b</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID e3cdad13-847d-4e52-b2fe-83485c92cc2d</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Material_idMaterial</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:3:49</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 26d51a98-9c83-43e5-aeb1-b971b4ff12eb</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID 26d51a98-9c83-43e5-aeb1-b971b4ff12eb</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID 43677dac-8faf-4b0b-86ea-f83879f476a3</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">estado</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:4:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:4:4</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 6c521940-3ad8-4473-a925-ca0f12032123</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID 6c521940-3ad8-4473-a925-ca0f12032123</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">2.23.2020::22:4:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:4:4</_modifiedTime>
-			<_declaration type="a">VARCHAR(15)</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID 1eca63f0-f4dd-47d0-a583-9b95b83d8f0f</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">cantidad</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:25</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:3:25</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID b56c42c5-e104-4311-af73-b559e5d8eb4b</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID b56c42c5-e104-4311-af73-b559e5d8eb4b</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID 28bf8878-68c5-48b0-82b1-b33a8b4162f2</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">idSolicitud</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:34</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:3:34</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID d2de58b2-eeec-4afb-8419-48a6e9419910</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID d2de58b2-eeec-4afb-8419-48a6e9419910</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID a393fe8f-2e74-4a03-acf8-e3aed595b3f1</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::6:57:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:57:53</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 6bdb9e9d-eb64-44c9-888e-7dc4a66bfe5d</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 27fe0269-a99b-46ec-80ec-475083554e3a</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Prestamo</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::6:42:37</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:42:37</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-					<_hname type="a">CC_Prestamo</_hname>
-					<_hid type="a">GUID ab05bf4e-cd77-4471-9bf7-a763140d77cd</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-					<_hclass type="a">CC_Prestamo</_hclass>
-					<_hname type="a">itsCE_Solicitud</_hname>
-					<_hid type="a">GUID dce0dbfe-c410-4c7e-ac30-969d439eef43</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID c1777e8d-1259-4093-ba22-40e86b834a52</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CE_Alumno</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Entity</_hname>
-							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:7</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::22:3:7</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">2.23.2020::22:3:7</weakCGTime>
-			<strongCGTime type="a">2.23.2020::18:55:46</strongCGTime>
-			<Inheritances type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Inheritances>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID f2efb0fa-b912-42af-b9f4-77b0046c43bd</value>
-				<value>GUID de5aa998-d4d6-43af-98a8-b3a348855e8a</value>
-				<value>GUID 437b512f-e75e-40fc-bc1f-c3301e3bbf4f</value>
-				<value>GUID 702c6085-3493-4d83-9b4f-153d3346d799</value>
-			</AggregatesList>
-		</IClass>
-		<IAttribute type="e">
-			<_id type="a">GUID f2efb0fa-b912-42af-b9f4-77b0046c43bd</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Usuario_CodUsuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:7</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:3:7</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID ea9d5b48-30bb-4f81-8805-4d6a3249ba25</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID ea9d5b48-30bb-4f81-8805-4d6a3249ba25</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID de5aa998-d4d6-43af-98a8-b3a348855e8a</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">estado</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:2:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:2:50</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 0bb6898b-7b7b-4cde-83dd-2a4fa34691ca</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID 0bb6898b-7b7b-4cde-83dd-2a4fa34691ca</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">VARCHAR(20)</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID 437b512f-e75e-40fc-bc1f-c3301e3bbf4f</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">NombresApellidos</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:3:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:3:0</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID ead5717d-68ec-4ad4-a47a-878ce09bf305</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID ead5717d-68ec-4ad4-a47a-878ce09bf305</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">VARCHAR(90)</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 702c6085-3493-4d83-9b4f-153d3346d799</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::18:58:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::18:58:31</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 246823d9-7c2f-42b7-9aa5-e340315aac87</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID 06d1a6a3-28f8-404a-9d18-37a741f698c4</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CE_Material</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Entity</_hname>
-							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::22:1:53</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::22:1:53</_modifiedTime>
-			<_lastID type="a">4</_lastID>
-			<weakCGTime type="a">2.23.2020::22:1:53</weakCGTime>
-			<strongCGTime type="a">2.23.2020::19:36:18</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 4ec7dd64-6202-4b0a-b834-a9c9533a9abf</value>
-				<value>GUID 75e12b76-9447-494b-9fde-bc925b262bdc</value>
-				<value>GUID f39852c6-1d16-4b5f-b842-f024a39440de</value>
-				<value>GUID 278d9b39-1fe8-4659-b148-3606be3e09a2</value>
-				<value>GUID 9e8dd60d-ddd1-4b62-b266-57400568ed5f</value>
-			</AggregatesList>
-		</IClass>
-		<IAttribute type="e">
-			<_id type="a">GUID 4ec7dd64-6202-4b0a-b834-a9c9533a9abf</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">idMaterial</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:1:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:1:1</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 9f750430-297c-4264-9927-e393405600c6</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID 9f750430-297c-4264-9927-e393405600c6</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID 75e12b76-9447-494b-9fde-bc925b262bdc</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">nombre</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:1:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:1:32</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID 6eaf3ab5-5909-4922-b1e5-2f6cdca2407f</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID 6eaf3ab5-5909-4922-b1e5-2f6cdca2407f</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">2.23.2020::22:1:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:1:32</_modifiedTime>
-			<_declaration type="a">VARCHAR(45)</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID f39852c6-1d16-4b5f-b842-f024a39440de</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">stock</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:1:38</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:1:38</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID bdfc3fd9-8ce4-466f-bee1-947fc32da5f4</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID bdfc3fd9-8ce4-466f-bee1-947fc32da5f4</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">INT</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAttribute type="e">
-			<_id type="a">GUID 278d9b39-1fe8-4659-b148-3606be3e09a2</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">tipo</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::22:1:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::22:1:53</_modifiedTime>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-			<AggregatesList type="e">
-				<value>GUID d24aa4b0-310d-4abd-bfac-613311aac01c</value>
-			</AggregatesList>
-		</IAttribute>
-		<IType type="e">
-			<_id type="a">GUID d24aa4b0-310d-4abd-bfac-613311aac01c</_id>
-			<_myState type="a">8192</_myState>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<_declaration type="a">VARCHAR(25)</_declaration>
-			<_kind type="a">Language</_kind>
-		</IType>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 9e8dd60d-ddd1-4b62-b266-57400568ed5f</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::19:36:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::19:36:18</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 09bc5543-1c1b-499c-a4d4-3b6ef8609ee4</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID 2343e8ab-b577-4c88-97be-0712c7e0cd44</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CI_Lista_Materiales</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Boundary</_hname>
-							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::21:23:19</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::21:23:19</weakCGTime>
-			<strongCGTime type="a">2.23.2020::21:9:21</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 7334be36-ef1c-49dd-b56f-5c15a39df0a5</value>
-				<value>GUID f0faad47-1f70-4fde-a72f-5b646ff3aa0b</value>
-			</AggregatesList>
-		</IClass>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 7334be36-ef1c-49dd-b56f-5c15a39df0a5</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsAlumno</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::21:23:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::21:23:14</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">Alumno</_hname>
-					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">Alumno</_hclass>
-					<_hname type="a">itsCI_Lista_Materiales</_hname>
-					<_hid type="a">GUID 00ff1bc1-cfa8-448d-809e-7f0ee47506dc</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID f0faad47-1f70-4fde-a72f-5b646ff3aa0b</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Solicitud</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::21:23:19</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID bad49d42-83f5-4a00-9ccf-982c505e437d</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IUseCase type="e">
-			<_id type="a">GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CU_03_Generar Solicitud de Prestamo</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:30:19</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">1.1.2020::5:17:26</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID fb0b63de-dfae-4ed6-a554-0a9b023b13b9</value>
-				<value>GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</value>
-				<value>GUID 46d4f897-a778-44cb-848b-5970ad2ca96a</value>
-			</AggregatesList>
-		</IUseCase>
-		<IDependency type="e">
-			<_id type="a">GUID fb0b63de-dfae-4ed6-a554-0a9b023b13b9</_id>
-			<_myState type="a">2048</_myState>
-			<_rmmServerID type="a">-1</_rmmServerID>
-			<_name type="a">CU_04_Buscar Material</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">include</_hname>
-							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:11:29</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_04_Buscar Material</_hname>
-					<_hid type="a">GUID 92473a3a-3a8e-47da-a2b4-43af3164a4c4</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<IDiagram type="e">
 			<_id type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_id>
 			<_myState type="a">8192</_myState>
@@ -4249,8 +3185,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:45:24</_modifiedTime>
-			<_lastModifiedTime type="a">2.22.2020::7:45:24</_lastModifiedTime>
+			<_modifiedTime type="a">2.22.2020::7:19:57</_modifiedTime>
+			<_lastModifiedTime type="a">2.22.2020::7:19:57</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -6934,6 +5870,1070 @@ varios</m_text>
 			</m_targetQualifier>
 			<m_specificType type="a">symmetric_type</m_specificType>
 		</CGIAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 91250b8b-f91d-4ceb-8c54-4e170c88851b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CI_Solicitud_de_Prestamo</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Boundary</_hname>
+							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:53</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::17:37:53</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::17:37:53</weakCGTime>
+			<strongCGTime type="a">2.23.2020::3:27:48</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 7c3d3cc1-b391-4cc6-b529-37a739a1e7a3</value>
+				<value>GUID 135bdbb0-7f76-4ce0-8e6e-7fc8757c32bd</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7c3d3cc1-b391-4cc6-b529-37a739a1e7a3</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:27:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:27:48</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID d1f0672f-50c5-474b-860d-639e6bbf824b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 135bdbb0-7f76-4ce0-8e6e-7fc8757c32bd</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsAlumno</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::17:37:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Alumno</_hname>
+					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Alumno</_hclass>
+					<_hname type="a">itsCI_Solicitud_de_Prestamo</_hname>
+					<_hid type="a">GUID a1772bae-e88a-46e8-a013-14a00f6ec139</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CI_Menu_Principal</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Boundary</_hname>
+							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:57</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::17:37:57</weakCGTime>
+			<strongCGTime type="a">1.1.2020::6:31:56</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 52180815-377c-43a0-b39e-ee3f7939a895</value>
+				<value>GUID 57eb2002-31e3-4861-bc7a-ecc9644778b9</value>
+				<value>GUID 39ed499a-798c-49f6-95d2-c221d7a6fabc</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 52180815-377c-43a0-b39e-ee3f7939a895</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::6:41:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::6:41:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 5e93f1ed-f1d3-4530-8528-ad01b276995c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 57eb2002-31e3-4861-bc7a-ecc9644778b9</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsAlumno</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::17:37:57</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Alumno</_hname>
+					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Alumno</_hclass>
+					<_hname type="a">itsCI_Menu_Principal</_hname>
+					<_hid type="a">GUID e9a637eb-5e10-444c-ae9b-cb7c5b274acb</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 39ed499a-798c-49f6-95d2-c221d7a6fabc</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud_1</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::7:30:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 3ff3e6d0-7ee0-4335-a7ee-00c46880b763</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CC_Solicitud</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Control</_hname>
+							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::21:23:19</weakCGTime>
+			<strongCGTime type="a">1.1.2020::6:32:19</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID d1f0672f-50c5-474b-860d-639e6bbf824b</value>
+				<value>GUID 5e93f1ed-f1d3-4530-8528-ad01b276995c</value>
+				<value>GUID 6bdb9e9d-eb64-44c9-888e-7dc4a66bfe5d</value>
+				<value>GUID 246823d9-7c2f-42b7-9aa5-e340315aac87</value>
+				<value>GUID 09bc5543-1c1b-499c-a4d4-3b6ef8609ee4</value>
+				<value>GUID bad49d42-83f5-4a00-9ccf-982c505e437d</value>
+				<value>GUID 3ff3e6d0-7ee0-4335-a7ee-00c46880b763</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID d1f0672f-50c5-474b-860d-639e6bbf824b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Solicitud_de_Prestamo</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:27:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:27:48</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 91250b8b-f91d-4ceb-8c54-4e170c88851b</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 7c3d3cc1-b391-4cc6-b529-37a739a1e7a3</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 5e93f1ed-f1d3-4530-8528-ad01b276995c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Menu_Principal</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::6:41:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::6:41:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 52180815-377c-43a0-b39e-ee3f7939a895</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 6bdb9e9d-eb64-44c9-888e-7dc4a66bfe5d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCE_Solicitud</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::6:57:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::6:57:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 9a74c358-df7b-46db-9fe4-504887e6aa17</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID a393fe8f-2e74-4a03-acf8-e3aed595b3f1</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 246823d9-7c2f-42b7-9aa5-e340315aac87</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCE_Alumno</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::18:58:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::18:58:31</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID c1777e8d-1259-4093-ba22-40e86b834a52</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 702c6085-3493-4d83-9b4f-153d3346d799</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 09bc5543-1c1b-499c-a4d4-3b6ef8609ee4</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCE_Material</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::19:36:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::19:36:18</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 06d1a6a3-28f8-404a-9d18-37a741f698c4</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 9e8dd60d-ddd1-4b62-b266-57400568ed5f</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID bad49d42-83f5-4a00-9ccf-982c505e437d</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Lista_Materiales</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::21:23:19</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 2343e8ab-b577-4c88-97be-0712c7e0cd44</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID f0faad47-1f70-4fde-a72f-5b646ff3aa0b</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 3ff3e6d0-7ee0-4335-a7ee-00c46880b763</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Menu_Principal_1</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::7:30:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:30:55</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 5a3e0c08-e3d0-4d81-96e2-a6e357baa8f6</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 39ed499a-798c-49f6-95d2-c221d7a6fabc</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 9a74c358-df7b-46db-9fe4-504887e6aa17</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CE_Solicitud</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Entity</_hname>
+							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::22:4:4</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">1.1.2020::6:42:37</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">2.23.2020::22:4:4</weakCGTime>
+			<strongCGTime type="a">2.22.2020::18:54:51</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 7d3e7fca-63f4-4769-91d6-5c6660610730</value>
+				<value>GUID e3cdad13-847d-4e52-b2fe-83485c92cc2d</value>
+				<value>GUID 43677dac-8faf-4b0b-86ea-f83879f476a3</value>
+				<value>GUID 1eca63f0-f4dd-47d0-a583-9b95b83d8f0f</value>
+				<value>GUID 28bf8878-68c5-48b0-82b1-b33a8b4162f2</value>
+				<value>GUID a393fe8f-2e74-4a03-acf8-e3aed595b3f1</value>
+				<value>GUID 27fe0269-a99b-46ec-80ec-475083554e3a</value>
+			</AggregatesList>
+		</IClass>
+		<IAttribute type="e">
+			<_id type="a">GUID 7d3e7fca-63f4-4769-91d6-5c6660610730</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Alumno_Usuario_CodUsuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:3:20</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 68a106c9-d10b-4cd9-a6af-d8a1b9eddc0b</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID 68a106c9-d10b-4cd9-a6af-d8a1b9eddc0b</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID e3cdad13-847d-4e52-b2fe-83485c92cc2d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Material_idMaterial</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:3:49</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 26d51a98-9c83-43e5-aeb1-b971b4ff12eb</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID 26d51a98-9c83-43e5-aeb1-b971b4ff12eb</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 43677dac-8faf-4b0b-86ea-f83879f476a3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">estado</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:4:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:4:4</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 6c521940-3ad8-4473-a925-ca0f12032123</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID 6c521940-3ad8-4473-a925-ca0f12032123</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">2.23.2020::22:4:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:4:4</_modifiedTime>
+			<_declaration type="a">VARCHAR(15)</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 1eca63f0-f4dd-47d0-a583-9b95b83d8f0f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">cantidad</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:3:25</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID b56c42c5-e104-4311-af73-b559e5d8eb4b</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID b56c42c5-e104-4311-af73-b559e5d8eb4b</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 28bf8878-68c5-48b0-82b1-b33a8b4162f2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">idSolicitud</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:34</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:3:34</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID d2de58b2-eeec-4afb-8419-48a6e9419910</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID d2de58b2-eeec-4afb-8419-48a6e9419910</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID a393fe8f-2e74-4a03-acf8-e3aed595b3f1</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::6:57:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::6:57:53</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 6bdb9e9d-eb64-44c9-888e-7dc4a66bfe5d</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 27fe0269-a99b-46ec-80ec-475083554e3a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::6:42:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::6:42:37</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
+					<_hname type="a">CC_Prestamo</_hname>
+					<_hid type="a">GUID ab05bf4e-cd77-4471-9bf7-a763140d77cd</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
+					<_hclass type="a">CC_Prestamo</_hclass>
+					<_hname type="a">itsCE_Solicitud</_hname>
+					<_hid type="a">GUID dce0dbfe-c410-4c7e-ac30-969d439eef43</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID c1777e8d-1259-4093-ba22-40e86b834a52</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CE_Alumno</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Entity</_hname>
+							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:7</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::22:3:7</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<weakCGTime type="a">2.23.2020::22:3:7</weakCGTime>
+			<strongCGTime type="a">2.23.2020::18:55:46</strongCGTime>
+			<Inheritances type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Inheritances>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID f2efb0fa-b912-42af-b9f4-77b0046c43bd</value>
+				<value>GUID de5aa998-d4d6-43af-98a8-b3a348855e8a</value>
+				<value>GUID 437b512f-e75e-40fc-bc1f-c3301e3bbf4f</value>
+				<value>GUID 702c6085-3493-4d83-9b4f-153d3346d799</value>
+			</AggregatesList>
+		</IClass>
+		<IAttribute type="e">
+			<_id type="a">GUID f2efb0fa-b912-42af-b9f4-77b0046c43bd</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Usuario_CodUsuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:3:7</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID ea9d5b48-30bb-4f81-8805-4d6a3249ba25</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID ea9d5b48-30bb-4f81-8805-4d6a3249ba25</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID de5aa998-d4d6-43af-98a8-b3a348855e8a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">estado</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:2:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:2:50</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 0bb6898b-7b7b-4cde-83dd-2a4fa34691ca</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID 0bb6898b-7b7b-4cde-83dd-2a4fa34691ca</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">VARCHAR(20)</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 437b512f-e75e-40fc-bc1f-c3301e3bbf4f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">NombresApellidos</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:3:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:3:0</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID ead5717d-68ec-4ad4-a47a-878ce09bf305</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID ead5717d-68ec-4ad4-a47a-878ce09bf305</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">VARCHAR(90)</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 702c6085-3493-4d83-9b4f-153d3346d799</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::18:58:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::18:58:31</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 246823d9-7c2f-42b7-9aa5-e340315aac87</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 06d1a6a3-28f8-404a-9d18-37a741f698c4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CE_Material</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Entity</_hname>
+							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::22:1:53</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::22:1:53</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<weakCGTime type="a">2.23.2020::22:1:53</weakCGTime>
+			<strongCGTime type="a">2.23.2020::19:36:18</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 4ec7dd64-6202-4b0a-b834-a9c9533a9abf</value>
+				<value>GUID 75e12b76-9447-494b-9fde-bc925b262bdc</value>
+				<value>GUID f39852c6-1d16-4b5f-b842-f024a39440de</value>
+				<value>GUID 278d9b39-1fe8-4659-b148-3606be3e09a2</value>
+				<value>GUID 9e8dd60d-ddd1-4b62-b266-57400568ed5f</value>
+			</AggregatesList>
+		</IClass>
+		<IAttribute type="e">
+			<_id type="a">GUID 4ec7dd64-6202-4b0a-b834-a9c9533a9abf</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">idMaterial</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:1:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:1:1</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 9f750430-297c-4264-9927-e393405600c6</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID 9f750430-297c-4264-9927-e393405600c6</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 75e12b76-9447-494b-9fde-bc925b262bdc</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">nombre</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:1:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:1:32</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 6eaf3ab5-5909-4922-b1e5-2f6cdca2407f</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID 6eaf3ab5-5909-4922-b1e5-2f6cdca2407f</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">2.23.2020::22:1:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:1:32</_modifiedTime>
+			<_declaration type="a">VARCHAR(45)</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID f39852c6-1d16-4b5f-b842-f024a39440de</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">stock</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:1:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:1:38</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID bdfc3fd9-8ce4-466f-bee1-947fc32da5f4</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID bdfc3fd9-8ce4-466f-bee1-947fc32da5f4</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">INT</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 278d9b39-1fe8-4659-b148-3606be3e09a2</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">tipo</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::22:1:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::22:1:53</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID d24aa4b0-310d-4abd-bfac-613311aac01c</value>
+			</AggregatesList>
+		</IAttribute>
+		<IType type="e">
+			<_id type="a">GUID d24aa4b0-310d-4abd-bfac-613311aac01c</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_declaration type="a">VARCHAR(25)</_declaration>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 9e8dd60d-ddd1-4b62-b266-57400568ed5f</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::19:36:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::19:36:18</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 09bc5543-1c1b-499c-a4d4-3b6ef8609ee4</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID 2343e8ab-b577-4c88-97be-0712c7e0cd44</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CI_Lista_Materiales</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Boundary</_hname>
+							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::21:23:19</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::21:23:19</weakCGTime>
+			<strongCGTime type="a">2.23.2020::21:9:21</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 7334be36-ef1c-49dd-b56f-5c15a39df0a5</value>
+				<value>GUID f0faad47-1f70-4fde-a72f-5b646ff3aa0b</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 7334be36-ef1c-49dd-b56f-5c15a39df0a5</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsAlumno</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::21:23:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::21:23:14</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Alumno</_hname>
+					<_hid type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Alumno</_hclass>
+					<_hname type="a">itsCI_Lista_Materiales</_hname>
+					<_hid type="a">GUID 00ff1bc1-cfa8-448d-809e-7f0ee47506dc</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID f0faad47-1f70-4fde-a72f-5b646ff3aa0b</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Solicitud</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::21:23:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::21:23:19</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 92931fec-e207-43fd-bf29-0c6e0783d438</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID bad49d42-83f5-4a00-9ccf-982c505e437d</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_03_Generar Solicitud de Prestamo</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:19:57</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">1.1.2020::5:17:26</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID fb0b63de-dfae-4ed6-a554-0a9b023b13b9</value>
+				<value>GUID 46d4f897-a778-44cb-848b-5970ad2ca96a</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID fb0b63de-dfae-4ed6-a554-0a9b023b13b9</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">CU_04_Buscar Material</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.1.2020::5:17:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:11:29</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">CU_04_Buscar Material</_hname>
+					<_hid type="a">GUID 92473a3a-3a8e-47da-a2b4-43af3164a4c4</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 28c14f47-06fb-42c2-a3e6-1c83819d0b54</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 46d4f897-a778-44cb-848b-5970ad2ca96a</_id>
 			<_myState type="a">10240</_myState>

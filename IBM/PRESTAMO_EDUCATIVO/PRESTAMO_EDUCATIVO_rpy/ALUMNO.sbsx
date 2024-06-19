@@ -2,17 +2,16 @@
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
 	<CODE-PAGE>1252</CODE-PAGE>
-	<version>109.0.2</version>
+	<version>100.840.0</version>
 	<lang>C++</lang>
-	<BuildNo>202303101727</BuildNo>
-	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	<BuildNo>9841247</BuildNo>
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
 			<_id type="a">GUID 50045201-57d5-4637-a16e-c015315e5d86</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">ALUMNO</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:44:18</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.22.2020::7:21:12</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -22,15 +21,16 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2020::6:0:50</_modifiedTime>
+			<_modifiedTime type="a">2.23.2020::7:5:7</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">1.1.2020::5:44:18</weakCGTime>
+			<weakCGTime type="a">2.22.2020::7:21:12</weakCGTime>
 			<strongCGTime type="a">1.1.2020::6:38:17</strongCGTime>
 			<_defaultComposite type="s">GUID 4d5cc88f-a131-4383-8902-a2bc0795ea08</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 564b36a8-98d8-4918-97b8-71f5e446a741</value>
+				<value>GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</value>
 				<value>GUID 4d5cc88f-a131-4383-8902-a2bc0795ea08</value>
 				<value>GUID 870c98ad-adae-4277-b521-5139ff1d1041</value>
 				<value>GUID b03169ca-af87-491e-9e83-9b050a3cc007</value>
@@ -45,14 +45,17 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">3</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">AssociationRole</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.FillColor</_Name>
 													<_Value type="a">255,255,255</_Value>
@@ -97,6 +100,7 @@
 										<_Name type="a">Classifier_Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -147,6 +151,7 @@
 										<_Name type="a">Classifier_Role</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,108,72</_Value>
@@ -1618,430 +1623,90 @@
 		<CollEvent type="e">
 			<_id type="a">GUID bf8cd74c-f349-40f6-834c-8144b807e01c</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 9ab30ae8-d0c7-45cc-a116-789364878cf4</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 152560a8-4934-4410-97bc-61866b6135d1</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 9bb385de-7c63-45de-a717-6bdd4e9e1270</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 543776b5-bf75-4bb3-976b-c8a13c73cdd5</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 75d6616f-0780-42f3-a881-5d8ff3ce4feb</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 8c3b9d5a-b0e9-4050-a0d5-e55d97530e29</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 8cfb5425-1013-4f5a-a1e8-96a3f4c64274</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID ad16854a-990c-4863-a514-d20254a05e86</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 4356bee0-f497-47e2-b680-8a6ba6903556</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 92f57de5-4af9-4208-844b-55bde2541b83</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 6205c2c5-2bac-4664-b084-35031995d755</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 77071dbf-7fc5-408a-b683-8c813b9c4639</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID f3ea41b3-c815-4432-8718-630f7dd83510</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 0eb65395-f37d-4f36-a211-c7a9e4a9cf32</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 73cd77c4-11ea-4343-a2d9-94ab577917e0</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID 118ad45d-81d9-4852-a96e-4686720e4434</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID 3864f08e-a7e2-4a1b-8235-eccfe2544c4a</second>
 		</CollEvent>
 		<CollEvent type="e">
 			<_id type="a">GUID d79a6b61-6b69-4ca4-b1bd-7e97e782feb6</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
 			<second type="s">GUID e0b6ba45-e405-4189-b798-f7fb600a96d1</second>
 		</CollEvent>
-		<IClass type="e">
-			<_id type="a">GUID 4d5cc88f-a131-4383-8902-a2bc0795ea08</_id>
-			<_myState type="a">40960</_myState>
-			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-		</IClass>
-		<IClass type="e">
-			<_id type="a">GUID 870c98ad-adae-4277-b521-5139ff1d1041</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CI_Login</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Boundary</_hname>
-							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::3:12:9</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::3:12:9</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::3:12:9</weakCGTime>
-			<strongCGTime type="a">2.23.2020::3:12:9</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 5ac0858e-4703-48b8-97e5-ed4c8a9fbc7e</value>
-				<value>GUID 27970b11-02ef-4502-899f-5f4e599abe73</value>
-			</AggregatesList>
-		</IClass>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 5ac0858e-4703-48b8-97e5-ed4c8a9fbc7e</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsUsuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:11:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:11:32</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IActor</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">Usuario</_hname>
-					<_hid type="a">GUID 2b011fad-7612-44e7-b44d-d331b94fb14e</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hclass type="a">Usuario</_hclass>
-					<_hname type="a">itsCI_Login</_hname>
-					<_hid type="a">GUID 1e5bfb50-5323-4d85-98f5-24e1a1a1e98c</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 27970b11-02ef-4502-899f-5f4e599abe73</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Usuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:11:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:11:35</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID b03169ca-af87-491e-9e83-9b050a3cc007</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 5908be2d-64b7-44b8-9b56-b9cb08dce996</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID b03169ca-af87-491e-9e83-9b050a3cc007</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CC_Usuario</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Control</_hname>
-							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::3:12:15</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::3:12:15</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::3:12:15</weakCGTime>
-			<strongCGTime type="a">2.23.2020::3:12:15</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 5908be2d-64b7-44b8-9b56-b9cb08dce996</value>
-				<value>GUID 2a70abaf-8a2e-489f-9cca-946ec3d91a2e</value>
-			</AggregatesList>
-		</IClass>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 5908be2d-64b7-44b8-9b56-b9cb08dce996</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCI_Login</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:11:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:11:35</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 870c98ad-adae-4277-b521-5139ff1d1041</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 27970b11-02ef-4502-899f-5f4e599abe73</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 2a70abaf-8a2e-489f-9cca-946ec3d91a2e</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCE_Usuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:11:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:11:39</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID dddc61b6-5a52-47be-b61d-cecaa5172b30</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID ddc7fd52-1faa-49d9-981b-4cb9b5e4518a</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IClass type="e">
-			<_id type="a">GUID dddc61b6-5a52-47be-b61d-cecaa5172b30</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CE_Usuario</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Users\user\Downloads\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
-							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
-							<_hname type="a">Entity</_hname>
-							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.23.2020::19:31:54</_modifiedTimeWeak>
-			<_theMainDiagram type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
-				</IHandle>
-			</_theMainDiagram>
-			<_modifiedTime type="a">2.23.2020::19:31:54</_modifiedTime>
-			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">2.23.2020::19:31:54</weakCGTime>
-			<strongCGTime type="a">2.23.2020::3:12:19</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<AggregatesList type="e">
-				<value>GUID 3f190bd6-2af4-4b09-852b-333002fd9c5d</value>
-				<value>GUID 5f06ef16-f06b-4e4b-b29d-9037dfe94361</value>
-				<value>GUID ddc7fd52-1faa-49d9-981b-4cb9b5e4518a</value>
-			</AggregatesList>
-		</IClass>
-		<IAttribute type="e">
-			<_id type="a">GUID 3f190bd6-2af4-4b09-852b-333002fd9c5d</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CodUsuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::19:31:32</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::19:31:32</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">int</_hname>
-					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-		</IAttribute>
-		<IAttribute type="e">
-			<_id type="a">GUID 5f06ef16-f06b-4e4b-b29d-9037dfe94361</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">Contrasenia</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::19:31:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::19:31:54</_modifiedTime>
-			<_typeOf type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">char*</_hname>
-					<_hid type="a">GUID a1f818e6-c022-42d5-bbc0-075bf073b055</_hid>
-				</IHandle>
-			</_typeOf>
-			<_isOrdered type="a">0</_isOrdered>
-			<_protection type="a">iPublic</_protection>
-			<_static type="a">0</_static>
-			<_isReferenceAttr type="a">0</_isReferenceAttr>
-			<_isConstant type="a">0</_isConstant>
-		</IAttribute>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID ddc7fd52-1faa-49d9-981b-4cb9b5e4518a</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCC_Usuario</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::3:11:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::3:11:39</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID b03169ca-af87-491e-9e83-9b050a3cc007</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hid type="a">GUID 2a70abaf-8a2e-489f-9cca-946ec3d91a2e</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
-		<IUseCase type="e">
-			<_id type="a">GUID 9c1d9d3e-8b28-4c4f-98ca-099eb822016d</_id>
-			<_myState type="a">8192</_myState>
-			<_name type="a">CU_01_Iniciar sesion</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::6:31:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::17:59:56</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">2.22.2020::6:31:28</weakCGTime>
-			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
-			<_itsStateChart type="r">
-				<IHandle type="e">
-				</IHandle>
-			</_itsStateChart>
-			<_classModifier type="a">Unspecified</_classModifier>
-			<_EntryPoints type="c">
-				<IRPYRawContainer type="e">
-				</IRPYRawContainer>
-			</_EntryPoints>
-			<AggregatesList type="e">
-				<value>GUID 86dfe0da-f1c6-473c-add1-ca63169c7a19</value>
-				<value>GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</value>
-				<value>GUID 158a952d-724c-4f8b-beb2-64872bf6c25f</value>
-			</AggregatesList>
-		</IUseCase>
-		<IDependency type="e">
-			<_id type="a">GUID 86dfe0da-f1c6-473c-add1-ca63169c7a19</_id>
-			<_myState type="a">2048</_myState>
-			<_rmmServerID type="a">-1</_rmmServerID>
-			<_name type="a">CU_02_Buscar Usuario</_name>
-			<Stereotypes type="c">
-				<IRPYRawContainer type="e">
-					
-						<IHandle type="e">
-							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-							<_hname type="a">include</_hname>
-							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
-						</IHandle>
-					
-				</IRPYRawContainer>
-			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::6:31:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:10:58</_modifiedTime>
-			<_dependsOn type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hfilename type="a">.\MCU.sbsx</_hfilename>
-					<_hsubsystem type="a">MCU</_hsubsystem>
-					<_hname type="a">CU_02_Buscar Usuario</_hname>
-					<_hid type="a">GUID db8ee6b1-6521-45bd-b1f5-02d0fb33f8db</_hid>
-				</INObjectHandle>
-			</_dependsOn>
-			<_dependent type="r">
-				<INObjectHandle type="e">
-					<_hm2Class type="a">IUseCase</_hm2Class>
-					<_hid type="a">GUID 9c1d9d3e-8b28-4c4f-98ca-099eb822016d</_hid>
-				</INObjectHandle>
-			</_dependent>
-		</IDependency>
 		<IDiagram type="e">
 			<_id type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_id>
 			<_myState type="a">8192</_myState>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<size type="a">2</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">6</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Actor</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,53,142</_Value>
@@ -2092,6 +1757,7 @@
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -2124,6 +1790,7 @@
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">8</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,34,84,148</_Value>
@@ -2180,6 +1847,7 @@
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">6</size>
 												<IProperty type="e">
 													<_Name type="a">Fill.Transparent_Fill</_Name>
 													<_Value type="a">1</_Value>
@@ -2224,6 +1892,7 @@
 										<_Name type="a">Inheritance</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">4</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
 													<_Value type="a">Tahoma</_Value>
@@ -2256,6 +1925,7 @@
 										<_Name type="a">Polyline</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">0,0,0</_Value>
@@ -2280,10 +1950,12 @@
 							<_Name type="a">ObjectModelGe</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Association</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">ShowRedefinesLabel</_Name>
 													<_Value type="a">False</_Value>
@@ -2341,6 +2013,7 @@
 			<_name type="a">DC INICIAR SESION</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -2352,8 +2025,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::19:33:21</_modifiedTime>
-			<_lastModifiedTime type="a">2.23.2020::19:33:21</_lastModifiedTime>
+			<_modifiedTime type="a">2.22.2020::7:21:12</_modifiedTime>
+			<_lastModifiedTime type="a">2.22.2020::7:21:12</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2475,10 +2148,12 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -2487,14 +2162,17 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">FreeText</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">2</size>
 												<IProperty type="e">
 													<_Name type="a">Font.Size</_Name>
 													<_Value type="a">18</_Value>
@@ -2611,14 +2289,17 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -2703,13 +2384,15 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\boundary.jpg&gt;</frameset>
+&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\boundary.jpg&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -2725,6 +2408,7 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -2736,6 +2420,7 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -2797,14 +2482,17 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -2889,13 +2577,15 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\control.jpg&gt;</frameset>
+&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\control.jpg&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -2911,6 +2601,7 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -2922,6 +2613,7 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -2930,14 +2622,17 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
+						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">General</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
+									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Graphics</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
+												<size type="a">3</size>
 												<IProperty type="e">
 													<_Name type="a">EnableImageView</_Name>
 													<_Value type="a">True</_Value>
@@ -3023,15 +2718,17 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,C:\Users\user\Downloads\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 			<AggregatesList type="e">
@@ -3047,21 +2744,16 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">2</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hsubsystem type="a">ALUMNO</_hsubsystem>
-							<_hclass type="a">CE_Usuario</_hclass>
-							<_hname type="a">CodUsuario</_hname>
 							<_hid type="a">GUID 3f190bd6-2af4-4b09-852b-333002fd9c5d</_hid>
 						</IHandle>
 					
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IAttribute</_hm2Class>
-							<_hsubsystem type="a">ALUMNO</_hsubsystem>
-							<_hclass type="a">CE_Usuario</_hclass>
-							<_hname type="a">Contrasenia</_hname>
 							<_hid type="a">GUID 5f06ef16-f06b-4e4b-b29d-9037dfe94361</_hid>
 						</IHandle>
 					
@@ -3079,6 +2771,7 @@
 			<m_bOrdered type="a">0</m_bOrdered>
 			<Items type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
@@ -3692,6 +3385,353 @@
 			<m_srcFile type="a">\images_analysis\entity.jpg</m_srcFile>
 			<m_fileModifiedTime type="a">12.31.1969::19:0:0</m_fileModifiedTime>
 		</CGIImageData>
+		<IClass type="e">
+			<_id type="a">GUID 4d5cc88f-a131-4383-8902-a2bc0795ea08</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 870c98ad-adae-4277-b521-5139ff1d1041</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CI_Login</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Boundary</_hname>
+							<_hid type="a">GUID 3fecd8a3-2e8f-4b5e-a0be-26d2b14450f3</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::3:12:9</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::3:12:9</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::3:12:9</weakCGTime>
+			<strongCGTime type="a">2.23.2020::3:12:9</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 5ac0858e-4703-48b8-97e5-ed4c8a9fbc7e</value>
+				<value>GUID 27970b11-02ef-4502-899f-5f4e599abe73</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 5ac0858e-4703-48b8-97e5-ed4c8a9fbc7e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsUsuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:11:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:11:32</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IActor</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">Usuario</_hname>
+					<_hid type="a">GUID 2b011fad-7612-44e7-b44d-d331b94fb14e</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hclass type="a">Usuario</_hclass>
+					<_hname type="a">itsCI_Login</_hname>
+					<_hid type="a">GUID 1e5bfb50-5323-4d85-98f5-24e1a1a1e98c</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 27970b11-02ef-4502-899f-5f4e599abe73</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Usuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:11:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:11:35</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID b03169ca-af87-491e-9e83-9b050a3cc007</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 5908be2d-64b7-44b8-9b56-b9cb08dce996</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID b03169ca-af87-491e-9e83-9b050a3cc007</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CC_Usuario</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Control</_hname>
+							<_hid type="a">GUID 83c41daa-5f8e-446a-a638-1dc09ef00861</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::3:12:15</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::3:12:15</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::3:12:15</weakCGTime>
+			<strongCGTime type="a">2.23.2020::3:12:15</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 5908be2d-64b7-44b8-9b56-b9cb08dce996</value>
+				<value>GUID 2a70abaf-8a2e-489f-9cca-946ec3d91a2e</value>
+			</AggregatesList>
+		</IClass>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 5908be2d-64b7-44b8-9b56-b9cb08dce996</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCI_Login</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:11:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:11:35</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 870c98ad-adae-4277-b521-5139ff1d1041</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 27970b11-02ef-4502-899f-5f4e599abe73</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 2a70abaf-8a2e-489f-9cca-946ec3d91a2e</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCE_Usuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:11:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:11:39</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID dddc61b6-5a52-47be-b61d-cecaa5172b30</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID ddc7fd52-1faa-49d9-981b-4cb9b5e4518a</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IClass type="e">
+			<_id type="a">GUID dddc61b6-5a52-47be-b61d-cecaa5172b30</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CE_Usuario</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\..\profiles\AnalysisProfile\AnalysisModel.sbsx</_hfilename>
+							<_hsubsystem type="a">AnalysisModel</_hsubsystem>
+							<_hname type="a">Entity</_hname>
+							<_hid type="a">GUID e8f9fc83-cf51-4c30-80fc-ad3a4d1e28b7</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.23.2020::19:31:54</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">2.23.2020::19:31:54</_modifiedTime>
+			<_lastID type="a">6</_lastID>
+			<weakCGTime type="a">2.23.2020::19:31:54</weakCGTime>
+			<strongCGTime type="a">2.23.2020::3:12:19</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 3f190bd6-2af4-4b09-852b-333002fd9c5d</value>
+				<value>GUID 5f06ef16-f06b-4e4b-b29d-9037dfe94361</value>
+				<value>GUID ddc7fd52-1faa-49d9-981b-4cb9b5e4518a</value>
+			</AggregatesList>
+		</IClass>
+		<IAttribute type="e">
+			<_id type="a">GUID 3f190bd6-2af4-4b09-852b-333002fd9c5d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CodUsuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::19:31:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::19:31:32</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">int</_hname>
+					<_hid type="a">GUID 6024c6ab-fe9e-402e-954f-27aca6d3b5e4</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 5f06ef16-f06b-4e4b-b29d-9037dfe94361</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Contrasenia</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::19:31:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::19:31:54</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesCpp</_hsubsystem>
+					<_hname type="a">char*</_hname>
+					<_hid type="a">GUID a1f818e6-c022-42d5-bbc0-075bf073b055</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID ddc7fd52-1faa-49d9-981b-4cb9b5e4518a</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsCC_Usuario</_name>
+			<_modifiedTimeWeak type="a">2.23.2020::3:11:39</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.23.2020::3:11:39</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID b03169ca-af87-491e-9e83-9b050a3cc007</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hid type="a">GUID 2a70abaf-8a2e-489f-9cca-946ec3d91a2e</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IUseCase type="e">
+			<_id type="a">GUID 9c1d9d3e-8b28-4c4f-98ca-099eb822016d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CU_01_Iniciar sesion</_name>
+			<_modifiedTimeWeak type="a">2.22.2020::6:31:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:21:12</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">2.22.2020::6:31:28</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<_EntryPoints type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</_EntryPoints>
+			<AggregatesList type="e">
+				<value>GUID 86dfe0da-f1c6-473c-add1-ca63169c7a19</value>
+				<value>GUID 158a952d-724c-4f8b-beb2-64872bf6c25f</value>
+			</AggregatesList>
+		</IUseCase>
+		<IDependency type="e">
+			<_id type="a">GUID 86dfe0da-f1c6-473c-add1-ca63169c7a19</_id>
+			<_myState type="a">2048</_myState>
+			<_rmmServerID type="a">-1</_rmmServerID>
+			<_name type="a">CU_02_Buscar Usuario</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+							<_hname type="a">include</_hname>
+							<_hid type="a">GUID 17ef9a2f-cb89-11d5-b5bf-00d0b780aafd</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">2.22.2020::6:31:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">2.22.2020::7:10:58</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hfilename type="a">.\MCU.sbsx</_hfilename>
+					<_hsubsystem type="a">MCU</_hsubsystem>
+					<_hname type="a">CU_02_Buscar Usuario</_hname>
+					<_hid type="a">GUID db8ee6b1-6521-45bd-b1f5-02d0fb33f8db</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IUseCase</_hm2Class>
+					<_hid type="a">GUID 9c1d9d3e-8b28-4c4f-98ca-099eb822016d</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
 		<IAssociationEnd type="e">
 			<_id type="a">GUID 158a952d-724c-4f8b-beb2-64872bf6c25f</_id>
 			<_myState type="a">10240</_myState>
@@ -3731,6 +3771,7 @@
 			<_classModifier type="a">Unspecified</_classModifier>
 			<_EntryPoints type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</_EntryPoints>
 		</IUseCase>
@@ -3738,6 +3779,7 @@
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
 		<IRPYRawContainer type="e">
+			<size type="a">0</size>
 		</IRPYRawContainer>
 	</OslcLinks>
 
