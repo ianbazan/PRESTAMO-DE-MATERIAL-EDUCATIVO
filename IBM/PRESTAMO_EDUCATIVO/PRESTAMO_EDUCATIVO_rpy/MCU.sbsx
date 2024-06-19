@@ -12,7 +12,7 @@
 			<_id type="a">GUID 636113a8-c27d-4e7a-a22e-dd9d7ca4b74c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MCU</_name>
-			<_modifiedTimeWeak type="a">1.1.2020::5:4:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:35:31</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -20,9 +20,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.1.2020::5:50:10</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::6:15:33</_modifiedTime>
 			<_lastID type="a">17</_lastID>
-			<weakCGTime type="a">1.1.2020::5:4:0</weakCGTime>
+			<weakCGTime type="a">1.1.2020::5:35:31</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:26:26</strongCGTime>
 			<_defaultComposite type="s">GUID 5ce58cc9-5dc3-4b81-8a96-de02686cda57</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -3781,7 +3781,6 @@
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hfilename type="a">.\ALUMNO.sbsx</_hfilename>
 					<_hsubsystem type="a">MA::ALUMNO</_hsubsystem>
-					<_hclass type="a">CU_01_Iniciar sesion</_hclass>
 					<_hname type="a">DC INICIAR SESION</_hname>
 					<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
 				</IHandle>
@@ -3904,9 +3903,9 @@
 			<_id type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Alumno</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::21:23:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::21:23:14</_modifiedTime>
-			<weakCGTime type="a">2.23.2020::21:23:14</weakCGTime>
+			<_modifiedTimeWeak type="a">1.1.2020::5:35:31</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:35:31</_modifiedTime>
+			<weakCGTime type="a">2.23.2020::17:37:57</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:7</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -3919,7 +3918,6 @@
 				<value>GUID d32fefff-aecd-4241-8d60-0a9076b8b91d</value>
 				<value>GUID a1772bae-e88a-46e8-a013-14a00f6ec139</value>
 				<value>GUID e9a637eb-5e10-444c-ae9b-cb7c5b274acb</value>
-				<value>GUID 00ff1bc1-cfa8-448d-809e-7f0ee47506dc</value>
 			</AggregatesList>
 		</IActor>
 		<IGeneralization type="e">
@@ -4037,35 +4035,6 @@
 			<_linkType type="a">Assoc</_linkType>
 			<_navigability type="a">Navigable</_navigability>
 		</IAssociationEnd>
-		<IAssociationEnd type="e">
-			<_id type="a">GUID 00ff1bc1-cfa8-448d-809e-7f0ee47506dc</_id>
-			<_myState type="a">10240</_myState>
-			<_name type="a">itsCI_Lista_Materiales</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::21:23:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.23.2020::21:23:14</_modifiedTime>
-			<_multiplicity type="a">1</_multiplicity>
-			<_otherClass type="r">
-				<IClassifierHandle type="e">
-					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SOLICITUD.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::SOLICITUD</_hsubsystem>
-					<_hname type="a">CI_Lista_Materiales</_hname>
-					<_hid type="a">GUID 2343e8ab-b577-4c88-97be-0712c7e0cd44</_hid>
-				</IClassifierHandle>
-			</_otherClass>
-			<_inverse type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IAssociationEnd</_hm2Class>
-					<_hfilename type="a">.\SOLICITUD.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::SOLICITUD</_hsubsystem>
-					<_hclass type="a">CI_Lista_Materiales</_hclass>
-					<_hname type="a">itsAlumno</_hname>
-					<_hid type="a">GUID 7334be36-ef1c-49dd-b56f-5c15a39df0a5</_hid>
-				</IHandle>
-			</_inverse>
-			<_linkType type="a">Assoc</_linkType>
-			<_navigability type="a">Navigable</_navigability>
-		</IAssociationEnd>
 		<IActor type="e">
 			<_id type="a">GUID db7c8a9f-864d-461d-8707-47cacff5e37e</_id>
 			<_myState type="a">8192</_myState>
@@ -4076,7 +4045,6 @@
 					<_hm2Class type="a">IDiagram</_hm2Class>
 					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
 					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-					<_hclass type="a">CU_07_Registrar Devoluci%F3n del Prestamo</_hclass>
 					<_hname type="a">DC Registrar Devolucion del Prestamo</_hname>
 					<_hid type="a">GUID 3b62cd64-98d6-4729-992c-642cc4f61369</_hid>
 				</IHandle>

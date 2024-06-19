@@ -2,9 +2,10 @@
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
 	<CODE-PAGE>1252</CODE-PAGE>
-	<version>100.840.0</version>
+	<version>109.0.2</version>
 	<lang>C++</lang>
-	<BuildNo>9841247</BuildNo>
+	<BuildNo>202303101727</BuildNo>
+	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
 	
 	<RHAPSODY-MODEL>
 	<IProject type="e">
@@ -13,17 +14,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">CG</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Configuration</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">1</size>
 												<IProperty type="e">
 													<_Name type="a">Environment</_Name>
 													<_Value type="a">Cygwin</_Value>
@@ -44,12 +42,11 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">PRESTAMO_EDUCATIVO</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:1:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:21:17</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.1.2020::5:1:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:11:8</_modifiedTime>
 			<_lastID type="a">13</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
-					<size type="a">16</size>
 					<value>16777215</value>
 					<value>16777215</value>
 					<value>16777215</value>
@@ -84,7 +81,6 @@
 			</_component>
 			<Multiplicities type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">4</size>
 					<IMultiplicityItem type="e">
 						<_name type="a">1</_name>
 						<_count type="a">-1</_count>
@@ -110,12 +106,10 @@
 			<_isImportedFromDM type="a">0</_isImportedFromDM>
 			<mapOslcAddedCollections type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</mapOslcAddedCollections>
 			<mapAssociationsToRemove type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</mapAssociationsToRemove>
 			<AggregatesList type="e">
@@ -144,19 +138,19 @@
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">BusinessModeling</fileName>
-			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile</_persistAs>
+			<_persistAs type="a">C:\Users\user\Downloads\profiles\BusinessModelingProfile</_persistAs>
 			<_id type="a">GUID 018fd50e-cdfb-4d1c-8d00-c6e75ba697d6</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">AnalysisModel</fileName>
-			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile</_persistAs>
+			<_persistAs type="a">C:\Users\user\Downloads\profiles\AnalysisProfile</_persistAs>
 			<_id type="a">GUID f883ccaf-9b1e-452f-809a-40b7ddb88a81</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">DesignModel</fileName>
-			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\DesignProfile</_persistAs>
+			<_persistAs type="a">C:\Users\user\Downloads\profiles\DesignProfile</_persistAs>
 			<_id type="a">GUID 7e97bde9-a060-4e4f-bb69-e3b345acb7db</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
@@ -307,12 +301,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -435,12 +427,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -450,17 +440,14 @@
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
 						<IPropertySubject type="e">
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Package</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
-												<size type="a">7</size>
 												<IProperty type="e">
 													<_Name type="a">DefaultSize</_Name>
 													<_Value type="a">0,0,216,151</_Value>
@@ -518,7 +505,6 @@
 			<_name type="a">DIAGRAMA ESTRATUCTURA Gral</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -653,12 +639,10 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Attrs>
 			<Operations type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">0</size>
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
@@ -1081,7 +1065,6 @@
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
 		<IRPYRawContainer type="e">
-			<size type="a">0</size>
 		</IRPYRawContainer>
 	</OslcLinks>
 
