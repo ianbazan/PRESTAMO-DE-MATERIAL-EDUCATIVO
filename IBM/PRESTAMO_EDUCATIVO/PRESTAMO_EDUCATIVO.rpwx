@@ -372,8 +372,8 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
@@ -395,9 +395,9 @@
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">-1 0 </_UpLeft>
-						<_DownRight type="a">888 463 </_DownRight>
+						<_DownRight type="a">1191 785 </_DownRight>
 						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
@@ -437,9 +437,9 @@
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">3</m_showCmd>
-								<m_ptMinPositionX type="a">0</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">431</m_ptMinPositionY>
+								<m_showCmd type="a">2</m_showCmd>
+								<m_ptMinPositionX type="a">711</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">776</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
 								<m_nLeft type="a">260</m_nLeft>
@@ -461,7 +461,7 @@
 						<_UpLeft type="a">0 21 </_UpLeft>
 						<_DownRight type="a">1486 1000 </_DownRight>
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
+						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 					<CGEMdiDiagramParams type="e">
