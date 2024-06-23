@@ -1,16 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SistemaPrestamos.Models
+﻿namespace SistemaPrestamos.Models
 {
     public class Alumno
     {
-        public int Id { get; set; }
-        [Required]
-        public string Nombre { get; set; }
-        [Required]
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public int Usuario_CodUsuario { get; set; }
+        public string? NombresApellidos { get; set; }
+        public string? Estado { get; set; }
+        public int DiasInhabilitado { get; set; }
 
-        public ICollection<Prestamo> Prestamos { get; set; }
+        public Usuario? Usuario { get; set; }
     }
 }

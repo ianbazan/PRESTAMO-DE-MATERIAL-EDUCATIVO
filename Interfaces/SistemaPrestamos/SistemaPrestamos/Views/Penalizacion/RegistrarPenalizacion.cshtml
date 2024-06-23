@@ -1,0 +1,113 @@
+﻿@{
+    ViewData["Title"] = "Registrar Penalización";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Penalización - Sistema de Préstamo de Material Educativo</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Sistema de Préstamo de Material Educativo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("RegistrarSolicitud", "Solicitudes")">Solicitud</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Index", "Prestamos")">Préstamo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("RegistrarPenalizacion", "Penalizacion")">Penalización</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">Salir</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5 pt-4">
+        <h3>Registrar Penalización</h3>
+        <div class="form-group">
+            <label for="buscarPrestamo">Buscar Préstamo:</label>
+            <input type="text" class="form-control" id="buscarPrestamo" placeholder="Ingrese el ID del préstamo o nombre del alumno">
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>ID Préstamo</th>
+                        <th>Código Material</th>
+                        <th>Código Alumno</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>123</td>
+                        <td>MAT-456</td>
+                        <td>A123</td>
+                        <td>Activo</td>
+                        <td><button class="btn btn-primary" onclick="seleccionarPrestamo('123', 'MAT-456', 'A123')">Seleccionar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form id="formPenalizacion" class="mt-4" style="display:none;">
+            <div class="form-group">
+                <label for="idPenalizacion">ID Penalización</label>
+                <input type="text" class="form-control" id="idPenalizacion" disabled value="001">
+            </div>
+            <div class="form-group">
+                <label for="idPrestamoPenalizacion">ID Préstamo</label>
+                <input type="text" class="form-control" id="idPrestamoPenalizacion" disabled>
+            </div>
+            <div class="form-group">
+                <label for="codMaterialPenalizacion">Código Material</label>
+                <input type="text" class="form-control" id="codMaterialPenalizacion" disabled>
+            </div>
+            <div class="form-group">
+                <label for="codAlumnoPenalizacion">Código Alumno</label>
+                <input type="text" class="form-control" id="codAlumnoPenalizacion" disabled>
+            </div>
+            <div class="form-group">
+                <label for="descripcionPenalizacion">Descripción</label>
+                <textarea class="form-control" id="descripcionPenalizacion" rows="3" placeholder="Describa los daños del material"></textarea>
+            </div>
+            <button type="button" class="btn btn-primary" id="btnRegistrarPenalizacion" disabled>Registrar Penalización</button>
+            <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "Home")'">Cancelar</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function seleccionarPrestamo(idPrestamo, codMaterial, codAlumno) {
+            document.getElementById('idPrestamoPenalizacion').value = idPrestamo;
+            document.getElementById('codMaterialPenalizacion').value = codMaterial;
+            document.getElementById('codAlumnoPenalizacion').value = codAlumno;
+            document.getElementById('formPenalizacion').style.display = 'block';
+        }
+
+        document.getElementById('descripcionPenalizacion').addEventListener('input', function () {
+            const descripcion = document.getElementById('descripcionPenalizacion').value;
+            document.getElementById('btnRegistrarPenalizacion').disabled = descripcion.trim() === '';
+        });
+
+        document.getElementById('btnRegistrarPenalizacion').addEventListener('click', function () {
+            alert('Se ha registrado la penalización con éxito.');
+            location.href = '@Url.Action("Index", "Home")'; // Redirigir al menú principal después de registrar la penalización
+        });
+    </script>
+</body>
+</html>

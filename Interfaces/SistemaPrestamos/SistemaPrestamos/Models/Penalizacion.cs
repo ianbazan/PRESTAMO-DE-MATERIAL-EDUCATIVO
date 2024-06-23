@@ -1,15 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace SistemaPrestamos.Models
+﻿namespace SistemaPrestamos.Models
 {
     public class Penalizacion
     {
-        public int Id { get; set; }
-        [Required]
-        public int PrestamoId { get; set; }
-        public Prestamo Prestamo { get; set; }
-
+        public int IdPenalizacion { get; set; }
+        public DateTime FechaPenalizacion { get; set; }
         public string Descripcion { get; set; }
-        public decimal Monto { get; set; }
+        public string Estado { get; set; }
+        public int Prestamo_IdPrestamo { get; set; }
+
+        public Prestamo Prestamo { get; set; }
     }
 }

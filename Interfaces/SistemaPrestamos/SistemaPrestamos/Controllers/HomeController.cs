@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using SistemaPrestamos.Models;
 using System.Diagnostics;
-using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaPrestamos.Controllers
 {
@@ -21,12 +19,6 @@ namespace SistemaPrestamos.Controllers
         }
 
         public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [Authorize] // Asegura que el usuario esté autenticado
-        public IActionResult SecuredPage()
         {
             return View();
         }

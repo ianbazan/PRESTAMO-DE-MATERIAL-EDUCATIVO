@@ -1,111 +1,75 @@
 is_global = true
 build_property.TargetFramework = net8.0
-build_property.TargetFramework = net8.0
-build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
-build_property.UsingMicrosoftNETSdkWeb = true
-build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
-build_property.InvariantGlobalization = 
-build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
-build_property.EnforceExtendedAnalyzerRules = 
-build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaPrestamos
 build_property.RootNamespace = SistemaPrestamos
-build_property.ProjectDir = C:\PRESTAMO-libros\PRESTAMO-DE-MATERIAL-EDUCATIVO\Interfaces\SistemaPrestamos\SistemaPrestamos\
+build_property.ProjectDir = D:\CIBERTEC\4TO CICLO\ADS II\SistemaPrestamos\SistemaPrestamos\SistemaPrestamos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\PRESTAMO-libros\PRESTAMO-DE-MATERIAL-EDUCATIVO\Interfaces\SistemaPrestamos\SistemaPrestamos
+build_property.MSBuildProjectDirectory = D:\CIBERTEC\4TO CICLO\ADS II\SistemaPrestamos\SistemaPrestamos\SistemaPrestamos
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/Manage/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/Account/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Areas/Identity/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Alumno/SolicitudPrestamo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bW5vXFNvbGljaXR1ZFByZXN0YW1vLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Encargado/ListadoPrestamos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5jYXJnYWRvXExpc3RhZG9QcmVzdGFtb3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/Index.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/Privacy.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/SecuredPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWN1cmVkUGFnZS5jc2h0bWw=
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Penalizacion/RegistrarPenalizacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWxpemFjaW9uXFJlZ2lzdHJhclBlbmFsaXphY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/Error.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/_ActualizarPrestamo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXF9BY3R1YWxpemFyUHJlc3RhbW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/_RegistrarDevolucion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXF9SZWdpc3RyYXJEZXZvbHVjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/_RegistrarPrestamoModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXF9SZWdpc3RyYXJQcmVzdGFtb01vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/_SolicitudesGeneradas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXF9Tb2xpY2l0dWRlc0dlbmVyYWRhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/_ViewImports.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Solicitudes/RegistrarSolicitud.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcUmVnaXN0cmFyU29saWNpdHVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/_ViewStart.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/PRESTAMO-libros/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_Layout.cshtml]
+[D:/CIBERTEC/4TO CICLO/ADS II/SistemaPrestamos/SistemaPrestamos/SistemaPrestamos/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-evy98kv0lv

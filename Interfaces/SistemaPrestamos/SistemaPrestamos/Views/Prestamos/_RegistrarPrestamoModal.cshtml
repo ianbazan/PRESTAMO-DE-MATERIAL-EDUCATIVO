@@ -1,0 +1,58 @@
+﻿@model SistemaPrestamos.Models.Prestamo
+
+<div class="modal fade" id="registrarPrestamoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Registrar Préstamo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="registrarPrestamoForm" asp-action="RegistrarPrestamo" asp-controller="Prestamos" method="post">
+                    <div class="form-group">
+                        <label for="idPrestamo">ID Préstamo</label>
+                        <input type="text" class="form-control" id="idPrestamo" value="@Model.IdPrestamo" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="idSolicitud">ID Solicitud</label>
+                        <input type="text" class="form-control" id="idSolicitud" value="@Model.Solicitud_IdSolicitud" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="codAlumno">Cod Alumno</label>
+                        <input type="text" class="form-control" id="codAlumno" value="@Model.Solicitud.Alumno.NombresApellidos" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="codMaterial">Cod Material</label>
+                        <input type="text" class="form-control" id="codMaterial" value="@Model.Material_CodMaterial" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="fechaPrestamo">Fecha Préstamo</label>
+                        <input type="text" class="form-control" id="fechaPrestamo" value="@Model.FechaPrestamo.ToString("dd/MM/yyyy")" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="fechaDevolucion">Fecha Devolución</label>
+                        <input type="text" class="form-control" id="fechaDevolucion" value="@Model.FechaPrestamo.AddDays(7).ToString("yyyy-MM-dd")" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="materialesEscanear">Material(es) a Escanear</label>
+                        <input type="text" class="form-control" id="materialesEscanear" value="@Model.Solicitud.Cantidad" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="materialesEscaneados">Material(es) Escaneado(s)</label>
+                        <input type="number" class="form-control" id="materialesEscaneados" name="MaterialesEscaneados" value="0" min="0" max="@Model.Solicitud.Cantidad" required />
+                    </div>
+                    <input type="hidden" asp-for="Solicitud_IdSolicitud" />
+                    <input type="hidden" asp-for="Material_CodMaterial" />
+                    <input type="hidden" asp-for="FechaPrestamo" />
+                    <input type="hidden" asp-for="Estado" value="Activo" />
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary" id="registrarBtn">Registrar</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {}
+    "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {}
   },
   "projects": {
-    "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {
+    "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+        "projectUniqueName": "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
         "projectName": "SistemaPrestamos",
-        "projectPath": "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
-        "packagesPath": "C:\\Users\\jhon-\\.nuget\\packages\\",
-        "outputPath": "C:\\PRESTAMO-libros\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
+        "projectPath": "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+        "outputPath": "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jhon-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,25 +45,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[8.0.4, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.6, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
             },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[8.0.2, )"
             }
