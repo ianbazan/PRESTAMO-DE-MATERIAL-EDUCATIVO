@@ -44,8 +44,8 @@
 			</IPropertyContainer>
 			</_properties>
 			<_name type="a">PRESTAMO_EDUCATIVO</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::5:0:45</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::5:20:44</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.1.2020::5:0:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:0:41</_modifiedTime>
 			<_lastID type="a">13</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -144,19 +144,19 @@
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">BusinessModeling</fileName>
-			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile</_persistAs>
+			<_persistAs type="a">C:\Proyecto ADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\BusinessModelingProfile</_persistAs>
 			<_id type="a">GUID 018fd50e-cdfb-4d1c-8d00-c6e75ba697d6</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">AnalysisModel</fileName>
-			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile</_persistAs>
+			<_persistAs type="a">C:\Proyecto ADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile</_persistAs>
 			<_id type="a">GUID f883ccaf-9b1e-452f-809a-40b7ddb88a81</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>
 		<IProfile type="e">
 			<fileName type="a">DesignModel</fileName>
-			<_persistAs type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\DesignProfile</_persistAs>
+			<_persistAs type="a">C:\Proyecto ADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\DesignProfile</_persistAs>
 			<_id type="a">GUID 7e97bde9-a060-4e4f-bb69-e3b345acb7db</_id>
 			<_partOfTheModelKind type="a">referenceunit</_partOfTheModelKind>
 		</IProfile>

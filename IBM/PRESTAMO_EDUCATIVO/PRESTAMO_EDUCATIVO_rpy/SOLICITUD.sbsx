@@ -11,7 +11,7 @@
 			<_id type="a">GUID 7632a4e6-484c-433c-af03-98f0f9187c7e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SOLICITUD</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::19:3:36</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:2:28</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -21,9 +21,9 @@
 					<_hid type="a">GUID 646ee7c5-3ca4-498e-b9b6-abd0665cda82</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::22:23:24</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:2:28</_modifiedTime>
 			<_lastID type="a">16</_lastID>
-			<weakCGTime type="a">2.22.2020::19:3:36</weakCGTime>
+			<weakCGTime type="a">2.22.2020::6:17:31</weakCGTime>
 			<strongCGTime type="a">2.22.2020::6:37:43</strongCGTime>
 			<_defaultComposite type="s">GUID c79621dd-7a04-40d0-9d86-4d0322e9fabb</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -282,8 +282,8 @@
 			</_properties>
 			<_name type="a">DCO GENERAR SOLICITUD DE PRESTAMO</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:23:9</_modifiedTime>
-			<_lastModifiedTime type="a">1.1.2020::6:23:9</_lastModifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:4:1</_modifiedTime>
+			<_lastModifiedTime type="a">1.1.2020::5:4:1</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -327,7 +327,7 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
-			<elementList type="a">32</elementList>
+			<elementList type="a">33</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -368,10 +368,11 @@
 				<value>GUID 8dd5be2d-06ba-4f6c-98ce-bcacfe14aad8</value>
 				<value>GUID a353c2c2-b305-4730-b0fb-3ec06b0284a4</value>
 				<value>GUID 90af57e7-09c3-4da4-ae43-c89f6a5f5783</value>
-				<value>GUID ab889d1c-0929-4ece-bbbb-3078ae122925</value>
-				<value>GUID a900d9ea-1b4c-4b4d-9341-a915b3351fcd</value>
-				<value>GUID 90787948-ba5e-42c9-b833-8549520cd019</value>
-				<value>GUID 8f989c38-7b4c-45f8-ad55-944f8fc7d2dd</value>
+				<value>GUID 8cb5e6e5-160b-4d9d-908f-780054c99644</value>
+				<value>GUID 6b2bb04f-e6a7-42f8-9d53-81e14bde818a</value>
+				<value>GUID 4adb2f94-670e-4224-9a6e-8294cd942f98</value>
+				<value>GUID 103b5565-2088-4ea9-b615-8df552f7685c</value>
+				<value>GUID 2ed77a46-e9ff-48f2-b578-b4c762f08db6</value>
 			</AggregatesList>
 		</CCollaborationChart>
 		<CGIBox type="e">
@@ -1490,18 +1491,18 @@
 			<_percent type="a">61</_percent>
 		</CGIMessageLabel>
 		<CGIMessageLabel type="e">
-			<_id type="a">GUID ab889d1c-0929-4ece-bbbb-3078ae122925</_id>
+			<_id type="a">GUID 8cb5e6e5-160b-4d9d-908f-780054c99644</_id>
 			<m_type type="a">160</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMessage</_hm2Class>
-					<_hid type="a">GUID d637141c-da6b-471a-b7f9-4280a1eee580</_hid>
+					<_hid type="a">GUID 02873dd1-396b-4248-ba1f-1c46b7c15f7e</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">15. Genera_Solicitud_Prestamo()</m_str>
+					<m_str type="a">15. Reduce_Stock()</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1510,33 +1511,62 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -54 -11  201 -11  201 9  -54 9  </m_position>
+					<m_position type="a">4 -47 -7  48 -7  48 8  -47 8  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 960 469 </m_transform>
-					<m_nHorizontalSpacing type="a">265</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">77</m_nVerticalSpacing>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
+			<m_pCommunicationConnection type="s">GUID e3833920-c7dd-44c4-9f16-c9c34d1c828c</m_pCommunicationConnection>
+			<_percent type="a">43</_percent>
+		</CGIMessageLabel>
+		<CGIMessageLabel type="e">
+			<_id type="a">GUID 6b2bb04f-e6a7-42f8-9d53-81e14bde818a</_id>
+			<m_type type="a">160</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IMessage</_hm2Class>
+					<_hid type="a">GUID e445a3b0-a3f2-45c3-b61f-c06f282a932c</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">16. Genera()</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">4 -47 -7  48 -7  48 8  -47 8  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pCommunicationConnection type="s">GUID 0642795b-a4bb-4bf7-b9cb-9db08c349722</m_pCommunicationConnection>
-			<_percent type="a">12</_percent>
+			<_percent type="a">48</_percent>
 		</CGIMessageLabel>
 		<CGIMessageLabel type="e">
-			<_id type="a">GUID a900d9ea-1b4c-4b4d-9341-a915b3351fcd</_id>
+			<_id type="a">GUID 4adb2f94-670e-4224-9a6e-8294cd942f98</_id>
 			<m_type type="a">161</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMessage</_hm2Class>
-					<_hid type="a">GUID e6662178-8534-49f3-b5e5-92139d010005</_hid>
+					<_hid type="a">GUID 60d02fbb-a838-4d7a-b3e4-27184a7e286a</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">16. Muestra_mensaje()</m_str>
+					<m_str type="a">17. Muestra_mensaje()</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1545,33 +1575,33 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -27 -12  161 -12  161 8  -27 8  </m_position>
+					<m_position type="a">4 -20 -8  107 -8  107 6  -20 6  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 323 525 </m_transform>
-					<m_nHorizontalSpacing type="a">-161</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">-11</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 325 519 </m_transform>
+					<m_nHorizontalSpacing type="a">-152</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-6</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pCommunicationConnection type="s">GUID 9947ab46-2008-4b10-9085-0d67df5cfdd7</m_pCommunicationConnection>
-			<_percent type="a">57</_percent>
+			<_percent type="a">59</_percent>
 		</CGIMessageLabel>
 		<CGIMessageLabel type="e">
-			<_id type="a">GUID 90787948-ba5e-42c9-b833-8549520cd019</_id>
+			<_id type="a">GUID 103b5565-2088-4ea9-b615-8df552f7685c</_id>
 			<m_type type="a">160</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMessage</_hm2Class>
-					<_hid type="a">GUID 168bf41d-58e9-450b-b870-800527221d65</_hid>
+					<_hid type="a">GUID 916b2d28-8e75-47e7-8feb-94703b13029b</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">17. Selecciona_salir()</m_str>
+					<m_str type="a">18. Selecciona_salir()</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1580,33 +1610,30 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -21 -12  150 -12  150 8  -21 8  </m_position>
+					<m_position type="a">4 -47 -7  48 -7  48 8  -47 8  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 27 676 </m_transform>
-					<m_nHorizontalSpacing type="a">-31</m_nHorizontalSpacing>
-					<m_nVerticalSpacing type="a">29</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">7</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pCommunicationConnection type="s">GUID 902ead53-d2da-4e11-8b37-81006f773391</m_pCommunicationConnection>
-			<_percent type="a">59</_percent>
+			<_percent type="a">56</_percent>
 		</CGIMessageLabel>
 		<CGIMessageLabel type="e">
-			<_id type="a">GUID 8f989c38-7b4c-45f8-ad55-944f8fc7d2dd</_id>
+			<_id type="a">GUID 2ed77a46-e9ff-48f2-b578-b4c762f08db6</_id>
 			<m_type type="a">161</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMessage</_hm2Class>
-					<_hid type="a">GUID d033851b-cdcb-4295-abb3-55182205d78e</_hid>
+					<_hid type="a">GUID 2d4d5121-3cc5-45bc-9e5b-04ac7c1037c3</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">18. Cierra_interfaz()</m_str>
+					<m_str type="a">19. Cierra_interfaz()</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1615,23 +1642,24 @@
 							<m_bgFlag type="a">0</m_bgFlag>
 						</IColor>
 					</m_color>
-					<m_position type="a">4 -17 -12  146 -12  146 8  -17 8  </m_position>
+					<m_position type="a">4 -13 -8  98 -8  98 6  -13 6  </m_position>
 					<m_nIdent type="a">0</m_nIdent>
 					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_transform type="a">1 0 0 1 531 784 </m_transform>
-					<m_nVerticalSpacing type="a">41</m_nVerticalSpacing>
+					<m_transform type="a">1 0 0 1 575 780 </m_transform>
+					<m_nHorizontalSpacing type="a">1</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">35</m_nVerticalSpacing>
 					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_pCommunicationConnection type="s">GUID 54e6bb88-b309-4ede-a307-c1b91790b7fe</m_pCommunicationConnection>
-			<_percent type="a">48</_percent>
+			<_percent type="a">51</_percent>
 		</CGIMessageLabel>
 		<ICollaboration type="e">
 			<_id type="a">GUID 5e4b0457-3dec-4d04-b8cd-445be034a49d</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:23:9</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:3:51</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID aafdba10-6905-4191-ad46-fe72c0ab4569</value>
 				<value>GUID b1634383-2af2-45d0-8fab-34d2b517ea4a</value>
@@ -1660,10 +1688,11 @@
 				<value>GUID 18ad9f15-a3cd-4964-b285-256f246606a5</value>
 				<value>GUID 83a84f12-ecf3-43e7-b592-26f7c808c958</value>
 				<value>GUID 58e6da31-8534-4f2b-a8e4-820d03a1b3a2</value>
-				<value>GUID d637141c-da6b-471a-b7f9-4280a1eee580</value>
-				<value>GUID e6662178-8534-49f3-b5e5-92139d010005</value>
-				<value>GUID 168bf41d-58e9-450b-b870-800527221d65</value>
-				<value>GUID d033851b-cdcb-4295-abb3-55182205d78e</value>
+				<value>GUID 02873dd1-396b-4248-ba1f-1c46b7c15f7e</value>
+				<value>GUID e445a3b0-a3f2-45c3-b61f-c06f282a932c</value>
+				<value>GUID 60d02fbb-a838-4d7a-b3e4-27184a7e286a</value>
+				<value>GUID 916b2d28-8e75-47e7-8feb-94703b13029b</value>
+				<value>GUID 2d4d5121-3cc5-45bc-9e5b-04ac7c1037c3</value>
 				<value>GUID fad1af70-0553-4fe9-a06f-51e922467ed6</value>
 				<value>GUID 6b23719b-e461-4e8f-a9e0-e1c772215134</value>
 				<value>GUID 491cebe3-ec86-489e-af39-a331eeb21d0e</value>
@@ -1678,10 +1707,11 @@
 				<value>GUID e1cf0e0a-b551-4c25-8a41-eb4478215ee8</value>
 				<value>GUID 4f4be8f1-cad2-4568-915c-447999274bed</value>
 				<value>GUID bff1ec09-056b-4a6c-950f-4f2f5b96ee08</value>
-				<value>GUID 7249dbf5-55aa-4c8c-b68a-1a87588ad2fb</value>
-				<value>GUID 56de2de8-65b4-4910-a4ef-379e8c7e5049</value>
-				<value>GUID 85ca9ba7-a5f9-4cae-b596-b095a60c9761</value>
-				<value>GUID 878841a4-3353-4bb5-8eaf-77ef27f4e04a</value>
+				<value>GUID 96fe552a-1bac-44b5-96f9-1236ba82a364</value>
+				<value>GUID 0c782260-80eb-4a74-bb1e-26fee0bea94f</value>
+				<value>GUID 07e26727-8f23-4db1-94ab-39bdfa8ec9ae</value>
+				<value>GUID 48f8242d-3f11-4389-9fcb-a679789a99f5</value>
+				<value>GUID 635b8283-b5a6-458f-a47e-4771b3318226</value>
 			</AggregatesList>
 		</ICollaboration>
 		<IClassifierRole type="e">
@@ -2525,11 +2555,49 @@
 			</m_srcExec>
 		</IMessage>
 		<IMessage type="e">
-			<_id type="a">GUID d637141c-da6b-471a-b7f9-4280a1eee580</_id>
-			<_name type="a">Genera_Solicitud_Prestamo</_name>
+			<_id type="a">GUID 02873dd1-396b-4248-ba1f-1c46b7c15f7e</_id>
+			<_name type="a">Reduce_Stock</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:23:9</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:2:49</_modifiedTime>
 			<m_szSequence type="a">15.</m_szSequence>
+			<m_pCommunicationConnection type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationRole</_hm2Class>
+					<_hid type="a">GUID 16f80ee5-f632-4b26-afe3-fb637ae027ed</_hid>
+				</IHandle>
+			</m_pCommunicationConnection>
+			<m_pReceiver type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClassifierRole</_hm2Class>
+					<_hid type="a">GUID 614a5016-e508-47d7-abe5-17bed17838b3</_hid>
+				</IHandle>
+			</m_pReceiver>
+			<m_pSender type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClassifierRole</_hm2Class>
+					<_hid type="a">GUID aafdba10-6905-4191-ad46-fe72c0ab4569</_hid>
+				</IHandle>
+			</m_pSender>
+			<m_pFormalMessage type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pFormalMessage>
+			<m_eType type="a">PRIMITIVE</m_eType>
+			<m_targetExec type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_targetExec>
+			<m_srcExec type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_srcExec>
+		</IMessage>
+		<IMessage type="e">
+			<_id type="a">GUID e445a3b0-a3f2-45c3-b61f-c06f282a932c</_id>
+			<_name type="a">Genera</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:3:6</_modifiedTime>
+			<m_szSequence type="a">16.</m_szSequence>
 			<m_pCommunicationConnection type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationRole</_hm2Class>
@@ -2563,11 +2631,11 @@
 			</m_srcExec>
 		</IMessage>
 		<IMessage type="e">
-			<_id type="a">GUID e6662178-8534-49f3-b5e5-92139d010005</_id>
+			<_id type="a">GUID 60d02fbb-a838-4d7a-b3e4-27184a7e286a</_id>
 			<_name type="a">Muestra_mensaje</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:21:2</_modifiedTime>
-			<m_szSequence type="a">16.</m_szSequence>
+			<_modifiedTime type="a">1.1.2020::5:3:18</_modifiedTime>
+			<m_szSequence type="a">17.</m_szSequence>
 			<m_pCommunicationConnection type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationRole</_hm2Class>
@@ -2601,11 +2669,11 @@
 			</m_srcExec>
 		</IMessage>
 		<IMessage type="e">
-			<_id type="a">GUID 168bf41d-58e9-450b-b870-800527221d65</_id>
+			<_id type="a">GUID 916b2d28-8e75-47e7-8feb-94703b13029b</_id>
 			<_name type="a">Selecciona_salir</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:21:43</_modifiedTime>
-			<m_szSequence type="a">17.</m_szSequence>
+			<_modifiedTime type="a">1.1.2020::5:3:44</_modifiedTime>
+			<m_szSequence type="a">18.</m_szSequence>
 			<m_pCommunicationConnection type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationRole</_hm2Class>
@@ -2639,11 +2707,11 @@
 			</m_srcExec>
 		</IMessage>
 		<IMessage type="e">
-			<_id type="a">GUID d033851b-cdcb-4295-abb3-55182205d78e</_id>
+			<_id type="a">GUID 2d4d5121-3cc5-45bc-9e5b-04ac7c1037c3</_id>
 			<_name type="a">Cierra_interfaz</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.2020::6:22:30</_modifiedTime>
-			<m_szSequence type="a">18.</m_szSequence>
+			<_modifiedTime type="a">1.1.2020::5:3:58</_modifiedTime>
+			<m_szSequence type="a">19.</m_szSequence>
 			<m_pCommunicationConnection type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IAssociationRole</_hm2Class>
@@ -2775,32 +2843,39 @@
 			<second type="s">GUID 58e6da31-8534-4f2b-a8e4-820d03a1b3a2</second>
 		</CollEvent>
 		<CollEvent type="e">
-			<_id type="a">GUID 7249dbf5-55aa-4c8c-b68a-1a87588ad2fb</_id>
+			<_id type="a">GUID 96fe552a-1bac-44b5-96f9-1236ba82a364</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
-			<second type="s">GUID d637141c-da6b-471a-b7f9-4280a1eee580</second>
+			<second type="s">GUID 02873dd1-396b-4248-ba1f-1c46b7c15f7e</second>
 		</CollEvent>
 		<CollEvent type="e">
-			<_id type="a">GUID 56de2de8-65b4-4910-a4ef-379e8c7e5049</_id>
+			<_id type="a">GUID 0c782260-80eb-4a74-bb1e-26fee0bea94f</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
-			<second type="s">GUID e6662178-8534-49f3-b5e5-92139d010005</second>
+			<second type="s">GUID e445a3b0-a3f2-45c3-b61f-c06f282a932c</second>
 		</CollEvent>
 		<CollEvent type="e">
-			<_id type="a">GUID 85ca9ba7-a5f9-4cae-b596-b095a60c9761</_id>
+			<_id type="a">GUID 07e26727-8f23-4db1-94ab-39bdfa8ec9ae</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
-			<second type="s">GUID 168bf41d-58e9-450b-b870-800527221d65</second>
+			<second type="s">GUID 60d02fbb-a838-4d7a-b3e4-27184a7e286a</second>
 		</CollEvent>
 		<CollEvent type="e">
-			<_id type="a">GUID 878841a4-3353-4bb5-8eaf-77ef27f4e04a</_id>
+			<_id type="a">GUID 48f8242d-3f11-4389-9fcb-a679789a99f5</_id>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
 			<first type="a">UNSPECIFIED</first>
-			<second type="s">GUID d033851b-cdcb-4295-abb3-55182205d78e</second>
+			<second type="s">GUID 916b2d28-8e75-47e7-8feb-94703b13029b</second>
+		</CollEvent>
+		<CollEvent type="e">
+			<_id type="a">GUID 635b8283-b5a6-458f-a47e-4771b3318226</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.31.1969::19:0:0</_modifiedTime>
+			<first type="a">UNSPECIFIED</first>
+			<second type="s">GUID 2d4d5121-3cc5-45bc-9e5b-04ac7c1037c3</second>
 		</CollEvent>
 		<IDiagram type="e">
 			<_id type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_id>
@@ -3434,7 +3509,7 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\boundary.jpg&gt;</frameset>
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\boundary.jpg&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -3837,7 +3912,7 @@ varios</m_text>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\boundary.jpg&gt;</frameset>
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\boundary.jpg&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -3977,7 +4052,7 @@ varios</m_text>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=100%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\control.jpg&gt;</frameset>
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\control.jpg&gt;</frameset>
 			<Attrs type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">0</size>
@@ -4325,8 +4400,8 @@ varios</m_text>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,54%25,13%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5115,8 +5190,8 @@ varios</m_text>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,50%25,17%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5287,7 +5362,7 @@ varios</m_text>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -9322,8 +9397,8 @@ varios</m_text>
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,56%25,11%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -9382,6 +9457,12 @@ varios</m_text>
 					
 				</IRPYRawContainer>
 			</Items>
+			<_itemValueOfFontPropertiesMapCount type="a">5</_itemValueOfFontPropertiesMapCount>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
+			<_fontPropValues type="a">Tahoma 8 400 0 0 0 0</_fontPropValues>
 		</CGICompartment>
 		<CGICompartment type="e">
 			<_id type="a">GUID db3a99ca-8b03-46ec-82ee-741ba28fabd2</_id>
@@ -9631,7 +9712,7 @@ varios</m_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::19:1:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:53</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -9750,7 +9831,7 @@ varios</m_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::22:18:31</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:57</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
