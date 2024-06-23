@@ -11,7 +11,7 @@
 			<_id type="a">GUID 636113a8-c27d-4e7a-a22e-dd9d7ca4b74c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">MCU</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::6:9:23</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:52:5</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -19,9 +19,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::11:8:45</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:56:44</_modifiedTime>
 			<_lastID type="a">17</_lastID>
-			<weakCGTime type="a">2.22.2020::6:9:23</weakCGTime>
+			<weakCGTime type="a">1.1.2020::5:52:5</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:26:26</strongCGTime>
 			<_defaultComposite type="s">GUID 5ce58cc9-5dc3-4b81-8a96-de02686cda57</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -3848,7 +3848,7 @@
 			<_id type="a">GUID 2b011fad-7612-44e7-b44d-d331b94fb14e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Usuario</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::6:25:15</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.23.2020::3:11:32</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4066,7 +4066,7 @@
 			<_id type="a">GUID 212c6689-4ce3-47f6-9c7a-774e406fc768</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Alumno</_name>
-			<_modifiedTimeWeak type="a">2.22.2020::6:33:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">2.23.2020::17:37:57</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4271,7 +4271,7 @@
 			<_id type="a">GUID db7c8a9f-864d-461d-8707-47cacff5e37e</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Encargado de almac%E9n</_name>
-			<_modifiedTimeWeak type="a">2.23.2020::21:55:18</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:57:44</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -4281,7 +4281,7 @@
 					<_hid type="a">GUID 3b62cd64-98d6-4729-992c-642cc4f61369</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::19:1:8</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:57:44</_modifiedTime>
 			<weakCGTime type="a">2.23.2020::21:55:18</weakCGTime>
 			<strongCGTime type="a">1.1.2020::5:1:17</strongCGTime>
 			<_itsStateChart type="r">
@@ -4305,6 +4305,9 @@
 				<value>GUID 7cd42b2c-7cce-464e-8d83-11a05610e22d</value>
 				<value>GUID a7f42bba-e95a-40fc-af3e-03361295ebda</value>
 				<value>GUID f48cf319-60cb-47b3-ac38-f70828e8f02f</value>
+				<value>GUID 46aaf3e1-747d-4d9a-b2f6-cb9c08813017</value>
+				<value>GUID cad9352b-6526-43aa-ade6-d382e7d14bf2</value>
+				<value>GUID cd1d8abd-1a07-4764-9ea8-fd39dca5f76c</value>
 			</AggregatesList>
 		</IActor>
 		<IGeneralization type="e">
@@ -4672,6 +4675,93 @@
 					<_hclass type="a">CI_Solicitud_de_Prestamo</_hclass>
 					<_hname type="a">itsEncargado de almac%E9n</_hname>
 					<_hid type="a">GUID 9294997e-fda6-4f32-9349-9440282f1142</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID 46aaf3e1-747d-4d9a-b2f6-cb9c08813017</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMenu_Principal_Encargado_Jsp_Client</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:52:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:52:5</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hname type="a">Menu_Principal_Encargado_Jsp_Client</_hname>
+					<_hid type="a">GUID 04203128-a69d-470c-8060-d3feb2fea10d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hclass type="a">Menu_Principal_Encargado_Jsp_Client</_hclass>
+					<_hname type="a">itsEncargado de almac%E9n_1</_hname>
+					<_hid type="a">GUID 69deade1-2caf-49d8-a1c5-294af0b29c60</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID cad9352b-6526-43aa-ade6-d382e7d14bf2</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsMenu_Principal_Encargado_Jsp_Client_1</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:52:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:52:46</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hname type="a">Menu_Principal_Encargado_Jsp_Client</_hname>
+					<_hid type="a">GUID 04203128-a69d-470c-8060-d3feb2fea10d</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hclass type="a">Menu_Principal_Encargado_Jsp_Client</_hclass>
+					<_hname type="a">itsEncargado de almac%E9n_2</_hname>
+					<_hid type="a">GUID d95813ef-89b0-4211-a0ca-9da520d9ffc6</_hid>
+				</IHandle>
+			</_inverse>
+			<_linkType type="a">Assoc</_linkType>
+			<_navigability type="a">Navigable</_navigability>
+		</IAssociationEnd>
+		<IAssociationEnd type="e">
+			<_id type="a">GUID cd1d8abd-1a07-4764-9ea8-fd39dca5f76c</_id>
+			<_myState type="a">10240</_myState>
+			<_name type="a">itsActualizarPrestamoForm</_name>
+			<_modifiedTimeWeak type="a">1.1.2020::5:57:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.2020::5:57:44</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hname type="a">ActualizarPrestamoForm</_hname>
+					<_hid type="a">GUID 46b19e4c-d482-4810-b90b-3c37bf5b89dd</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IAssociationEnd</_hm2Class>
+					<_hfilename type="a">.\MD.sbsx</_hfilename>
+					<_hsubsystem type="a">MD</_hsubsystem>
+					<_hclass type="a">ActualizarPrestamoForm</_hclass>
+					<_hname type="a">itsEncargado de almac%E9n</_hname>
+					<_hid type="a">GUID c10facd2-7517-47be-a13c-48ae8a0ef4c9</_hid>
 				</IHandle>
 			</_inverse>
 			<_linkType type="a">Assoc</_linkType>
