@@ -25,7 +25,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">2.22.2020::7:10:47</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.1.2020::5:10:19</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -33,9 +33,9 @@
 					<_hid type="a">GUID 5fa15489-88c3-4f30-af30-e289eabcc6a0</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">2.22.2020::7:21:17</_modifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:19:9</_modifiedTime>
 			<_lastID type="a">7</_lastID>
-			<weakCGTime type="a">2.22.2020::7:10:47</weakCGTime>
+			<weakCGTime type="a">1.1.2020::13:21:49</weakCGTime>
 			<strongCGTime type="a">2.22.2020::5:10:12</strongCGTime>
 			<_defaultComposite type="s">GUID 63ff598e-02ed-495e-9acc-9529b6a75aa0</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -4621,8 +4621,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">2.22.2020::7:25:5</_modifiedTime>
-			<_lastModifiedTime type="a">2.22.2020::7:25:5</_lastModifiedTime>
+			<_modifiedTime type="a">1.1.2020::5:10:19</_modifiedTime>
+			<_lastModifiedTime type="a">1.1.2020::5:10:19</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4880,8 +4880,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,59%25,8%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5108,8 +5108,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,59%25,8%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5313,7 +5313,7 @@
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5483,8 +5483,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,57%25,10%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5627,8 +5627,8 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SOLICITUD.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::SOLICITUD</_hsubsystem>
+					<_hfilename type="a">.\PRESTAMO.sbsx</_hfilename>
+					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
 					<_hname type="a">CE_Alumno</_hname>
 					<_hid type="a">GUID c1777e8d-1259-4093-ba22-40e86b834a52</_hid>
 				</IHandle>
@@ -5636,7 +5636,7 @@
 			<m_pParent type="s">GUID ed626eab-ee04-429b-adbc-9a6197b91da2</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">SOLICITUD::CE_Alumno</m_str>
+					<m_str type="a">PRESTAMO::CE_Alumno</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -5682,8 +5682,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,58%25,9%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5870,8 +5870,8 @@
 			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
 			<m_nNameFormat type="a">0</m_nNameFormat>
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<frameset type="a">&lt;frameset rows=33%25,59%25,8%25&gt;
-&lt;frame name=StereotypeBitmap,D:\PRESTAMO$SPACEDE$SPACEMATERIAL$SPACEEDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
+			<frameset type="a">&lt;frameset rows=33%25,33%25,33%25&gt;
+&lt;frame name=StereotypeBitmap,C:\Proyecto$SPACEADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\profiles\AnalysisProfile\images_analysis\entity.jpg&gt;
 &lt;frame name=AttributeListCompartment&gt;
 &lt;frame name=OperationListCompartment&gt;</frameset>
 			<Attrs type="c">
@@ -5965,7 +5965,7 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IGeneralization</_hm2Class>
 					<_hfilename type="a">.\SOLICITUD.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::SOLICITUD</_hsubsystem>
+					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
 					<_hclass type="a">CE_Alumno</_hclass>
 					<_hname type="a">CE_Usuario</_hname>
 					<_hid type="a">GUID a1db3efe-dbe1-428b-972a-abbdec81edba</_hid>
@@ -6081,7 +6081,7 @@
 				<IAssociationEndHandle type="e">
 					<_hm2Class type="a">IAssociationEnd</_hm2Class>
 					<_hfilename type="a">.\SOLICITUD.sbsx</_hfilename>
-					<_hsubsystem type="a">MA::SOLICITUD</_hsubsystem>
+					<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
 					<_hclass type="a">CE_Alumno</_hclass>
 					<_hname type="a">asociado</_hname>
 					<_hid type="a">GUID 47d99193-1fba-41d3-8690-067602055db4</_hid>
