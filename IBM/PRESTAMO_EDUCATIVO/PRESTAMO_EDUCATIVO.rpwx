@@ -2,20 +2,21 @@
 <RhapsodyArchive>
 	<MagicNumber></MagicNumber>
 	<CODE-PAGE>1252</CODE-PAGE>
-	<version>109.0.2</version>
+	<version>100.840.0</version>
 	<lang>*</lang>
-	<BuildNo>202303101727</BuildNo>
-	<RMMMinimumClientVersion>100.0</RMMMinimumClientVersion>
+	<BuildNo>9841247</BuildNo>
 	
 	<RHAPSODY-MODEL>
 	<CGEMdiWorkspace type="e">
 			<stubList type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</stubList>
 			<isLoadOnDemand type="a">0</isLoadOnDemand>
 			<myViewsWithID type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">4</size>
 					<CGEMdiDiagramParams type="e">
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
@@ -24,428 +25,12 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">228</m_nLeft>
-								<m_nTop type="a">228</m_nTop>
-								<m_nRight type="a">1169</m_nRight>
-								<m_nBottom type="a">777</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\ALUMNO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::ALUMNO</_hsubsystem>
-								<_hname type="a">DC INICIAR SESION</_hname>
-								<_hid type="a">GUID 93dd4a1b-15b9-44d6-836e-46923bf01027</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">925 482 </_DownRight>
-						<m_nDiagramIndex type="a">11</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">114</m_nLeft>
-								<m_nTop type="a">114</m_nTop>
-								<m_nRight type="a">1055</m_nRight>
-								<m_nBottom type="a">663</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\ALUMNO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::ALUMNO</_hsubsystem>
-								<_hname type="a">DCoA BUSCAR USUARIO</_hname>
-								<_hid type="a">GUID c87da428-b101-4fa7-b0a8-d6441b6ce46c</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">889 463 </_DownRight>
-						<m_nDiagramIndex type="a">13</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">228</m_nLeft>
-								<m_nTop type="a">228</m_nTop>
-								<m_nRight type="a">1169</m_nRight>
-								<m_nBottom type="a">777</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\ALUMNO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::ALUMNO</_hsubsystem>
-								<_hname type="a">DCoA INICIAR SESION</_hname>
-								<_hid type="a">GUID 564b36a8-98d8-4918-97b8-71f5e446a741</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">965 503 </_DownRight>
-						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">2</m_showCmd>
-								<m_ptMinPositionX type="a">0</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">776</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">76</m_nLeft>
-								<m_nTop type="a">76</m_nTop>
-								<m_nRight type="a">1017</m_nRight>
-								<m_nBottom type="a">625</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\MA.sbsx</_hfilename>
-								<_hsubsystem type="a">MA</_hsubsystem>
-								<_hname type="a">Dia. de Modelo Conceptual</_hname>
-								<_hid type="a">GUID f9e7a36d-31de-4f64-8165-4b7a4730b1ab</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1555 1037 </_DownRight>
-						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">152</m_nLeft>
-								<m_nTop type="a">152</m_nTop>
-								<m_nRight type="a">1093</m_nRight>
-								<m_nBottom type="a">701</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\MATERIAL.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::MATERIAL</_hsubsystem>
-								<_hname type="a">DCoA BUSCAR MATERIAL</_hname>
-								<_hid type="a">GUID 0fc2855b-65f5-4cd1-bc57-34d3ceb07ff7</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">889 463 </_DownRight>
-						<m_nDiagramIndex type="a">12</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">156</m_nLeft>
-								<m_nTop type="a">156</m_nTop>
-								<m_nRight type="a">1024</m_nRight>
-								<m_nBottom type="a">586</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PENALIZACION.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PENALIZACION</_hsubsystem>
-								<_hname type="a">DC Registrar Penalizacion por da%F1os de Material</_hname>
-								<_hid type="a">GUID 3d722f4d-e0a5-44c9-9c3e-865676f56452</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">764 322 </_DownRight>
-						<m_nDiagramIndex type="a">14</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">130</m_nLeft>
-								<m_nTop type="a">130</m_nTop>
-								<m_nRight type="a">998</m_nRight>
-								<m_nBottom type="a">560</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DC Actualizar Prestamo</_hname>
-								<_hid type="a">GUID 2803f01f-6035-4776-aebc-838e10e22d68</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">662 279 </_DownRight>
-						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">2</m_showCmd>
-								<m_ptMinPositionX type="a">237</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">431</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">26</m_nLeft>
-								<m_nTop type="a">26</m_nTop>
-								<m_nRight type="a">842</m_nRight>
-								<m_nBottom type="a">606</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DC Registrar Devolucion del Prestamo</_hname>
-								<_hid type="a">GUID 3b62cd64-98d6-4729-992c-642cc4f61369</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">26 0 </_UpLeft>
-						<_DownRight type="a">872 600 </_DownRight>
-						<m_nDiagramIndex type="a">10</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">52</m_nLeft>
-								<m_nTop type="a">52</m_nTop>
-								<m_nRight type="a">868</m_nRight>
-								<m_nBottom type="a">632</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">IDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DC Registrar Prestamo</_hname>
-								<_hid type="a">GUID 9f341c2c-ced7-44d4-9c20-6c048e01c614</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">804 520 </_DownRight>
-						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">266</m_nLeft>
-								<m_nTop type="a">266</m_nTop>
-								<m_nRight type="a">1207</m_nRight>
-								<m_nBottom type="a">815</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DCoA BUSCAR PRESTAMO</_hname>
-								<_hid type="a">GUID 6b637e38-f448-42b5-a78b-bc727e7b55ab</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">889 463 </_DownRight>
-						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">76</m_nLeft>
-								<m_nTop type="a">76</m_nTop>
-								<m_nRight type="a">1017</m_nRight>
-								<m_nBottom type="a">625</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DCoA REGISTRAR DEVOLUCION DE PRESTAMO</_hname>
-								<_hid type="a">GUID bcfe15d0-af75-48d2-bc66-095ff6c0612a</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">-27 0 </_UpLeft>
-						<_DownRight type="a">862 463 </_DownRight>
-						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">3</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">114</m_nLeft>
-								<m_nTop type="a">114</m_nTop>
-								<m_nRight type="a">1055</m_nRight>
-								<m_nBottom type="a">663</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DCoA REGISTRAR DEVOLUCION DE PRESTAMO_F.Alterno</_hname>
-								<_hid type="a">GUID 79de92c0-16fd-4058-b3ef-40669efb4089</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">-1 0 </_UpLeft>
-						<_DownRight type="a">1191 785 </_DownRight>
-						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
-						<m_bIsActiveView type="a">1</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">0</m_nFlags>
-								<m_showCmd type="a">1</m_showCmd>
-								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">38</m_nLeft>
-								<m_nTop type="a">38</m_nTop>
-								<m_nRight type="a">896</m_nRight>
-								<m_nBottom type="a">587</m_nBottom>
-							</CCommon_WINDOWPLACEMENT>
-						</_placement>
-						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
-						<_theDiagram type="r">
-							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\PRESTAMO.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::PRESTAMO</_hsubsystem>
-								<_hname type="a">DCoA REGISTRAR PR%C9STAMO</_hname>
-								<_hid type="a">GUID d46659af-53e4-4de1-b92c-c653ae03876b</_hid>
-							</IHandle>
-						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1046 601 </_DownRight>
-						<m_nDiagramIndex type="a">15</m_nDiagramIndex>
-						<m_bIsActiveView type="a">0</m_bIsActiveView>
-					</CGEMdiDiagramParams>
-					
-					<CGEMdiDiagramParams type="e">
-						<_placement type="p">
-							<CCommon_WINDOWPLACEMENT type="e">
-								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">2</m_showCmd>
-								<m_ptMinPositionX type="a">711</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">776</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">260</m_nLeft>
-								<m_nTop type="a">260</m_nTop>
-								<m_nRight type="a">1091</m_nRight>
-								<m_nBottom type="a">840</m_nBottom>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">182</m_nLeft>
+								<m_nTop type="a">182</m_nTop>
+								<m_nRight type="a">949</m_nRight>
+								<m_nBottom type="a">612</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
@@ -458,8 +43,8 @@
 								<_hid type="a">GUID 6de68e75-1268-4f4e-a79e-e990932a7d81</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 21 </_UpLeft>
-						<_DownRight type="a">1486 1000 </_DownRight>
+						<_UpLeft type="a">178 10 </_UpLeft>
+						<_DownRight type="a">908 380 </_DownRight>
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -468,16 +53,16 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
-								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">2</m_showCmd>
-								<m_ptMinPositionX type="a">237</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">776</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">0</m_nLeft>
-								<m_nTop type="a">0</m_nTop>
-								<m_nRight type="a">831</m_nRight>
-								<m_nBottom type="a">580</m_nBottom>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">104</m_nLeft>
+								<m_nTop type="a">104</m_nTop>
+								<m_nRight type="a">867</m_nRight>
+								<m_nBottom type="a">553</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
@@ -490,9 +75,9 @@
 								<_hid type="a">GUID 0b181e54-7526-479f-9fec-f97d9ac21739</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">-3 0 </_UpLeft>
-						<_DownRight type="a">2231 1471 </_DownRight>
-						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<_UpLeft type="a">0 92 </_UpLeft>
+						<_DownRight type="a">854 549 </_DownRight>
+						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
@@ -501,49 +86,84 @@
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
 								<m_nFlags type="a">2</m_nFlags>
-								<m_showCmd type="a">2</m_showCmd>
-								<m_ptMinPositionX type="a">474</m_ptMinPositionX>
-								<m_ptMinPositionY type="a">776</m_ptMinPositionY>
-								<m_ptMaxPositionX type="a">-11</m_ptMaxPositionX>
-								<m_ptMaxPositionY type="a">-45</m_ptMaxPositionY>
-								<m_nLeft type="a">190</m_nLeft>
-								<m_nTop type="a">190</m_nTop>
-								<m_nRight type="a">1131</m_nRight>
-								<m_nBottom type="a">739</m_nBottom>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">130</m_nLeft>
+								<m_nTop type="a">130</m_nTop>
+								<m_nRight type="a">897</m_nRight>
+								<m_nBottom type="a">560</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
 						<_theDiagram type="r">
 							<IHandle type="e">
-								<_hm2Class type="a">ICollaborationDiagram</_hm2Class>
-								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\SOLICITUD.sbsx</_hfilename>
-								<_hsubsystem type="a">MA::SOLICITUD</_hsubsystem>
-								<_hname type="a">DCoA BUSCAR SOLICITUD DE PRESTAMO</_hname>
-								<_hid type="a">GUID 822bd581-d4fb-424a-ac5a-5ef867a0ef67</_hid>
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\MD.sbsx</_hfilename>
+								<_hsubsystem type="a">MD</_hsubsystem>
+								<_hname type="a">DCD GENERAR SOLICITUD DE PRESTAMO</_hname>
+								<_hid type="a">GUID 90c95b51-8b15-4d69-80af-b119f4c7ab3b</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">0 0 </_UpLeft>
-						<_DownRight type="a">1192 785 </_DownRight>
+						<_UpLeft type="a">332 10 </_UpLeft>
+						<_DownRight type="a">1392 695 </_DownRight>
+						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
+						<m_bIsActiveView type="a">1</m_bIsActiveView>
+					</CGEMdiDiagramParams>
+					
+					<CGEMdiDiagramParams type="e">
+						<_placement type="p">
+							<CCommon_WINDOWPLACEMENT type="e">
+								<m_nLength type="a">44</m_nLength>
+								<m_nFlags type="a">0</m_nFlags>
+								<m_showCmd type="a">1</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+								<m_nLeft type="a">156</m_nLeft>
+								<m_nTop type="a">156</m_nTop>
+								<m_nRight type="a">923</m_nRight>
+								<m_nBottom type="a">586</m_nBottom>
+							</CCommon_WINDOWPLACEMENT>
+						</_placement>
+						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
+						<_theDiagram type="r">
+							<IHandle type="e">
+								<_hm2Class type="a">IDiagram</_hm2Class>
+								<_hfilename type="a">.\PRESTAMO_EDUCATIVO_rpy\MD.sbsx</_hfilename>
+								<_hsubsystem type="a">MD</_hsubsystem>
+								<_hname type="a">DCD Iniciar sesion</_hname>
+								<_hid type="a">GUID b3e4a84f-df55-46d3-a57e-4a361e6bf6c5</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">384 0 </_UpLeft>
+						<_DownRight type="a">1114 370 </_DownRight>
 						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
 				</IRPYRawContainer>
 			</myViewsWithID>
-			<_fullName type="a">C:\ProyectoADSII\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\PRESTAMO_EDUCATIVO</_fullName>
+			<_fullName type="a">D:\PRESTAMO DE MATERIAL EDUCATIVO\PRESTAMO-DE-MATERIAL-EDUCATIVO\IBM\PRESTAMO_EDUCATIVO\PRESTAMO_EDUCATIVO</_fullName>
 			<_selectedPerspective type="a">Advanced</_selectedPerspective>
 			<m_SearchScopeList type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</m_SearchScopeList>
 			<bUsingBrowserCustomView type="a">1</bUsingBrowserCustomView>
 			<bApplyOnDiagrams type="a">0</bApplyOnDiagrams>
 			<liCustomViewIDs type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</liCustomViewIDs>
 			<mapOslcRmCollections type="c">
 				<IRPYRawContainer type="e">
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</mapOslcRmCollections>
 			<favoritesItem type="e">
@@ -557,6 +177,7 @@
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">
 		<IRPYRawContainer type="e">
+			<size type="a">0</size>
 		</IRPYRawContainer>
 	</OslcLinks>
 
