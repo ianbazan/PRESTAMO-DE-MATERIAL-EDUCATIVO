@@ -80,7 +80,7 @@
                             <td>@material.Descripcion</td>
                             <td>@material.Tipo</td>
                             <td>@material.Stock</td>
-                            <td><input type="number" class="form-control cantidad-material" data-id="@material.CodMaterial" placeholder="1" min="1" style="width: 60px;"></td>
+                            <td><input type="number" class="form-control cantidad-material" data-id="@material.CodMaterial" placeholder="0" min="0" style="width: 60px;"></td>
                             <td>
                                 <button class="btn btn-primary ver-material" data-id="@material.CodMaterial" onclick="mostrarDetalleMaterial(this)">Ver</button>
                                 <button class="btn btn-primary agregar-material" data-id="@material.CodMaterial" onclick="agregarMaterial(this)">Agregar</button>
@@ -91,7 +91,8 @@
                 </tbody>
             </table>
         </div>
-        <button class="btn btn-primary" onclick="solicitarPrestamo()">Solicitar</button>
+        <input type="hidden" id="alumnoCodUsuario" value="1" />
+        <button class="btn btn-primary mt-3" onclick="solicitarPrestamo()">Solicitar</button>
         <button class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "Home")'">Volver</button>
     </div>
 
@@ -120,6 +121,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
+        const carrito = [];
         // Función para filtrar materiales por categoría y búsqueda
         function filtrarMateriales() {
             var categoria = document.getElementById("categoria").value.toUpperCase();
@@ -153,34 +155,91 @@
 
         // Función para agregar un material a la solicitud
         function agregarMaterial(button) {
-            var row = button.closest("tr");
-            var id = row.getAttribute("data-id");
-            var cantidadInput = row.querySelector(".cantidad-material");
+            const row = button.closest("tr");
+            const id = row.getAttribute("data-id");
+            const cantidadInput = row.querySelector(".cantidad-material");
+            const cantidad = cantidadInput.value;
+            const nombre = row.cells[0].innerText;
 
-            // Aquí podrías agregar lógica para manejar la solicitud
+            const materialExistente = carrito.find(m => m.id === id);
+            if (materialExistente) {
+                materialExistente.cantidad = parseInt(materialExistente.cantidad) + parseInt(cantidad);
+            } else {
+                carrito.push({ id, nombre, cantidad });
+            }
 
-            // Mostrar botón de eliminar y ocultar botón de agregar
             row.querySelector(".eliminar-material").style.display = "inline-block";
             button.style.display = "none";
         }
 
-        // Función para eliminar un material de la solicitud
         function eliminarMaterial(button) {
-            var row = button.closest("tr");
+            const row = button.closest("tr");
+            const id = row.getAttribute("data-id");
 
-            // Aquí podrías agregar lógica para manejar la solicitud
+            const index = carrito.findIndex(m => m.id === id);
+            if (index !== -1) {
+                carrito.splice(index, 1);
+            }
 
-            // Mostrar botón de agregar y ocultar botón de eliminar
             row.querySelector(".agregar-material").style.display = "inline-block";
             button.style.display = "none";
         }
 
-        // Función para solicitar préstamo
         function solicitarPrestamo() {
-            // Aquí podrías agregar lógica para manejar la solicitud
+            const alumnoCodUsuario = document.getElementById('alumnoCodUsuario').value;
+            if (carrito.length === 0) {
+                alert('Debe agregar al menos un material.');
+                return;
+            }
 
-            alert("Solicitud enviada.");
+            const solicitudes = carrito.map(material => {
+                return fetch('@Url.Action("RegistrarSolicitud", "Solicitudes")', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        alumnoCodUsuario: parseInt(alumnoCodUsuario),
+                        materialCod: parseInt(material.id),
+                        cantidad: parseInt(material.cantidad)
+                    })
+                })
+                    .then(response => {
+                        if (response.ok) {
+                            return `Solicitud registrada con éxito para ${material.nombre}`;
+                        } else {
+                            return response.json().then(data => {
+                                return `Error al registrar la solicitud para ${material.nombre}: ${data.message}`;
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        return `Error al registrar la solicitud para ${material.nombre}`;
+                    });
+            });
+
+            Promise.all(solicitudes).then(results => {
+                results.forEach(result => alert(result));
+
+                // Limpiar carrito
+                carrito.length = 0;
+
+                // Restablecer campos de cantidad y botones
+                document.querySelectorAll('.cantidad-material').forEach(input => {
+                    input.value = '';
+                });
+
+                document.querySelectorAll('.agregar-material').forEach(button => {
+                    button.style.display = 'inline-block';
+                });
+
+                document.querySelectorAll('.eliminar-material').forEach(button => {
+                    button.style.display = 'none';
+                });
+            });
         }
+
+
     </script>
 </body>
 </html>

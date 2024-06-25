@@ -24,6 +24,11 @@ namespace SistemaPrestamos.Controllers
                 Solicitudes = _context.Solicitud.Where(s => s.Estado == "Generado").ToList(),
                 Prestamo = new Prestamo()
             };
+            if (viewModel.Prestamo == null)
+            {
+                // Esto no debería suceder, pero por si acaso
+                throw new Exception("El objeto Prestamo no se ha inicializado correctamente.");
+            }
             return View(viewModel);
         }
 
