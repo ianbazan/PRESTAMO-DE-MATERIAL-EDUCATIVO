@@ -23,25 +23,30 @@ namespace SistemaPrestamos.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> RegistrarSolicitud(int alumnoCodUsuario, int materialCod, int cantidad)
+        public async Task<IActionResult> RegistrarSolicitud([FromBody] SolicitudDTO solicitud)
         {
+            if (solicitud == null)
+            {
+                return BadRequest(new { message = "Datos de solicitud inválidos" });
+            }
+
             using (var command = _context.Database.GetDbConnection().CreateCommand())
             {
                 command.CommandText = "registrarSolicitud";
                 command.CommandType = System.Data.CommandType.StoredProcedure;
-                command.Parameters.Add(new MySqlParameter("p_alumno_id", alumnoCodUsuario));
-                command.Parameters.Add(new MySqlParameter("p_material_cod", materialCod));
-                command.Parameters.Add(new MySqlParameter("p_cantidad", cantidad));
+                command.Parameters.Add(new MySqlParameter("p_alumno_codUsuario", solicitud.alumnoCodUsuario));
+                command.Parameters.Add(new MySqlParameter("p_material_cod", solicitud.materialCod));
+                command.Parameters.Add(new MySqlParameter("p_cantidad", solicitud.cantidad));
 
                 await _context.Database.OpenConnectionAsync();
                 try
                 {
                     await command.ExecuteNonQueryAsync();
                 }
-                catch (Exception ex)
+                catch (MySqlException ex)
                 {
-                    // Manejo de errores
-                    return BadRequest(ex.Message);
+                    await _context.Database.CloseConnectionAsync();
+                    return BadRequest(new { message = ex.Message });
                 }
                 finally
                 {
@@ -50,6 +55,13 @@ namespace SistemaPrestamos.Controllers
             }
 
             return Ok();
+        }
+
+        public class SolicitudDTO
+        {
+            public int alumnoCodUsuario { get; set; }
+            public int materialCod { get; set; }
+            public int cantidad { get; set; }
         }
 
         [HttpPost]
@@ -69,8 +81,7 @@ namespace SistemaPrestamos.Controllers
                 }
                 catch (Exception ex)
                 {
-                    // Manejo de errores
-                    return BadRequest(ex.Message);
+                    return BadRequest(new { message = ex.Message });
                 }
                 finally
                 {
@@ -82,3 +93,4 @@ namespace SistemaPrestamos.Controllers
         }
     }
 }
+    

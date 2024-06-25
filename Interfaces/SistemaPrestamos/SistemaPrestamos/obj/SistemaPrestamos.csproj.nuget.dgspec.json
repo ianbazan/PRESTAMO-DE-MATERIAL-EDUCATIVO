@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {}
+    "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {}
   },
   "projects": {
-    "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {
+    "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
         "projectName": "SistemaPrestamos",
-        "projectPath": "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
-        "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
-        "outputPath": "D:\\CIBERTEC\\4TO CICLO\\ADS II\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
+        "projectPath": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
