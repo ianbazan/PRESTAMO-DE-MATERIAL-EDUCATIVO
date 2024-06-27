@@ -5,6 +5,7 @@ using SistemaPrestamos.Context;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using MySqlConnector;
 
 namespace SistemaPrestamos.Controllers
 {
@@ -17,30 +18,32 @@ namespace SistemaPrestamos.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
-        {
-            var viewModel = new PrestamoViewModel
-            {
-                Solicitudes = _context.Solicitud.Where(s => s.Estado == "Generado").ToList(),
-                Prestamo = new Prestamo()
-            };
-            if (viewModel.Prestamo == null)
-            {
-                // Esto no debería suceder, pero por si acaso
-                throw new Exception("El objeto Prestamo no se ha inicializado correctamente.");
-            }
-            return View(viewModel);
-        }
-
-        // Acción para mostrar solicitudes con estado "Generado"
-        public IActionResult BuscarSolicitudPrestamo()
+        // Acción para mostrar la vista de registrar préstamo
+        public IActionResult RegistrarPrestamo()
         {
             var solicitudes = _context.Solicitud.Where(s => s.Estado == "Generado").ToList();
-            return PartialView("_SolicitudesGeneradas", solicitudes);
+            return View(solicitudes);
+        }
+
+        // Acción para mostrar la vista de actualizar préstamo
+        public IActionResult ActualizarPrestamo()
+        {
+            var prestamo = _context.Prestamo.Where(p => p.Estado == "Activo").ToList();
+            return View(prestamo);
+        }
+
+        // Acción para mostrar la vista de registrar devolución
+        public IActionResult RegistrarDevolucion()
+        {
+            var prestamo = _context.Prestamo.Where(p => p.Estado == "Activo" || p.Estado == "Tardio").ToList();
+            return View(prestamo);
         }
 
         // Acción para mostrar el formulario de registro de préstamo
-        public IActionResult MostrarFormularioPrestamo(int id)
+
+
+        // Acción para registrar préstamo - POST
+        public IActionResult ObtenerDatosSolicitud(int id)
         {
             var solicitud = _context.Solicitud
                 .Include(s => s.Material)
@@ -52,48 +55,67 @@ namespace SistemaPrestamos.Controllers
                 return NotFound();
             }
 
-            var prestamo = new Prestamo
+            // Crear un objeto préstamo temporal para obtener las fechas
+            var prestamoTemp = new Prestamo
             {
-                Solicitud_IdSolicitud = solicitud.IdSolicitud,
-                Material_CodMaterial = solicitud.Material_CodMaterial,
                 FechaPrestamo = DateTime.Now,
-                Estado = "Activo"
+                FechaDevolucion = DateTime.Now.AddDays(7) 
             };
 
-            return PartialView("_RegistrarPrestamoModal", prestamo);
+            return Json(new
+            {
+                solicitud.IdSolicitud,
+                solicitud.Alumno_Usuario_CodUsuario,
+                solicitud.Material_CodMaterial,
+                solicitud.Cantidad,
+                prestamoTemp.FechaPrestamo,
+                prestamoTemp.FechaDevolucion
+            });
         }
 
-        // Acción para registrar préstamo
+
+        // Acción para registrar préstamo - POST
         [HttpPost]
-        public async Task<IActionResult> RegistrarPrestamo(Prestamo prestamo, int materialesEscaneados)
+        public async Task<IActionResult> RegistrarPrestamo(Prestamo prestamo)
         {
             if (ModelState.IsValid)
             {
-                // Establece el estado y materiales escaneados
-                prestamo.Estado = "Activo";
-                prestamo.MaterialesEscaneados = materialesEscaneados;
+                try
+                {
+                    using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
+                    {
+                        await connection.OpenAsync();
 
-                // Calcula la fecha de devolución y otros campos necesarios
-                prestamo.FechaDevolucion = prestamo.FechaPrestamo.AddDays(7);
+                        using (var command = new MySqlCommand("registrarPrestamo", connection))
+                        {
+                            command.CommandType = System.Data.CommandType.StoredProcedure;
+                            command.Parameters.AddWithValue("p_solicitud_id", prestamo.Solicitud_IdSolicitud);
+                            command.Parameters.AddWithValue("p_fecha_prestamo", DateTime.Now);
 
-                // Agrega el préstamo a la base de datos
-                _context.Prestamo.Add(prestamo);
-                await _context.SaveChangesAsync();
+                            await command.ExecuteNonQueryAsync();
+                        }
+                    }
 
-                return RedirectToAction(nameof(Index));
+                    return RedirectToAction(nameof(RegistrarPrestamo));
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(string.Empty, $"Error al registrar el préstamo: {ex.Message}");
+                }
             }
-            return PartialView("_RegistrarPrestamoModal", prestamo);
+            return View(prestamo);
         }
 
         // Acción para actualizar préstamo - GET
-        public IActionResult ActualizarPrestamo(int id)
+        public IActionResult MostrarFormularioActualizar(int id)
         {
             var prestamo = _context.Prestamo.Find(id);
             if (prestamo == null)
             {
                 return NotFound();
             }
-            return PartialView("_ActualizarPrestamo", prestamo);
+            ViewBag.Action = "ActualizarPrestamo";
+            return View("ActualizarPrestamo", prestamo);
         }
 
         // Acción para actualizar préstamo - POST
@@ -106,18 +128,19 @@ namespace SistemaPrestamos.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return PartialView("_ActualizarPrestamo", prestamo);
+            return View(prestamo);
         }
 
-        // Acción para registrar devolución - GET
-        public IActionResult RegistrarDevolucion(int id)
+        // Acción para mostrar el formulario de registrar devolución
+        public IActionResult MostrarFormularioDevolucion(int id)
         {
             var prestamo = _context.Prestamo.Find(id);
             if (prestamo == null)
             {
                 return NotFound();
             }
-            return PartialView("_RegistrarDevolucion", prestamo);
+            ViewBag.Action = "RegistrarDevolucion";
+            return View("RegistrarDevolucion", prestamo);
         }
 
         // Acción para registrar devolución - POST
@@ -138,7 +161,7 @@ namespace SistemaPrestamos.Controllers
 
                 return RedirectToAction(nameof(Index));
             }
-            return PartialView("_RegistrarDevolucion", prestamo);
+            return View(prestamo);
         }
     }
 }

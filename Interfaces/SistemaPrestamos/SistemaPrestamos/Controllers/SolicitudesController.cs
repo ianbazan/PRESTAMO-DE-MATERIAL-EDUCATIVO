@@ -53,8 +53,7 @@ namespace SistemaPrestamos.Controllers
                     await _context.Database.CloseConnectionAsync();
                 }
             }
-
-            return Ok();
+            return Json(new { success = true });
         }
 
         public class SolicitudDTO

@@ -204,13 +204,18 @@
                         cantidad: parseInt(material.cantidad)
                     })
                 })
-                    .then(response => {
-                        if (response.ok) {
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            // Actualiza el stock en la interfaz
+                            const row = document.querySelector(`.material-row[data-id="${material.id}"]`);
+                            const stockCell = row.querySelector("td:nth-child(5)");
+                            const currentStock = parseInt(stockCell.innerText);
+                            const newStock = currentStock - parseInt(material.cantidad);
+                            stockCell.innerText = newStock;
                             return `Solicitud registrada con éxito para ${material.nombre}`;
                         } else {
-                            return response.json().then(data => {
-                                return `Error al registrar la solicitud para ${material.nombre}: ${data.message}`;
-                            });
+                            return `Error al registrar la solicitud para ${material.nombre}: ${data.message}`;
                         }
                     })
                     .catch(error => {
@@ -236,6 +241,7 @@
                 document.querySelectorAll('.eliminar-material').forEach(button => {
                     button.style.display = 'none';
                 });
+
             });
         }
 

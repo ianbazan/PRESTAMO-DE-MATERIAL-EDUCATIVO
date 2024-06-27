@@ -1,86 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\",
+  "WorkspaceRootPath": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\_solicitudesgeneradas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\_solicitudesgeneradas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\_actualizarprestamo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\_actualizarprestamo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\_registrarprestamomodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\_registrarprestamomodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\prestamoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\prestamoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\_registrardevolucion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\_registrardevolucion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\solicitudes\\registrarsolicitud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\solicitudes\\registrarsolicitud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\users\\user\\downloads\\sistemaprestamos\\sistemaprestamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -101,264 +29,34 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ActualizarPrestamo.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_ActualizarPrestamo.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\_ActualizarPrestamo.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_ActualizarPrestamo.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\_ActualizarPrestamo.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T03:10:30.485Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SolicitudesController.cs",
+              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\SolicitudesController.cs",
+              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Controllers\\SolicitudesController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T00:51:20.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_SolicitudesGeneradas.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_SolicitudesGeneradas.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\_SolicitudesGeneradas.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_SolicitudesGeneradas.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\_SolicitudesGeneradas.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T02:04:21.963Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PrestamoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\PrestamoViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\PrestamoViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\PrestamoViewModel.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\PrestamoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T02:08:15.944Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Solicitud.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Solicitud.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Solicitud.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Solicitud.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Solicitud.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAA9wA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:38:15.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_RegistrarPrestamoModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_RegistrarPrestamoModal.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\_RegistrarPrestamoModal.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_RegistrarPrestamoModal.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\_RegistrarPrestamoModal.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAYwEEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T02:37:01.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "PrestamosController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
+              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
               "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\PrestamosController.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
+              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
               "RelativeToolTip": "SistemaPrestamos\\Controllers\\PrestamosController.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAmwI8AAAABAAAA",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAuwGcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T01:16:51.5Z",
+              "WhenOpened": "2024-06-27T00:51:02.146Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Prestamo.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Prestamo.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Prestamo.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Prestamo.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Prestamo.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA/wBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T02:07:56.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\Index.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\Index.cshtml",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAmwJUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T02:10:30.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACAAAAAAAAAAAAAmwC8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T00:54:10.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_RegistrarDevolucion.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_RegistrarDevolucion.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\_RegistrarDevolucion.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\_RegistrarDevolucion.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\_RegistrarDevolucion.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T02:38:25.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SolicitudesController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\SolicitudesController.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Controllers\\SolicitudesController.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAYwDsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T14:28:34.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegistrarSolicitud.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "ViewState": "AQIAANgAAAAAAAAAAAAmwNwAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-23T14:57:23.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T00:55:07.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:39:04.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Usuario.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Usuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:38:35.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Material.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Material.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Material.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Material.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Material.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T01:03:46.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Alumno.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Alumno.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Models\\Alumno.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Alumno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T23:39:04.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-25T00:54:59.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\appsettings.json",
-              "RelativeToolTip": "SistemaPrestamos\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-24T22:50:18.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\Program.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T22:47:42.43Z"
             }
           ]
         }

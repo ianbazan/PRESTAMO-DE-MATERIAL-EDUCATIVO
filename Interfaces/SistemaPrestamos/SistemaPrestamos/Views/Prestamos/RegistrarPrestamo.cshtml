@@ -1,0 +1,91 @@
+﻿@model IEnumerable<SistemaPrestamos.Models.Solicitud>
+
+@{
+    ViewData["Title"] = "Registrar Préstamo";
+}
+
+<h2>Registrar Préstamo</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Solicitud</th>
+            <th>Código Alumno</th>
+            <th>Código Material</th>
+            <th>Cantidad</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var solicitud in Model)
+        {
+            <tr>
+                <td>@solicitud.IdSolicitud</td>
+                <td>@solicitud.Alumno_Usuario_CodUsuario</td>
+                <td>@solicitud.Material_CodMaterial</td>
+                <td>@solicitud.Cantidad</td>
+                <td>@solicitud.Estado</td>
+                <td>
+                    <button class="btn btn-primary" onclick="abrirModalRegistrar(@solicitud.IdSolicitud)">Registrar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Formulario Modal -->
+<div class="modal fade" id="registrarPrestamoModal" tabindex="-1" aria-labelledby="registrarPrestamoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="registrarPrestamoModalLabel">Registrar Préstamo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="registrarPrestamoForm" asp-action="RegistrarPrestamo" method="post">
+                    <div class="form-group">
+                        <label for="Solicitud_IdSolicitud">ID Solicitud</label>
+                        <input type="text" class="form-control" id="Solicitud_IdSolicitud" name="Solicitud_IdSolicitud" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="Alumno_Usuario_CodUsuario">Código Alumno</label>
+                        <input type="text" class="form-control" id="Alumno_Usuario_CodUsuario" name="Alumno_Usuario_CodUsuario" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="Material_CodMaterial">Código Material</label>
+                        <input type="text" class="form-control" id="Material_CodMaterial" name="Material_CodMaterial" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="MaterialesEscanear">Cantidad</label>
+                        <input type="number" class="form-control" id="MaterialesEscanear" name="MaterialesEscanear" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="FechaPrestamo">Fecha de Préstamo</label>
+                        <input type="datetime-local" class="form-control" id="FechaPrestamo" name="FechaPrestamo" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="FechaDevolucion">Fecha de Devolución</label>
+                        <input type="datetime-local" class="form-control" id="FechaDevolucion" name="FechaDevolucion" readonly>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function abrirModalRegistrar(idSolicitud) {
+        $.get('@Url.Action("ObtenerDatosSolicitud", "Prestamos")/' + idSolicitud, function (data) {
+            $('#Solicitud_IdSolicitud').val(data.idSolicitud);
+            $('#Alumno_Usuario_CodUsuario').val(data.alumno_Usuario_CodUsuario);
+            $('#Material_CodMaterial').val(data.material_CodMaterial);
+            $('#MaterialesEscanear').val(data.cantidad);
+            $('#FechaPrestamo').val(new Date(data.fechaPrestamo).toISOString().substring(0, 16));
+            $('#FechaDevolucion').val(new Date(data.fechaDevolucion).toISOString().substring(0, 16));
+            $('#registrarPrestamoModal').modal('show');
+        });
+    }
+</script>

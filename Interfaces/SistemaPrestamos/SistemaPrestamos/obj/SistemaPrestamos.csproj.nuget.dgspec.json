@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {}
+    "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {
+    "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+        "projectUniqueName": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
         "projectName": "SistemaPrestamos",
-        "projectPath": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Downloads\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
+        "projectPath": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\SistemaPrestamos.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,6 +51,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
