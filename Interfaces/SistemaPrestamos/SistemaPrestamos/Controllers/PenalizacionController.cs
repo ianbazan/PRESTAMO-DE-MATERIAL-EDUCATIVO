@@ -25,11 +25,35 @@ namespace SistemaPrestamos.Controllers
             var prestamos = _context.Prestamo
                 .Include(p => p.Solicitud)
                 .ThenInclude(s => s.Alumno)
-                .Where(p => p.Estado == "Activo" || p.Estado == "Tardío")
+                .Where(p => p.Estado == "En Curso" || p.Estado == "Tardío")
                 .ToList();
             return View(prestamos);
         }
+        public IActionResult ObtenerDatosPrestamo(int id)
+        {
+            var prestamo = _context.Prestamo
+                .Include(p => p.Solicitud.Material)
+                .Include(p => p.Solicitud.Alumno)
+                .FirstOrDefault(p => p.IdPrestamo == id);
 
+            if (prestamo == null)
+            {
+                return NotFound();
+            }
+
+            var fechaPrestamo = DateTime.Now;
+            var fechaDevolucion = fechaPrestamo.AddDays(7);
+
+            return Json(new
+            {
+                prestamo.IdPrestamo,
+                prestamo.Solicitud.Alumno_Usuario_CodUsuario,
+                prestamo.Solicitud.Material_CodMaterial,
+                prestamo.Solicitud.Cantidad,
+                FechaPrestamo = fechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Fecha actual
+                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd") // Fecha de devolución calculada
+            });
+        }
         // Acción para registrar penalización
         [HttpPost]
         public async Task<IActionResult> RegistrarPenalizacion(int prestamoId, string descripcion)
@@ -66,7 +90,8 @@ namespace SistemaPrestamos.Controllers
                 }
             }
 
-            return Ok(new { message = "Se ha registrado la penalización con éxito." });
+            return Ok(new { message = "Se ha registrado la penalización con éxito.", redirectUrl = Url.Action("RegistrarPenalizacion", "Penalizacion") } );
+
         }
 
         // Acción para registrar penalización fuera de plazo

@@ -18,6 +18,8 @@ namespace SistemaPrestamos.Controllers
             _context = context;
         }
 
+        
+
         public void ActualizarEstadoPrestamosVencidos()
         {
             var prestamosVencidos = _context.Prestamo

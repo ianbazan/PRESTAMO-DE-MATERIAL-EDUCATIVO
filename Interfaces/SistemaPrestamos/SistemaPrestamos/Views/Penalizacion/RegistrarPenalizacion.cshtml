@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<SistemaPrestamos.Models.Prestamo>
 
 @{
-    ViewData["Title"] = "Actualizar Préstamo";
+    ViewData["Title"] = "Registrar Penalizacion";
 }
 
 <h2>Actualizar Préstamo</h2>
@@ -26,7 +26,7 @@
                 <td>@prestamo.Solicitud.Cantidad</td>
                 <td>@prestamo.Estado</td>
                 <td>
-                    <button class="btn btn-primary" onclick="abrirModalActualizar(@prestamo.IdPrestamo)">Actualizar</button>
+                    <button class="btn btn-primary" onclick="abrirModalRegistrarPenalizacion(@prestamo.IdPrestamo)">Penalizar</button>
                 </td>
             </tr>
         }
@@ -34,20 +34,20 @@
 </table>
 
 <!-- Formulario Modal -->
-<div class="modal fade" id="actualizarPrestamoModal" tabindex="-1" aria-labelledby="actualizarPrestamoModalLabel" aria-hidden="true">
+<div class="modal fade" id="registrarPenalizacionModal" tabindex="-1" aria-labelledby="registrarPenalizacionModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="actualizarPrestamoModalLabel">Actualizar Préstamo</h5>
+                <h5 class="modal-title" id="registrarPenalizacionModalLabel">Actualizar Préstamo</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <form id="actualizarPrestamoForm" asp-action="ActualizarPrestamo" method="post">
+                <form id="registrarPenalizacionForm" asp-action="RegistrarPenalizacion" method="post">
                     <div class="form-group">
-                        <label for="p_prestamo_id">ID Prestamo</label>
-                        <input type="text" class="form-control" id="p_prestamo_id" name="p_prestamo_id" readonly>
+                        <label for="prestamoId">ID Prestamo</label>
+                        <input type="text" class="form-control" id="prestamoId" name="prestamoId" readonly>
                     </div>
                     <div class="form-group">
                         <label for="Solicitud_Alumno_Usuario_CodUsuario">Código Alumno</label>
@@ -62,14 +62,10 @@
                         <input type="number" class="form-control" id="Solicitud_Cantidad" name="Solicitud_Cantidad" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="NuevaFechaPrestamo">Nueva Fecha de Préstamo</label>
-                        <input type="datetime-local" class="form-control" id="NuevaFechaPrestamo" name="NuevaFechaPrestamo" readonly>
+                        <label for="descripcion">Descripcion</label>
+                        <input type="text" class="form-control" id="descripcion" name="descripcion">
                     </div>
-                    <div class="form-group">
-                        <label for="NuevaFechaDevolucion">Nueva Fecha de Devolución</label>
-                        <input type="date" class="form-control" id="NuevaFechaDevolucion" name="NuevaFechaDevolucion" readonly>
-                    </div>
-                    <button type="submit" class="btn btn-primary" id="btnActualizarPrestamo">Actualizar</button>
+                    <button type="submit" class="btn btn-primary" id="btnRegistrarPenalizacion">Actualizar</button>
                 </form>
             </div>
         </div>
@@ -78,19 +74,36 @@
 <!-- Incluye jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    function abrirModalActualizar(idPrestamo) {
-        $.get('@Url.Action("ObtenerDatosPrestamo", "Prestamos")/' + idPrestamo, function (data) {
-            $('#p_prestamo_id').val(data.idPrestamo);
+    function abrirModalRegistrarPenalizacion(idPrestamo) {
+        $.get('@Url.Action("ObtenerDatosPrestamo", "Penalizacion")/' + idPrestamo, function (data) {
+            $('#prestamoId').val(data.idPrestamo);
             $('#Solicitud_Alumno_Usuario_CodUsuario').val(data.alumno_Usuario_CodUsuario);
             $('#Solicitud_Material_CodMaterial').val(data.material_CodMaterial);
             $('#Solicitud_Cantidad').val(data.cantidad);
 
-            $('#NuevaFechaPrestamo').val(data.fechaPrestamo);
-            $('#NuevaFechaDevolucion').val(data.fechaDevolucion);
-
-            $('#actualizarPrestamoModal').modal('show'); // Asegúrate que el id del modal sea correcto
+            $('#registrarPenalizacionModal').modal('show'); // Asegúrate que el id del modal sea correcto
         }).fail(function (xhr, status, error) {
             alert('Error al obtener datos del préstamo:', error);
         });
     }
+
+    $(document).ready(function () {
+        $('#registrarPenalizacionForm').on('submit', function (e) {
+            e.preventDefault();
+
+            $.ajax({
+                type: 'POST',
+                url: $(this).attr('action'),
+                data: $(this).serialize(),
+                success: function (response) {
+                    alert(response.message);
+                    window.location.href = response.redirectUrl;
+                },
+                error: function (xhr) {
+                    alert(xhr.responseJSON.message);
+                }
+            });
+        });
+    });
+
 </script>

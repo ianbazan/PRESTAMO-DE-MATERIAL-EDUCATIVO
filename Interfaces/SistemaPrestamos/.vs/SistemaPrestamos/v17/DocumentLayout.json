@@ -1,78 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\",
+  "WorkspaceRootPath": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\actualizarprestamo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\actualizarprestamo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\solicitudes\\registrarsolicitud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\solicitudes\\registrarsolicitud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\prestamos\\registrarprestamo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\prestamos\\registrarprestamo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\solicitud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\penalizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\penalizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\penalizacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\penalizacion\\registrarpenalizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\penalizacion\\registrarpenalizacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\solicitudescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|c:\\proyecto ads2\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\views\\solicitudes\\registrarsolicitud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\views\\solicitudes\\registrarsolicitud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\controllers\\prestamoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\prestamo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\models\\penalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\models\\penalizacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|d:\\prestamo de material\\prestamo-de-material-educativo\\interfaces\\sistemaprestamos\\sistemaprestamos\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C91B4951-FC15-4643-ACDF-5E6547344E57}|SistemaPrestamos\\SistemaPrestamos.csproj|solutionrelative:sistemaprestamos\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,236 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 140,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrarSolicitud.cshtml",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
+              "RelativeToolTip": "SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T03:55:09.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T20:21:55.786Z"
+              "DocumentIndex": 4,
+              "Title": "PrestamosController.cs",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\PrestamosController.cs",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Controllers\\PrestamosController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T03:40:19.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T20:21:45.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Shared\\_Layout.cshtml",
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Context\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T20:21:37.465Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T03:39:20.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Prestamo.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Prestamo.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Prestamo.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Prestamo.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Prestamo.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBoAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Penalizacion.cs",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Penalizacion.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Penalizacion.cs",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Penalizacion.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Models\\Penalizacion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T20:14:15.949Z"
+              "WhenOpened": "2024-06-29T03:26:56.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prestamo.cs",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Prestamo.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Prestamo.cs",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Prestamo.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Models\\Prestamo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T02:56:04.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegistrarPenalizacion.cshtml",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Penalizacion\\RegistrarPenalizacion.cshtml",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Penalizacion\\RegistrarPenalizacion.cshtml",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Penalizacion\\RegistrarPenalizacion.cshtml",
+              "RelativeToolTip": "SistemaPrestamos\\Views\\Penalizacion\\RegistrarPenalizacion.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAYwGcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-29T02:14:22.804Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PrestamosController.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\PrestamosController.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PrestamosController.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Controllers\\PrestamosController.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAgwDUAAAAwAAAA",
+              "Title": "PenalizacionController.cs",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PenalizacionController.cs",
+              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\PenalizacionController.cs",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PenalizacionController.cs",
+              "RelativeToolTip": "SistemaPrestamos\\Controllers\\PenalizacionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T00:51:02.146Z",
+              "WhenOpened": "2024-06-28T02:23:57.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ActualizarPrestamo.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\ActualizarPrestamo.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\ActualizarPrestamo.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\ActualizarPrestamo.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\ActualizarPrestamo.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwE8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T00:49:53.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegistrarPrestamo.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\RegistrarPrestamo.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Prestamos\\RegistrarPrestamo.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Prestamos\\RegistrarPrestamo.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Prestamos\\RegistrarPrestamo.cshtml",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAowEIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T20:17:54.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\appsettings.json",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\appsettings.json",
-              "RelativeToolTip": "SistemaPrestamos\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-27T20:01:46.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistrarSolicitud.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Solicitudes\\RegistrarSolicitud.cshtml",
-              "ViewState": "AQIAAOQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T20:23:13.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T20:21:36.126Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "SistemaPrestamos\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T20:21:35.561Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PenalizacionController.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PenalizacionController.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\PenalizacionController.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\PenalizacionController.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Controllers\\PenalizacionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T02:23:57.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Solicitud.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Solicitud.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Solicitud.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Solicitud.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Solicitud.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T21:20:56.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Context\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Context\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Context\\ApplicationDbContext.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAADwv0UAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T01:42:49.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Alumno.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Alumno.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Alumno.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Alumno.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Alumno.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T20:13:42.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Program.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Program.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T20:12:12.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Material.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Material.cs",
-              "RelativeDocumentMoniker": "SistemaPrestamos\\Models\\Material.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Models\\Material.cs",
-              "RelativeToolTip": "SistemaPrestamos\\Models\\Material.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T21:20:52.028Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "SolicitudesController.cs",
-              "DocumentMoniker": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
+              "DocumentMoniker": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
               "RelativeDocumentMoniker": "SistemaPrestamos\\Controllers\\SolicitudesController.cs",
-              "ToolTip": "C:\\Proyecto ADS2\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
+              "ToolTip": "D:\\Prestamo de Material\\PRESTAMO-DE-MATERIAL-EDUCATIVO\\Interfaces\\SistemaPrestamos\\SistemaPrestamos\\Controllers\\SolicitudesController.cs",
               "RelativeToolTip": "SistemaPrestamos\\Controllers\\SolicitudesController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAswDYAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-27T00:51:20.435Z"
+              "WhenOpened": "2024-06-29T03:41:51.29Z",
+              "EditorCaption": ""
             }
           ]
         }
