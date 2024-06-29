@@ -60,14 +60,14 @@ namespace SistemaPrestamos.Context
                 .HasForeignKey(p => p.Solicitud_IdSolicitud);
 
             // Mapeo de propiedades adicionales en Prestamo
-            modelBuilder.Entity<Prestamo>()
+            /*modelBuilder.Entity<Prestamo>()
                 .Property(p => p.Material_CodMaterial).HasColumnName("Material_CodMaterial");
             modelBuilder.Entity<Prestamo>()
                 .Property(p => p.FechaDevolucion).HasColumnName("FechaDevolucion");
             modelBuilder.Entity<Prestamo>()
                 .Property(p => p.MaterialesEscanear).HasColumnName("MaterialesEscanear");
             modelBuilder.Entity<Prestamo>()
-                .Property(p => p.MaterialesEscaneados).HasColumnName("MaterialesEscaneados");
+                .Property(p => p.MaterialesEscaneados).HasColumnName("MaterialesEscaneados");*/
 
             // Configuración de la clave primaria y relaciones de Penalizacion
             modelBuilder.Entity<Penalizacion>()

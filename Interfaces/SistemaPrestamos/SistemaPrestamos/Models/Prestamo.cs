@@ -1,4 +1,6 @@
-﻿namespace SistemaPrestamos.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace SistemaPrestamos.Models
 {
     public class Prestamo
     {
@@ -10,9 +12,13 @@
 
 
         // Campos adicionales
+        [NotMapped]
         public int Material_CodMaterial { get; set; }
+        [NotMapped]
         public DateTime FechaDevolucion { get; set; }
+        [NotMapped]
         public int MaterialesEscanear { get; set; }
+        [NotMapped]
         public int MaterialesEscaneados { get; set; }
 
         public Solicitud? Solicitud { get; set; }
