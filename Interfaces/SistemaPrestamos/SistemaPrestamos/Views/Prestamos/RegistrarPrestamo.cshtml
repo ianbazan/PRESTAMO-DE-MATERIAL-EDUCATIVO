@@ -34,6 +34,7 @@
 </table>
 
 <!-- Formulario Modal -->
+<!-- Modifica el formulario para ocultar el input de código de barras -->
 <div class="modal fade" id="registrarPrestamoModal" tabindex="-1" aria-labelledby="registrarPrestamoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -58,34 +59,81 @@
                         <input type="text" class="form-control" id="Material_CodMaterial" name="Material_CodMaterial" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="MaterialesEscanear">Cantidad</label>
-                        <input type="number" class="form-control" id="MaterialesEscanear" name="MaterialesEscanear" readonly>
-                    </div>
-                    <div class="form-group">
                         <label for="FechaPrestamo">Fecha de Préstamo</label>
                         <input type="datetime-local" class="form-control" id="FechaPrestamo" name="FechaPrestamo" readonly>
                     </div>
                     <div class="form-group">
                         <label for="FechaDevolucion">Fecha de Devolución</label>
-                        <input type="datetime-local" class="form-control" id="FechaDevolucion" name="FechaDevolucion" readonly>
+                        <input type="date" class="form-control" id="FechaDevolucion" name="FechaDevolucion" readonly>
                     </div>
-                    <button type="submit" class="btn btn-primary">Registrar</button>
+                        <div class="form-group">
+                        <label for="MaterialesEscanear">Materiales a escanear</label>
+                        <input type="number" class="form-control" id="MaterialesEscanear" name="MaterialesEscanear" readonly>
+                    </div>
+                    <div class="form-group">    
+                        <label for="MaterialesEscaneados">Materiales escaneados</label>
+                        <input type="number" class="form-control" id="MaterialesEscaneados" name="MaterialesEscaneados" value="0" readonly>
+                    </div>
+                    <!-- Input para escanear oculto pero con enfoque automático -->
+                    <div class="form-group" >
+                        <label for="codigoBarrasInput">Escanear Código de Barras</label>
+                        <input type="text" class="form-control" id="codigoBarrasInput" name="codigoBarrasInput">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="btnRegistrarPrestamo" disabled>Registrar</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Incluye jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
+    let cantidadMaterialesEscaneados = 0;
+    let cantidadMaterialesRequeridos = 0;
+    let codigoMaterialEsperado = 0;
+
     function abrirModalRegistrar(idSolicitud) {
         $.get('@Url.Action("ObtenerDatosSolicitud", "Prestamos")/' + idSolicitud, function (data) {
             $('#Solicitud_IdSolicitud').val(data.idSolicitud);
             $('#Alumno_Usuario_CodUsuario').val(data.alumno_Usuario_CodUsuario);
             $('#Material_CodMaterial').val(data.material_CodMaterial);
             $('#MaterialesEscanear').val(data.cantidad);
-            $('#FechaPrestamo').val(new Date(data.fechaPrestamo).toISOString().substring(0, 16));
-            $('#FechaDevolucion').val(new Date(data.fechaDevolucion).toISOString().substring(0, 16));
+            $('#FechaPrestamo').val(data.fechaPrestamo);
+            $('#FechaDevolucion').val(data.fechaDevolucion);
             $('#registrarPrestamoModal').modal('show');
+
+            // Reset material count and set expected values
+            cantidadMaterialesEscaneados = 0;
+            $('#MaterialesEscaneados').val(cantidadMaterialesEscaneados);
+            $('#btnRegistrarPrestamo').prop('disabled', true);
+            cantidadMaterialesRequeridos = data.cantidad;
+            codigoMaterialEsperado = data.material_CodMaterial;
+            $('#registrarPrestamoModal').on('shown.bs.modal', function () {
+                $('#codigoBarrasInput').focus();
+            });
         });
     }
+
+
+    $('#codigoBarrasInput').on('keypress', function (e) {
+        if (e.which === 13) { // Enter key pressed
+            e.preventDefault(); // Prevent form submission
+            let codigoEscaneado = parseInt($(this).val()); // Convert to integer if needed
+            $(this).val(''); // Clear input for next scan
+
+            if (codigoEscaneado === codigoMaterialEsperado) {
+                cantidadMaterialesEscaneados++;
+                $('#MaterialesEscaneados').val(cantidadMaterialesEscaneados);
+
+                if (cantidadMaterialesEscaneados === cantidadMaterialesRequeridos) {
+                    $('#btnRegistrarPrestamo').prop('disabled', false);
+                    $('#codigoBarrasInput').prop('disabled', true);
+                }
+            } else {
+                alert('El material escaneado no coincide con la solicitud. Por favor, verifique y escanee el material correcto.');
+            }
+        }
+    });
+
 </script>

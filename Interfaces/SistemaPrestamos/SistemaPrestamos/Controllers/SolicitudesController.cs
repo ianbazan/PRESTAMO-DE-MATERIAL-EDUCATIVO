@@ -1,12 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using SistemaPrestamos.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using SistemaPrestamos.Context;
 using SistemaPrestamos.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaPrestamos.Controllers
 {
-    public class SolicitudesController : Controller
+    [Authorize]
+    public class SolicitudesController : ActionUserController
     {
         private readonly ApplicationDbContext _context;
 

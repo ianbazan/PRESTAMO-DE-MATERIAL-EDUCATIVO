@@ -1,10 +1,13 @@
+using SistemaPrestamos.Controllers;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SistemaPrestamos.Models;
 using System.Diagnostics;
 
 namespace SistemaPrestamos.Controllers
 {
-    public class HomeController : Controller
+    [Authorize]
+    public class HomeController : ActionUserController
     {
         private readonly ILogger<HomeController> _logger;
 
@@ -15,7 +18,17 @@ namespace SistemaPrestamos.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            if (User.IsInRole("Encargado"))
+            {
+                return View("IndexEncargado");
+            }
+            else if (User.IsInRole("Alumno"))
+            {
+                return View("IndexAlumno");
+            }
+
+            // Si no tiene un rol válido, redirigir a una página de error o login
+            return RedirectToAction("Login", "Security");
         }
 
         public IActionResult Privacy()

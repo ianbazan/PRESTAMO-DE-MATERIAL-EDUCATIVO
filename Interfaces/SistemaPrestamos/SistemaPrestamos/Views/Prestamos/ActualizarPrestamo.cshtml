@@ -1,0 +1,96 @@
+﻿@model IEnumerable<SistemaPrestamos.Models.Prestamo>
+
+@{
+    ViewData["Title"] = "Actualizar Préstamo";
+}
+
+<h2>Actualizar Préstamo</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID Prestamo</th>
+            <th>Código Alumno</th>
+            <th>Código Material</th>
+            <th>Cantidad</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var prestamo in Model)
+        {
+            <tr>
+                <td>@prestamo.IdPrestamo</td>
+                <td>@prestamo.Solicitud.Alumno_Usuario_CodUsuario</td>
+                <td>@prestamo.Solicitud.Material_CodMaterial</td>
+                <td>@prestamo.Solicitud.Cantidad</td>
+                <td>@prestamo.Estado</td>
+                <td>
+                    <button class="btn btn-primary" onclick="abrirModalActualizar(@prestamo.IdPrestamo)">Actualizar</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Formulario Modal -->
+<div class="modal fade" id="actualizarPrestamoModal" tabindex="-1" aria-labelledby="actualizarPrestamoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="actualizarPrestamoModalLabel">Actualizar Préstamo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="actualizarPrestamoForm" asp-action="ActualizarPrestamo" method="post">
+                    <div class="form-group">
+                        <label for="IdPrestamo">ID Prestamo</label>
+                        <input type="text" class="form-control" id="IdPrestamo" name="IdPrestamo" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="Solicitud_Alumno_Usuario_CodUsuario">Código Alumno</label>
+                        <input type="text" class="form-control" id="Solicitud_Alumno_Usuario_CodUsuario" name="Solicitud_Alumno_Usuario_CodUsuario" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="Solicitud_Material_CodMaterial">Código Material</label>
+                        <input type="text" class="form-control" id="Solicitud_Material_CodMaterial" name="Solicitud_Material_CodMaterial" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="Solicitud_Cantidad">Cantidad</label>
+                        <input type="number" class="form-control" id="Solicitud_Cantidad" name="Solicitud_Cantidad" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="NuevaFechaPrestamo">Nueva Fecha de Préstamo</label>
+                        <input type="datetime-local" class="form-control" id="NuevaFechaPrestamo" name="NuevaFechaPrestamo" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="NuevaFechaDevolucion">Nueva Fecha de Devolución</label>
+                        <input type="date" class="form-control" id="NuevaFechaDevolucion" name="NuevaFechaDevolucion" readonly>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="btnActualizarPrestamo">Actualizar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Incluye jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function abrirModalActualizar(idPrestamo) {
+        $.get('@Url.Action("ObtenerDatosPrestamo", "Prestamos")/' + idPrestamo, function (data) {
+            $('#IdPrestamo').val(data.idPrestamo);
+            $('#Solicitud_Alumno_Usuario_CodUsuario').val(data.alumno_Usuario_CodUsuario);
+            $('#Solicitud_Material_CodMaterial').val(data.material_CodMaterial);
+            $('#Solicitud_Cantidad').val(data.cantidad);
+
+            $('#NuevaFechaPrestamo').val(data.fechaPrestamo);
+            $('#NuevaFechaDevolucion').val(data.fechaDevolucion);
+
+            $('#actualizarPrestamoModal').modal('show'); // Asegúrate que el id del modal sea correcto
+        }).fail(function (xhr, status, error) {
+            alert('Error al obtener datos del préstamo:', error);
+        });
+    }
+</script>

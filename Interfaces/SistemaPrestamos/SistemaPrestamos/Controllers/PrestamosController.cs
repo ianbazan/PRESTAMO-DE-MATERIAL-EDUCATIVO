@@ -6,10 +6,13 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using MySqlConnector;
+using SistemaPrestamos.Controllers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaPrestamos.Controllers
 {
-    public class PrestamosController : Controller
+    [Authorize(Roles = "Encargado")]
+    public class PrestamosController : ActionUserController
     {
         private readonly ApplicationDbContext _context;
 
@@ -18,31 +21,48 @@ namespace SistemaPrestamos.Controllers
             _context = context;
         }
 
-        // Acción para mostrar la vista de registrar préstamo
+        public void ActualizarEstadoPrestamosVencidos()
+        {
+            var prestamosVencidos = _context.Prestamo
+                .Where(p => p.Estado == "En Curso" && p.FechaPrestamo.AddDays(7) < DateTime.Now)
+                .ToList();
+
+            foreach (var prestamo in prestamosVencidos)
+            {
+                prestamo.Estado = "Tardio";
+            }
+
+            if (prestamosVencidos.Any())
+            {
+                _context.SaveChanges();
+            }
+        }
+
         public IActionResult RegistrarPrestamo()
         {
             var solicitudes = _context.Solicitud.Where(s => s.Estado == "Generado").ToList();
             return View(solicitudes);
         }
 
-        // Acción para mostrar la vista de actualizar préstamo
         public IActionResult ActualizarPrestamo()
         {
-            var prestamo = _context.Prestamo.Where(p => p.Estado == "Activo").ToList();
-            return View(prestamo);
+            ActualizarEstadoPrestamosVencidos();
+            var prestamos = _context.Prestamo
+                .Where(p => p.Estado == "En Curso" || p.Estado == "Activo")
+                .Include(p => p.Solicitud)
+                .ToList();
+            return View(prestamos);
         }
-
-        // Acción para mostrar la vista de registrar devolución
         public IActionResult RegistrarDevolucion()
         {
-            var prestamo = _context.Prestamo.Where(p => p.Estado == "Activo" || p.Estado == "Tardio").ToList();
-            return View(prestamo);
+            ActualizarEstadoPrestamosVencidos(); // Asegúrate de que se actualizan los estados de los préstamos vencidos
+            var prestamos = _context.Prestamo
+                .Where(p => p.Estado == "En curso" || p.Estado == "Tardio")
+                .Include(p => p.Solicitud) // Incluir la entidad Solicitud
+                .ToList();
+            return View(prestamos);
         }
 
-        // Acción para mostrar el formulario de registro de préstamo
-
-
-        // Acción para registrar préstamo - POST
         public IActionResult ObtenerDatosSolicitud(int id)
         {
             var solicitud = _context.Solicitud
@@ -55,12 +75,8 @@ namespace SistemaPrestamos.Controllers
                 return NotFound();
             }
 
-            // Crear un objeto préstamo temporal para obtener las fechas
-            var prestamoTemp = new Prestamo
-            {
-                FechaPrestamo = DateTime.Now,
-                FechaDevolucion = DateTime.Now.AddDays(7) 
-            };
+            var fechaPrestamo = DateTime.Now;
+            var fechaDevolucion = fechaPrestamo.AddDays(7);
 
             return Json(new
             {
@@ -68,100 +84,145 @@ namespace SistemaPrestamos.Controllers
                 solicitud.Alumno_Usuario_CodUsuario,
                 solicitud.Material_CodMaterial,
                 solicitud.Cantidad,
-                prestamoTemp.FechaPrestamo,
-                prestamoTemp.FechaDevolucion
+                FechaPrestamo = fechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Fecha actual
+                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd") // Calculado en el código
+            });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RegistrarPrestamo(Prestamo prestamo)
+        {
+            if (prestamo == null)
+            {
+                return BadRequest(new { message = "Datos de préstamo inválidos" });
+            }
+
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "registrarPrestamo";
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+                command.Parameters.Add(new MySqlParameter("p_solicitud_id", prestamo.Solicitud_IdSolicitud));
+                command.Parameters.Add(new MySqlParameter("p_fecha_prestamo", DateTime.Now));
+
+                await _context.Database.OpenConnectionAsync();
+                try
+                {
+                    await command.ExecuteNonQueryAsync();
+                    ActualizarEstadoPrestamosVencidos(); // Llamar al método aquí
+                }
+                catch (MySqlException ex)
+                {
+                    await _context.Database.CloseConnectionAsync();
+                    ModelState.AddModelError(string.Empty, $"Error al registrar el préstamo: {ex.Message}");
+                    return View(prestamo);
+                }
+                finally
+                {
+                    await _context.Database.CloseConnectionAsync();
+                }
+            }
+
+            return RedirectToAction(nameof(RegistrarPrestamo));
+        }
+
+        public IActionResult ObtenerDatosPrestamo(int id)
+        {
+            var prestamo = _context.Prestamo
+                .Include(p => p.Solicitud.Material)
+                .Include(p => p.Solicitud.Alumno)
+                .FirstOrDefault(p => p.IdPrestamo == id);
+
+            if (prestamo == null)
+            {
+                return NotFound();
+            }
+
+            var fechaPrestamo = prestamo.FechaPrestamo;
+            var fechaDevolucion = fechaPrestamo.AddDays(7);
+            var fechaRealDevolucion = prestamo.Fecha_Dev_Real ?? DateTime.Now; // Use the actual return date if available, otherwise use current date
+
+            return Json(new
+            {
+                prestamo.IdPrestamo,
+                prestamo.Solicitud.Alumno_Usuario_CodUsuario,
+                prestamo.Solicitud.Material_CodMaterial,
+                prestamo.Solicitud.Cantidad,
+                FechaPrestamo = fechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Original loan date
+                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd"), // Scheduled return date
+                FechaRealDevolucion = fechaRealDevolucion.ToString("yyyy-MM-ddTHH:mm:ss") // Actual return date or current date
             });
         }
 
 
-        // Acción para registrar préstamo - POST
-        [HttpPost]
-        public async Task<IActionResult> RegistrarPrestamo(Prestamo prestamo)
-        {
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    using (var connection = (MySqlConnection)_context.Database.GetDbConnection())
-                    {
-                        await connection.OpenAsync();
-
-                        using (var command = new MySqlCommand("registrarPrestamo", connection))
-                        {
-                            command.CommandType = System.Data.CommandType.StoredProcedure;
-                            command.Parameters.AddWithValue("p_solicitud_id", prestamo.Solicitud_IdSolicitud);
-                            command.Parameters.AddWithValue("p_fecha_prestamo", DateTime.Now);
-
-                            await command.ExecuteNonQueryAsync();
-                        }
-                    }
-
-                    return RedirectToAction(nameof(RegistrarPrestamo));
-                }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError(string.Empty, $"Error al registrar el préstamo: {ex.Message}");
-                }
-            }
-            return View(prestamo);
-        }
-
-        // Acción para actualizar préstamo - GET
-        public IActionResult MostrarFormularioActualizar(int id)
-        {
-            var prestamo = _context.Prestamo.Find(id);
-            if (prestamo == null)
-            {
-                return NotFound();
-            }
-            ViewBag.Action = "ActualizarPrestamo";
-            return View("ActualizarPrestamo", prestamo);
-        }
-
-        // Acción para actualizar préstamo - POST
         [HttpPost]
         public async Task<IActionResult> ActualizarPrestamo(Prestamo prestamo)
         {
-            if (ModelState.IsValid)
-            {
-                _context.Prestamo.Update(prestamo);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(prestamo);
-        }
-
-        // Acción para mostrar el formulario de registrar devolución
-        public IActionResult MostrarFormularioDevolucion(int id)
-        {
-            var prestamo = _context.Prestamo.Find(id);
             if (prestamo == null)
             {
-                return NotFound();
+                return BadRequest(new { message = "Datos de préstamo inválidos" });
             }
-            ViewBag.Action = "RegistrarDevolucion";
-            return View("RegistrarDevolucion", prestamo);
+
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
+            {
+                command.CommandText = "actualizarPrestamo";
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+                command.Parameters.Add(new MySqlParameter("p_prestamo_id", prestamo.IdPrestamo));
+                command.Parameters.Add(new MySqlParameter("p_nueva_fecha_prestamo", DateTime.Now));
+
+                await _context.Database.OpenConnectionAsync();
+                try
+                {
+                    await command.ExecuteNonQueryAsync();
+                    ActualizarEstadoPrestamosVencidos();
+                }
+                catch (MySqlException ex)
+                {
+                    await _context.Database.CloseConnectionAsync();
+                    ModelState.AddModelError(string.Empty, $"Error al actualizar el préstamo: {ex.Message}");
+                    return View(prestamo);
+                }
+                finally
+                {
+                    await _context.Database.CloseConnectionAsync();
+                }
+            }
+
+            return RedirectToAction(nameof(ActualizarPrestamo));
         }
 
-        // Acción para registrar devolución - POST
         [HttpPost]
-        public async Task<IActionResult> RegistrarDevolucion(int id, DateTime fechaDevolucion)
+        public async Task<IActionResult> RegistrarDevolucion(Prestamo prestamo)
         {
-            var prestamo = await _context.Prestamo.FindAsync(id);
             if (prestamo == null)
             {
-                return NotFound();
+                return BadRequest(new { message = "Datos de préstamo inválidos" });
             }
 
-            if (ModelState.IsValid)
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
             {
-                prestamo.FechaDevolucion = fechaDevolucion;
-                _context.Prestamo.Update(prestamo);
-                await _context.SaveChangesAsync();
+                command.CommandText = "registrarDevolucion";
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+                command.Parameters.Add(new MySqlParameter("p_prestamo_id", prestamo.IdPrestamo));
+                command.Parameters.Add(new MySqlParameter("p_fecha_devolucion", DateTime.Now));
 
-                return RedirectToAction(nameof(Index));
+                await _context.Database.OpenConnectionAsync();
+                try
+                {
+                    await command.ExecuteNonQueryAsync();
+                }
+                catch (MySqlException ex)
+                {
+                    await _context.Database.CloseConnectionAsync();
+                    ModelState.AddModelError(string.Empty, $"Error al registrar la devolucion: {ex.Message}");
+                    return View(prestamo);
+                }
+                finally
+                {
+                    await _context.Database.CloseConnectionAsync();
+                }
             }
-            return View(prestamo);
+
+            return RedirectToAction(nameof(RegistrarDevolucion));
         }
     }
 }
