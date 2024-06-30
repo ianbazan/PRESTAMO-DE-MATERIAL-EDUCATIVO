@@ -69,7 +69,6 @@ CREATE TABLE `Penalizacion` (
   `IdPenalizacion` int NOT NULL AUTO_INCREMENT,
   `FechaPenalizacion` datetime NOT NULL,
   `Descripcion` varchar(255) NOT NULL,
-  `Estado` varchar(45) DEFAULT NULL,
   `Prestamo_idPrestamo` int NOT NULL,
   PRIMARY KEY (`IdPenalizacion`),
   UNIQUE KEY `IdPenalizacion_UNIQUE` (`IdPenalizacion`),
@@ -146,6 +145,15 @@ BEGIN
     DECLARE v_solicitud_id INT;
     DECLARE v_material_cod INT;
     DECLARE v_cantidad INT;
+    DECLARE v_alumno_codUsuario INT;
+    DECLARE v_estado_prestamo VARCHAR(255);
+    DECLARE v_fecha_devolucion_programada DATE;
+    DECLARE v_dias_tardios INT;
+
+    -- Recuperar estado y fecha de devolución programada del préstamo
+    SELECT Estado, FechaPrestamo + INTERVAL 7 DAY INTO v_estado_prestamo, v_fecha_devolucion_programada
+    FROM Prestamo
+    WHERE IdPrestamo = p_prestamo_id;
 
     -- Actualizar el estado del préstamo a 'Devuelto'
     UPDATE Prestamo
@@ -170,6 +178,21 @@ BEGIN
     
     -- Actualizar el estado de la solicitud a 'Completado'
     CALL actualizarEstadoSolicitud(v_solicitud_id, 'Completado');
+
+    -- Inhabilitar al alumno si el préstamo estaba en estado 'Tardio'
+    IF v_estado_prestamo = 'Tardio' THEN
+        SELECT Alumno_Usuario_CodUsuario INTO v_alumno_codUsuario
+        FROM Solicitud
+        WHERE IdSolicitud = v_solicitud_id;
+        
+        -- Calcular días tardíos
+        SET v_dias_tardios = DATEDIFF(p_fecha_devolucion, v_fecha_devolucion_programada);
+        
+        -- Inhabilitar al alumno por la cantidad de días tardíos
+        UPDATE Alumno
+        SET Estado = 'Inhabilitado', DiasInhabilitado = DiasInhabilitado + v_dias_tardios
+        WHERE Usuario_CodUsuario = v_alumno_codUsuario;
+    END IF;
 END$$
 DELIMITER ;
 
@@ -183,35 +206,49 @@ CREATE PROCEDURE `registrarPenalizacion` (
 BEGIN
     DECLARE v_solicitud_id INT;
     DECLARE v_alumno_codUsuario INT;
-    
+    DECLARE v_fecha_prestamo DATETIME;
+    DECLARE v_fecha_devolucion_programada DATE;
+    DECLARE v_dias_tardios INT;
+    DECLARE v_estado_prestamo VARCHAR(50);
+
+    -- Verificar si el préstamo existe
+    IF (SELECT COUNT(*) FROM Prestamo WHERE IdPrestamo = p_prestamo_id) = 0 THEN
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'El préstamo no existe.';
+    END IF;
+
+    -- Obtener estado y fecha de devolución programada del préstamo
+    SELECT Estado, FechaPrestamo + INTERVAL 7 DAY INTO v_estado_prestamo, v_fecha_devolucion_programada
+    FROM Prestamo
+    WHERE IdPrestamo = p_prestamo_id;
+
     -- Insertar la penalización
-    INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Estado, Prestamo_idPrestamo)
-    VALUES (p_fecha_penalizacion, p_descripcion, 'Activa', p_prestamo_id);
-    
+    INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Prestamo_idPrestamo)
+    VALUES (p_fecha_penalizacion, p_descripcion, p_prestamo_id);
+
     -- Actualizar el estado del préstamo a 'Penalizado'
     UPDATE Prestamo
     SET Estado = 'Penalizado'
     WHERE IdPrestamo = p_prestamo_id;
-    
-    -- Recuperar idSolicitud del préstamo
-    SELECT Solicitud_idSolicitud INTO v_solicitud_id
-    FROM Prestamo
-    WHERE IdPrestamo = p_prestamo_id;
-    
-    -- Recuperar CodUsuario del alumno de la solicitud
-    SELECT Alumno_Usuario_CodUsuario INTO v_alumno_codUsuario
-    FROM Solicitud
-    WHERE IdSolicitud = v_solicitud_id;
-    
-    -- Inhabilitar al alumno por 7 días (o el número de días que consideres necesario)
-    UPDATE Alumno
-    SET Estado = 'Inhabilitado', DiasInhabilitado = DiasInhabilitado + 7
-    WHERE Usuario_CodUsuario = v_alumno_codUsuario;
+
+    -- Si el préstamo está tardío, inhabilitar al alumno
+    IF v_estado_prestamo = 'Tardio' THEN
+        -- Obtener el código de usuario del alumno
+        SELECT Alumno_Usuario_CodUsuario INTO v_alumno_codUsuario
+        FROM Solicitud
+        WHERE IdSolicitud = (SELECT Solicitud_idSolicitud FROM Prestamo WHERE IdPrestamo = p_prestamo_id);
+
+        -- Calcular días tardíos
+        SET v_dias_tardios = DATEDIFF(p_fecha_penalizacion, v_fecha_devolucion_programada);
+
+        -- Inhabilitar al alumno por la cantidad de días tardíos
+        UPDATE Alumno
+        SET Estado = 'Inhabilitado', DiasInhabilitado = DiasInhabilitado + v_dias_tardios
+        WHERE Usuario_CodUsuario = v_alumno_codUsuario;
+    END IF;
 END$$
 DELIMITER ;
-
+	
 DELIMITER $$
-
 CREATE PROCEDURE filtrarMateriales (
     IN p_categoria VARCHAR(50),
     IN p_buscar VARCHAR(100)
@@ -222,6 +259,17 @@ BEGIN
     WHERE (p_categoria = 'TODOS' OR Tipo = p_categoria)
       AND (Nombre LIKE CONCAT('%', p_buscar, '%') OR Descripcion LIKE CONCAT('%', p_buscar, '%'));
 END$$
-
 DELIMITER ;
 
+DELIMITER $$
+CREATE PROCEDURE `actualizarPrestamo` (
+    IN p_prestamo_id INT,
+    IN p_nueva_fecha_prestamo DATETIME
+)
+BEGIN
+    -- Actualizar la fecha de préstamo del préstamo existente
+    UPDATE Prestamo
+    SET FechaPrestamo = p_nueva_fecha_prestamo
+    WHERE IdPrestamo = p_prestamo_id;
+END$$
+DELIMITER ;

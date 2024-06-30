@@ -36,8 +36,8 @@ INSERT INTO Prestamo (FechaPrestamo, Solicitud_idSolicitud, Estado) VALUES ('202
 INSERT INTO Prestamo (FechaPrestamo, Solicitud_idSolicitud, Estado) VALUES ('2024-06-05 14:00:00', 5, 'En Curso');
 
 -- Insertar datos en la tabla Penalizacion
-INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Estado, Prestamo_idPrestamo) VALUES ('2024-06-15 10:00:00', 'Devolución tardía', 'Activa', 1);
-INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Estado, Prestamo_idPrestamo) VALUES ('2024-06-16 11:00:00', 'Material dañado', 'Activa', 2);
-INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Estado, Prestamo_idPrestamo) VALUES ('2024-06-17 12:00:00', 'Pérdida de material', 'Activa', 3);
-INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Estado, Prestamo_idPrestamo) VALUES ('2024-06-18 13:00:00', 'Devolución incompleta', 'Activa', 4);
-INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Estado, Prestamo_idPrestamo) VALUES ('2024-06-19 14:00:00', 'Uso indebido del material', 'Activa', 5);
+INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Prestamo_idPrestamo) VALUES ('2024-06-15 10:00:00', 'Devolución tardía', 1);
+INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Prestamo_idPrestamo) VALUES ('2024-06-16 11:00:00', 'Material dañado',  2);
+INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Prestamo_idPrestamo) VALUES ('2024-06-17 12:00:00', 'Pérdida de material', 3);
+INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Prestamo_idPrestamo) VALUES ('2024-06-18 13:00:00', 'Devolución incompleta', 4);
+INSERT INTO Penalizacion (FechaPenalizacion, Descripcion, Prestamo_idPrestamo) VALUES ('2024-06-19 14:00:00', 'Uso indebido del material', 5);

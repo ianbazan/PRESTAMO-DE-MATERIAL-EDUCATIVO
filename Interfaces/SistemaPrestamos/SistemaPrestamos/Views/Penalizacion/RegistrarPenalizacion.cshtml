@@ -4,7 +4,7 @@
     ViewData["Title"] = "Registrar Penalizacion";
 }
 
-<h2>Actualizar Préstamo</h2>
+<h2>Registrar Penalizacion</h2>
 <table class="table">
     <thead>
         <tr>
@@ -26,19 +26,18 @@
                 <td>@prestamo.Solicitud.Cantidad</td>
                 <td>@prestamo.Estado</td>
                 <td>
-                    <button class="btn btn-primary" onclick="abrirModalRegistrarPenalizacion(@prestamo.IdPrestamo)">Penalizar</button>
+                    <button class="btn btn-primary" onclick="abrirModalRegistrarPenalizacion(@prestamo.IdPrestamo)">Registrar</button>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 
-<!-- Formulario Modal -->
-<div class="modal fade" id="registrarPenalizacionModal" tabindex="-1" aria-labelledby="registrarPenalizacionModalLabel" aria-hidden="true">
+<div class="modal fade" id="RegistrarPenalizacionModal" tabindex="-1" aria-labelledby="registrarPenalizacionPrestamoModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="registrarPenalizacionModalLabel">Actualizar Préstamo</h5>
+                <h5 class="modal-title" id="registrarPenalizacionPrestamoModalLabel">Registrar Penalización por daños de material.</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -46,8 +45,8 @@
             <div class="modal-body">
                 <form id="registrarPenalizacionForm" asp-action="RegistrarPenalizacion" method="post">
                     <div class="form-group">
-                        <label for="prestamoId">ID Prestamo</label>
-                        <input type="text" class="form-control" id="prestamoId" name="prestamoId" readonly>
+                        <label for="IdPrestamo">ID Prestamo</label>
+                        <input type="text" class="form-control" id="IdPrestamo" name="IdPrestamo" readonly>
                     </div>
                     <div class="form-group">
                         <label for="Solicitud_Alumno_Usuario_CodUsuario">Código Alumno</label>
@@ -59,51 +58,56 @@
                     </div>
                     <div class="form-group">
                         <label for="Solicitud_Cantidad">Cantidad</label>
-                        <input type="number" class="form-control" id="Solicitud_Cantidad" name="Solicitud_Cantidad" readonly>
+                        <input type="text" class="form-control" id="Solicitud_Cantidad" name="Solicitud_Cantidad" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="descripcion">Descripcion</label>
-                        <input type="text" class="form-control" id="descripcion" name="descripcion">
+                        <label for="FechaPenalizacion">Fecha de Penalizacion</label>
+                        <input type="datetime-local" class="form-control" id="FechaPenalizacion" name="FechaPenalizacion" readonly>
                     </div>
-                    <button type="submit" class="btn btn-primary" id="btnRegistrarPenalizacion">Actualizar</button>
+                    <div class="form-group">
+                        <label for="Descripcion">Descripcion</label>
+                        <input type="text" class="form-control" id="Descripcion" name="Descripcion">
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="btnRegistrarPenalizacion">Registrar</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
-<!-- Incluye jQuery -->
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     function abrirModalRegistrarPenalizacion(idPrestamo) {
         $.get('@Url.Action("ObtenerDatosPrestamo", "Penalizacion")/' + idPrestamo, function (data) {
-            $('#prestamoId').val(data.idPrestamo);
+            $('#IdPrestamo').val(data.idPrestamo);
             $('#Solicitud_Alumno_Usuario_CodUsuario').val(data.alumno_Usuario_CodUsuario);
             $('#Solicitud_Material_CodMaterial').val(data.material_CodMaterial);
             $('#Solicitud_Cantidad').val(data.cantidad);
+            $('#FechaPenalizacion').val(data.fechaPenalizacion);
+            $('#Descripcion').val('');
 
-            $('#registrarPenalizacionModal').modal('show'); // Asegúrate que el id del modal sea correcto
+            $('#RegistrarPenalizacionModal').modal('show');
         }).fail(function (xhr, status, error) {
-            alert('Error al obtener datos del préstamo:', error);
+            alert('Error al obtener datos del préstamo: ' + error);
         });
     }
 
-    $(document).ready(function () {
-        $('#registrarPenalizacionForm').on('submit', function (e) {
-            e.preventDefault();
-
-            $.ajax({
-                type: 'POST',
-                url: $(this).attr('action'),
-                data: $(this).serialize(),
-                success: function (response) {
-                    alert(response.message);
+    $('#registrarPenalizacionForm').on('submit', function (event) {
+        event.preventDefault();
+        var form = $(this);
+        $.ajax({
+            type: form.attr('method'),
+            url: form.attr('action'),
+            data: form.serialize(),
+            success: function (response) {
+                alert(response.message);
+                if (response.redirectUrl) {
                     window.location.href = response.redirectUrl;
-                },
-                error: function (xhr) {
-                    alert(xhr.responseJSON.message);
                 }
-            });
+            },
+            error: function (xhr, status, error) {
+                alert(xhr.responseText);
+            }
         });
     });
-
 </script>

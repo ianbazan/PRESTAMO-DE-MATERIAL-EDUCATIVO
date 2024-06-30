@@ -18,8 +18,6 @@ namespace SistemaPrestamos.Controllers
             _context = context;
         }
 
-        
-
         public void ActualizarEstadoPrestamosVencidos()
         {
             var prestamosVencidos = _context.Prestamo
@@ -52,10 +50,13 @@ namespace SistemaPrestamos.Controllers
                 .ToList();
             return View(prestamos);
         }
-
         public IActionResult RegistrarDevolucion()
         {
-            var prestamos = _context.Prestamo.Where(p => p.Estado == "Activo" || p.Estado == "Tardio").ToList();
+            ActualizarEstadoPrestamosVencidos(); // Asegúrate de que se actualizan los estados de los préstamos vencidos
+            var prestamos = _context.Prestamo
+                .Where(p => p.Estado == "En curso" || p.Estado == "Tardio")
+                .Include(p => p.Solicitud) // Incluir la entidad Solicitud
+                .ToList();
             return View(prestamos);
         }
 
@@ -133,8 +134,9 @@ namespace SistemaPrestamos.Controllers
                 return NotFound();
             }
 
-            var fechaPrestamo = DateTime.Now;
+            var fechaPrestamo = prestamo.FechaPrestamo;
             var fechaDevolucion = fechaPrestamo.AddDays(7);
+            var fechaRealDevolucion = prestamo.Fecha_Dev_Real ?? DateTime.Now; // Use the actual return date if available, otherwise use current date
 
             return Json(new
             {
@@ -142,10 +144,12 @@ namespace SistemaPrestamos.Controllers
                 prestamo.Solicitud.Alumno_Usuario_CodUsuario,
                 prestamo.Solicitud.Material_CodMaterial,
                 prestamo.Solicitud.Cantidad,
-                FechaPrestamo = fechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Fecha actual
-                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd") // Fecha de devolución calculada
+                FechaPrestamo = fechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Original loan date
+                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd"), // Scheduled return date
+                FechaRealDevolucion = fechaRealDevolucion.ToString("yyyy-MM-ddTHH:mm:ss") // Actual return date or current date
             });
         }
+
 
         [HttpPost]
         public async Task<IActionResult> ActualizarPrestamo(Prestamo prestamo)
@@ -166,7 +170,7 @@ namespace SistemaPrestamos.Controllers
                 try
                 {
                     await command.ExecuteNonQueryAsync();
-                    ActualizarEstadoPrestamosVencidos(); // Llamar al método aquí
+                    ActualizarEstadoPrestamosVencidos();
                 }
                 catch (MySqlException ex)
                 {
@@ -184,23 +188,38 @@ namespace SistemaPrestamos.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> RegistrarDevolucion(int id, DateTime fechaDevolucion)
+        public async Task<IActionResult> RegistrarDevolucion(Prestamo prestamo)
         {
-            var prestamo = await _context.Prestamo.FindAsync(id);
             if (prestamo == null)
             {
-                return NotFound();
+                return BadRequest(new { message = "Datos de préstamo inválidos" });
             }
 
-            if (ModelState.IsValid)
+            using (var command = _context.Database.GetDbConnection().CreateCommand())
             {
-                prestamo.Fecha_Dev_Real = fechaDevolucion;
-                _context.Prestamo.Update(prestamo);
-                await _context.SaveChangesAsync();
+                command.CommandText = "registrarDevolucion";
+                command.CommandType = System.Data.CommandType.StoredProcedure;
+                command.Parameters.Add(new MySqlParameter("p_prestamo_id", prestamo.IdPrestamo));
+                command.Parameters.Add(new MySqlParameter("p_fecha_devolucion", DateTime.Now));
 
-                return RedirectToAction(nameof(Index));
+                await _context.Database.OpenConnectionAsync();
+                try
+                {
+                    await command.ExecuteNonQueryAsync();
+                }
+                catch (MySqlException ex)
+                {
+                    await _context.Database.CloseConnectionAsync();
+                    ModelState.AddModelError(string.Empty, $"Error al registrar la devolucion: {ex.Message}");
+                    return View(prestamo);
+                }
+                finally
+                {
+                    await _context.Database.CloseConnectionAsync();
+                }
             }
-            return View(prestamo);
+
+            return RedirectToAction(nameof(RegistrarDevolucion));
         }
     }
 }
