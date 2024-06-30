@@ -6,10 +6,13 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using MySqlConnector;
+using SistemaPrestamos.Controllers;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaPrestamos.Controllers
 {
-    public class PrestamosController : Controller
+    [Authorize(Roles = "Encargado")]
+    public class PrestamosController : ActionUserController
     {
         private readonly ApplicationDbContext _context;
 

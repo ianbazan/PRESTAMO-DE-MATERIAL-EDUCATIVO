@@ -17,59 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaPrestamos
 build_property.RootNamespace = SistemaPrestamos
-build_property.ProjectDir = C:\ProyectoADSII\PRESTAMO-DE-MATERIAL-EDUCATIVO\Interfaces\SistemaPrestamos\SistemaPrestamos\
+build_property.ProjectDir = C:\Proyecto ADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\Interfaces\SistemaPrestamos\SistemaPrestamos\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\ProyectoADSII\PRESTAMO-DE-MATERIAL-EDUCATIVO\Interfaces\SistemaPrestamos\SistemaPrestamos
+build_property.MSBuildProjectDirectory = C:\Proyecto ADS2\PRESTAMO-DE-MATERIAL-EDUCATIVO\Interfaces\SistemaPrestamos\SistemaPrestamos
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/IndexAlumno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleEFsdW1uby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/Privacy.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/IndexEncargado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleEVuY2FyZ2Fkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Penalizacion/RegistrarPenalizacion.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Penalizacion/RegistrarPenalizacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVuYWxpemFjaW9uXFJlZ2lzdHJhclBlbmFsaXphY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/ActualizarPrestamo.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/ActualizarPrestamo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXEFjdHVhbGl6YXJQcmVzdGFtby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/RegistrarDevolucion.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/RegistrarDevolucion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXFJlZ2lzdHJhckRldm9sdWNpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/RegistrarPrestamo.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Prestamos/RegistrarPrestamo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc3RhbW9zXFJlZ2lzdHJhclByZXN0YW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/Error.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Security/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Security/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VjdXJpdHlcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Solicitudes/RegistrarSolicitud.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Solicitudes/RegistrarSolicitud.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29saWNpdHVkZXNcUmVnaXN0cmFyU29saWNpdHVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/_ViewImports.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/_ViewStart.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/ProyectoADSII/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_Layout.cshtml]
+[C:/Proyecto ADS2/PRESTAMO-DE-MATERIAL-EDUCATIVO/Interfaces/SistemaPrestamos/SistemaPrestamos/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-evy98kv0lv

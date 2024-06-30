@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace AppStore.Controllers
+namespace SistemaPrestamos.Controllers
 {
     public class ActionUserController : Controller
     {

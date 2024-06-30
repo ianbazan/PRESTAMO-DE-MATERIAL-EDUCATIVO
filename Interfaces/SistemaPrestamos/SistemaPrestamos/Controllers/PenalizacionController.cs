@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using SistemaPrestamos.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MySqlConnector;
 using SistemaPrestamos.Context;
@@ -6,10 +7,12 @@ using SistemaPrestamos.Models;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SistemaPrestamos.Controllers
 {
-    public class PenalizacionController : Controller
+    [Authorize(Roles = "Encargado")]
+    public class PenalizacionController : ActionUserController
     {
         private readonly ApplicationDbContext _context;
 
