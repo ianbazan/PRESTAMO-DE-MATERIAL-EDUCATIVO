@@ -26,29 +26,36 @@ namespace SistemaPrestamos.Controllers
         [HttpPost]
         public async Task<IActionResult> LoginPost(LoginViewModel model)
         {
-            var user = _context.Usuario.SingleOrDefault(u => u.Contrasenia == model.Password);
-
-            if (user != null)
+            // Intenta convertir el valor ingresado a un entero
+            if (int.TryParse(model.User, out int userId))
             {
-                var claims = new List<Claim>
+                var user = _context.Usuario.SingleOrDefault(u => u.CodUsuario == userId && u.Contrasenia == model.Password);
+
+                if (user != null)
                 {
-                    new Claim(ClaimTypes.Name, model.User),
-                    new Claim(ClaimTypes.Role, user.Role)
-                };
+                    var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, user.CodUsuario.ToString()), // Usar CodUsuario como Claim
+                new Claim(ClaimTypes.Role, user.Role)
+            };
 
-                var claimsIdentity = new ClaimsIdentity(
-                    claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    var claimsIdentity = new ClaimsIdentity(
+                        claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
-                await HttpContext.SignInAsync(
-                    CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(claimsIdentity));
+                    await HttpContext.SignInAsync(
+                        CookieAuthenticationDefaults.AuthenticationScheme,
+                        new ClaimsPrincipal(claimsIdentity));
 
-                HttpContext.Session.SetString("UserLogged", model.User);
+                    HttpContext.Session.SetString("UserLogged", user.CodUsuario.ToString());
 
-                return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home");
+                }
             }
+
+            // Si la conversión falla o el usuario no se encuentra, muestra el formulario de inicio de sesión nuevamente
             return View("Login");
         }
+
 
         public async Task<IActionResult> Logout()
         {

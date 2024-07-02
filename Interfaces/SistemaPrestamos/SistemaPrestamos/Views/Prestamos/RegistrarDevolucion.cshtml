@@ -26,7 +26,7 @@
                 <td>@prestamo.FechaPrestamo</td>
                 <td>@prestamo.Estado</td>
                 <td>
-                    <button class="btn btn-primary" onclick="abrirModalRegistrarDevolucion(@prestamo.IdPrestamo)">Registrar</button>
+                    <button class="btn btn-primary" onclick="abrirModalRegistrarDevolucion(@prestamo.IdPrestamo)">Seleccionar</button>
                 </td>
             </tr>
         }
@@ -88,5 +88,8 @@
             alert('Error al obtener datos del préstamo:', error);
         });
     }
+    $('#btnRegistrarDevolucionPrestamo').click(function () {
+        alert('Devolución de préstamo registrada con éxito.');
+    });
 </script>
 

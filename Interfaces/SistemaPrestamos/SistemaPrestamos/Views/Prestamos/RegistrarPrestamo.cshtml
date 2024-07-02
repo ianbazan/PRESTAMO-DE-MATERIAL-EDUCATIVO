@@ -26,7 +26,7 @@
                 <td>@solicitud.Cantidad</td>
                 <td>@solicitud.Estado</td>
                 <td>
-                    <button class="btn btn-primary" onclick="abrirModalRegistrar(@solicitud.IdSolicitud)">Registrar</button>
+                    <button class="btn btn-primary" onclick="abrirModalRegistrar(@solicitud.IdSolicitud)">Seleccionar</button>
                 </td>
             </tr>
         }
@@ -115,6 +115,9 @@
         });
     }
 
+    $('#btnRegistrarPrestamo').click(function () {
+        alert('Préstamo registrado con éxito.');
+    });
 
     $('#codigoBarrasInput').on('keypress', function (e) {
         if (e.which === 13) { // Enter key pressed

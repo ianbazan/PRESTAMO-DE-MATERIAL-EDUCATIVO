@@ -9,10 +9,6 @@ INSERT INTO Usuario (Contrasenia) VALUES ('Cristofer Jesus');
 
 INSERT INTO Usuario (Contrasenia) VALUES ('UnicoEncargado');
 
-ALTER TABLE Usuario ADD Role VARCHAR(20) NOT NULL DEFAULT 'Alumno';
-SET SQL_SAFE_UPDATES = 1;
--- Actualizar los datos de usuario para asignar roles
-UPDATE Usuario SET Role = 'Encargado' WHERE Contrasenia = 'UnicoEncargado';
 
 -- Insertar datos en la tabla Alumno
 INSERT INTO Alumno (NombresApellidos, Estado, Usuario_CodUsuario, DiasInhabilitado) VALUES ('Jhon Quiñones', 'Activo', 1, 0);

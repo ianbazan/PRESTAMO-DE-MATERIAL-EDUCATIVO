@@ -26,7 +26,7 @@
                 <td>@prestamo.Solicitud.Cantidad</td>
                 <td>@prestamo.Estado</td>
                 <td>
-                    <button class="btn btn-primary" onclick="abrirModalRegistrarPenalizacion(@prestamo.IdPrestamo)">Registrar</button>
+                    <button class="btn btn-primary" onclick="abrirModalRegistrarPenalizacion(@prestamo.IdPrestamo)">Seleccionar</button>
                 </td>
             </tr>
         }
@@ -109,5 +109,9 @@
                 alert(xhr.responseText);
             }
         });
+    });
+
+    $('#btnRegistrarPenalizacion').click(function () {
+        alert('Penalización registrada con éxito, el préstamo ha sido actualizado como Penalizado');
     });
 </script>

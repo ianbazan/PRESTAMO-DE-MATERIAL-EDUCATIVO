@@ -6,9 +6,15 @@ DROP TABLE IF EXISTS `Usuario`;
 CREATE TABLE `Usuario` (
   `CodUsuario` int NOT NULL AUTO_INCREMENT,
   `Contrasenia` varchar(20) NOT NULL,
+  `Role` varchar(20) NOT NULL DEFAULT 'Alumno',
   PRIMARY KEY (`CodUsuario`),
   UNIQUE KEY `CodUsuario_UNIQUE` (`CodUsuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+SET SQL_SAFE_UPDATES = 1;
+
+-- Actualizar los datos de usuario para asignar roles
+UPDATE Usuario SET Role = 'Encargado' WHERE Contrasenia = 'UnicoEncargado';
 
 -- Crear tabla Alumno
 DROP TABLE IF EXISTS `Alumno`;

@@ -18,11 +18,39 @@ namespace SistemaPrestamos.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [Authorize]
         public IActionResult RegistrarSolicitud()
         {
-            var materiales = _context.Material.ToList();
-            return View(materiales);
+            // Asegúrate de que el usuario está autenticado
+            if (!User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Login", "Security");
+            }
+
+            // Obtener el nombre del usuario autenticado
+            var userName = User.Identity.Name;
+
+            // Convertir userName a un entero
+            if (int.TryParse(userName, out int userId))
+            {
+                // Obtener el usuario basado en el nombre de usuario
+                var user = _context.Usuario.SingleOrDefault(u => u.CodUsuario == userId);
+                if (user == null)
+                {
+                    // Manejar el caso cuando el usuario no se encuentra (esto no debería ocurrir normalmente)
+                    return RedirectToAction("Login", "Security");
+                }
+
+                ViewBag.AlumnoCodUsuario = user.CodUsuario;
+
+                // Inicializar materiales
+                var materiales = _context.Material.ToList(); // Asegúrate de que Materiales existe en tu contexto y no es nulo
+                ViewBag.Materiales = materiales;
+
+                return View(materiales);
+            }
+
+            return RedirectToAction("Login", "Security");
         }
 
         [HttpPost]
@@ -95,4 +123,3 @@ namespace SistemaPrestamos.Controllers
         }
     }
 }
-    

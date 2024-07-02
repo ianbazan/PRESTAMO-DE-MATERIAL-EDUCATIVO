@@ -82,7 +82,7 @@
                 </tbody>
             </table>
         </div>
-        <input type="hidden" id="alumnoCodUsuario" value="2" />
+        <input type="hidden" id="alumnoCodUsuario" value="@ViewBag.alumnoCodUsuario" />
         <button class="btn btn-primary mt-3" onclick="solicitarPrestamo()">Solicitar</button>
     </div>
 
@@ -149,7 +149,7 @@
             const id = row.getAttribute("data-id");
             const cantidadInput = row.querySelector(".cantidad-material");
             const cantidad = cantidadInput.value;
-            const nombre = row.cells[0].innerText;
+            const nombre = row.cells[1].innerText;
 
             const materialExistente = carrito.find(m => m.id === id);
             if (materialExistente) {

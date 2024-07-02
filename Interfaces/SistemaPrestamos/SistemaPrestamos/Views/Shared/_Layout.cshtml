@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/SistemaPrestamos.styles.css" asp-append-version="true" />
+    <style>
+        /* Estilo para hover con transición */
+        .navbar-nav li.nav-item {
+            transition: background-color 0.3s ease; /* Transición suave */
+        }
+
+            .navbar-nav li.nav-item:hover {
+                background-color: rgba(0, 0, 0, 0.05);
+                border-radius: 10px;
+            }
+    </style>
 </head>
 <body>
     <header>
@@ -19,6 +30,9 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                        <!-- Aquí puedes agregar otros elementos del menú si es necesario -->
+                    </ul>
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Salir</a>
                         </li>

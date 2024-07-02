@@ -139,6 +139,8 @@ namespace SistemaPrestamos.Controllers
 
             var fechaPrestamo = prestamo.FechaPrestamo;
             var fechaDevolucion = fechaPrestamo.AddDays(7);
+            var nuevaFechaPrestamo = DateTime.Now;
+            var nuevaFechaDevolucion = nuevaFechaPrestamo.AddDays(7);
             var fechaRealDevolucion = prestamo.Fecha_Dev_Real ?? DateTime.Now; // Use the actual return date if available, otherwise use current date
 
             return Json(new
@@ -148,7 +150,9 @@ namespace SistemaPrestamos.Controllers
                 prestamo.Solicitud.Material_CodMaterial,
                 prestamo.Solicitud.Cantidad,
                 FechaPrestamo = fechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Original loan date
-                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd"), // Scheduled return date
+                FechaDevolucion = fechaDevolucion.ToString("yyyy-MM-dd"),
+                NuevaFechaPrestamo = nuevaFechaPrestamo.ToString("yyyy-MM-ddTHH:mm:ss"), // Original loan date
+                NuevaFechaDevolucion = nuevaFechaDevolucion.ToString("yyyy-MM-dd"),// Scheduled return date
                 FechaRealDevolucion = fechaRealDevolucion.ToString("yyyy-MM-ddTHH:mm:ss") // Actual return date or current date
             });
         }
